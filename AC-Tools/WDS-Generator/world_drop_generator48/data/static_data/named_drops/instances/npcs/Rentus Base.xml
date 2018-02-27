@@ -1,0 +1,267 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Pagati Tamer Nishaka -->
+	<npc_drop npc_id="217312">
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<!-- Nishaka's Shield -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="115001310"/>
+			<!-- Nishaka's Scale Shield -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="115001311"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Ranger's Breeches -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113301260"/>
+			<!-- Rebel Sorcerer's Pauldrons -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="112101196"/>
+			<!-- Rebel Templar's Gauntlets -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111601207"/>
+			<!-- Rebel Chanter's Brogans -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114501249"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Defeated Reian's Jerkin -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110301288"/>
+			<!-- Defeated Reian's Breastplate -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110601235"/>
+			<!-- Defeated Reian's Hauberk -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110501266"/>
+			<!-- Defeated Reian's Tunic -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110101361"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Umatha The Crazed -->
+	<npc_drop npc_id="217315">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Gladiator's Greaves -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113601197"/>
+			<!-- Rebel Cleric's Chausses -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113501244"/>
+			<!-- Rebel Assassin's Vambrace -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111301233"/>
+			<!-- Rebel Spiritmaster's Shoes -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114101285"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Umatha's Corundum Ring -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="122001396"/>
+			<!-- Umatha's Turquoise Ring -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="122001397"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Zantaraz -->
+	<npc_drop npc_id="217307">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Sorcerer's Leggings -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113101257"/>
+			<!-- Rebel Ranger's Shoulderguards -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="112301180"/>
+			<!-- Rebel Chanter's Handguards -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111501228"/>
+			<!-- Rebel Templar's Sabatons -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114601191"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Defeated Reian's Gauntlets -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111601204"/>
+			<!-- Defeated Reian's Handguards -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111501225"/>
+			<!-- Defeated Reian's Vambrace -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111301231"/>
+			<!-- Defeated Reian's Gloves -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111101236"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Tarotran -->
+	<npc_drop npc_id="217308">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Chanter's Chausses -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113501245"/>
+			<!-- Rebel Spiritmaster's Pauldrons -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="112101197"/>
+			<!-- Rebel Gladiator's Gauntlets -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111601206"/>
+			<!-- Rebel Ranger's Boots -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114301291"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Defeated Reian's Pauldrons -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112101194"/>
+			<!-- Defeated Reian's Shoulderguards -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112301177"/>
+			<!-- Defeated Reian's Spaulders -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112501170"/>
+			<!-- Defeated Reian's Shoulderplates -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112601182"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Ariana's Jewelry Box -->
+	<npc_drop npc_id="218572">
+		<drop_group name="NAMED_UNIQUE_HEADBAND">
+			<!-- Rebel Sorcerer's Bandana -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002896"/>
+			<!-- Rebel Spiritmaster's Bandana -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002897"/>
+			<!-- Rebel Assassin's Hat-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002898"/>
+			<!-- Rebel Ranger's Hat -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002899"/>
+			<!-- Rebel Cleric's Chain Hood -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002900"/>
+			<!-- Rebel Chanter's Chain Hood -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002901"/>
+			<!-- Rebel Gladiator's Helm -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002902"/>
+			<!-- Rebel Templar's Helm -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125002903"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_GUESTBLOOM">
+			<!-- Resistance Army's Guestbloom -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="170195085"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Ambusher Kiriana -->
+	<npc_drop npc_id="217316">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Assassin's Breeches -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113301259"/>
+			<!-- Rebel Templar's Shoulderplates -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="112601185"/>
+			<!-- Rebel Sorcerer's Gloves -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111101238"/>
+			<!-- Rebel Cleric's Brogans -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114501248"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Kiriana's Corundum Earrings -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="120001237"/>
+			<!-- Kiriana's Turquoise Earrings -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="120001238"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Captain Xasta -->
+	<npc_drop npc_id="217310">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Spiritmaster's Leggings -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113101258"/>
+			<!-- Rebel Gladiator's Shoulderplates -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="112601184"/>
+			<!-- Rebel Cleric's Handguards -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111501227"/>
+			<!-- Rebel Assassin's Boots -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114301290"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Defeated Reian's Leggings -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113101255"/>
+			<!-- Defeated Reian's Breeches -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113301257"/>
+			<!-- Defeated Reian's Chausses -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113501242"/>
+			<!-- Defeated Reian's Greaves -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113601195"/>
+			</drop_group>
+		</npc_drop>
+	<!-- Kuhara's Treasure Box -->
+	<npc_drop npc_id="219215">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Templar's Greaves -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113601198"/>
+			<!-- Rebel Chanter's Spaulders -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="112501173"/>
+			<!-- Rebel Ranger's Vambrace -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111301234"/>
+			<!-- Rebel Sorcerer's Shoes -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114101284"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Defeated Reian's Shoes -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114101282"/>
+			<!-- Defeated Reian's Boots -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114301288"/>
+			<!-- Defeated Reian's Brogans -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114501246"/>
+			<!-- Defeated Reian's Sabatons -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114601188"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Archmagus Upadi -->
+	<npc_drop npc_id="217317">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Cleric's Chausses -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113501244"/>
+			<!-- Rebel Assassin's Shoulderguards -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="112301179"/>
+			<!-- Rebel Spiritmaster's Gloves -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="111101239"/>
+			<!-- Rebel Gladiator's Sabatons -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114601190"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Upadi's Corundum Necklace -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="121001153"/>
+			<!-- Upadi's Turquoise Necklace -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="121001154"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Brigade General Vasharti -->
+	<npc_drop npc_id="217313">
+		<drop_group name="NAMED_LEGEND_HEADBAND">
+			<!-- Defeated Reian's Bandana -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125002892"/>
+			<!-- Defeated Reian's Hat -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125002893"/>
+			<!-- Defeated Reian's Chain Hood -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125002894"/>
+			<!-- Defeated Reian's Helm -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125002895"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Vasharti's Leather Belt -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="123001211"/>
+			<!-- Vasharti's Sash -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="123001212"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Rebel Sorcerer's Tunic -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110101363"/>
+			<!-- Rebel Spiritmaster's Tunic -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110101364"/>
+			<!-- Rebel Assassin's Jerkin -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110301290"/>
+			<!-- Rebel Ranger's Jerkin -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110301291"/>
+			<!-- Rebel Cleric's Hauberk -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110501268"/>
+			<!-- Rebel Chanter's Hauberk -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110501269"/>
+			<!-- Rebel Templar's Breastplate -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110601238"/>
+			<!-- Rebel Gladiator's Breastplate -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="110601237"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_WEAPON">
+			<!-- Vasharti's Sword -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="100001262"/>
+			<!-- Vasharti's Longbow -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="101701008"/>
+			<!-- Vasharti's Staff -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="101500991"/>
+			<!-- Vasharti's Spear -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="101300928"/>
+			<!-- Vasharti's Greatsword -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="100900965"/>
+			<!-- Vasharti's Tome -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="100601037"/>
+			<!-- Vasharti's Jewel -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="100500983"/>
+			<!-- Vasharti's Dagger -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="100201121"/>
+			<!-- Vasharti's Warhammer -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="100100963"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_MOUNT">
+			<!-- Pagati Veyron -->
+			<drop chance="0.5" min_amount="1" max_amount="1" item_id="190100004"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="excluded_npcs" />
+<xs:attribute name="ids" type="NumberListType" />
+<xs:attribute name="names" type="array" />
+<xs:attribute name="types" type="array" />
+<xs:attribute name="tribes" type="array" />
+<xs:attribute name="abyss_types" type="array" />
+</xs:schema>

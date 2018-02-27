@@ -1,0 +1,751 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Kradi The Glutton -->
+	<npc_drop npc_id="218922">
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<!-- Kradi's Shield -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="115001404"/>
+			<!-- Kradi's Scale Shield -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="115001405"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Tiamatian Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001305"/>
+			<!-- Tiamatian Scale Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001306"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Tiamatian Sabatons -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="114601187"/>
+			<!-- Tiamatian Brogans -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="114501245"/>
+			<!-- Tiamatian Boots -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="114301287"/>
+			<!-- Tiamatian Shoes -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="114101281"/>
+			<!-- Tiamatian Greaves -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="113601194"/>
+			<!-- Tiamatian Chausses -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="113501241"/>
+			<!-- Tiamatian Breeches -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="113301256"/>
+			<!-- Tiamatian Leggings -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="113101254"/>
+			<!-- Tiamatian Shoulderplates -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="112601181"/>
+			<!-- Tiamatian Spaulders -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="112501169"/>
+			<!-- Tiamatian Shoulderguards -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="112301176"/>
+			<!-- Tiamatian Pauldrons -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="112101193"/>
+			<!-- Tiamatian Gauntlets -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="111601203"/>
+			<!-- Tiamatian Handguards -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="111501224"/>
+			<!-- Tiamatian Vambrace -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="111301230"/>
+			<!-- Tiamatian Gloves -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="111101235"/>
+			<!-- Tiamatian Breastplate -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="110601234"/>
+			<!-- Tiamatian Hauberk -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="110501265"/>
+			<!-- Tiamatian Jerkin -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="110301287"/>
+			<!-- Tiamatian Tunic -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="110101360"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Tiamatian Longbow -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101701005"/>
+			<!-- Tiamatian Staff -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101500988"/>
+			<!-- Tiamatian Spear -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101300926"/>
+			<!-- Tiamatian Greatsword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100900963"/>
+			<!-- Tiamatian Tome -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100601034"/>
+			<!-- Tiamatian Jewel -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100500980"/>
+			<!-- Tiamatian Dirk -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100201117"/>
+			<!-- Tiamatian Dagger -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100201116"/>
+			<!-- Tiamatian Warhammer -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100100960"/>
+			<!-- Tiamatian Azure Scale Sword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100001257"/>
+			<!-- Tiamatian Scale Sword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100001256"/>
+			<!-- Tiamatian Sword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100001255"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<!-- Kradi's Bandana -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125003016"/>
+			<!-- Kradi's Hat -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125003017"/>
+			<!-- Kradi's Chain Hood -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125003018"/>
+			<!-- Kradi's Helm -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125003019"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Combat Sergeant Hasan -->
+	<npc_drop npc_id="218537">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Tiamatian Scale Sword -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100001256"/>
+			<!-- Tiamatian Spear -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="101300926"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Tiamatian Gauntlets -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111601203"/>
+			<!-- Tiamatian Handguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111501224"/>
+			<!-- Tiamatian Vambrace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111301230"/>
+			<!-- Tiamatian Gloves -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111101235"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tiamatian Turquoise Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001425"/>
+			<!-- Tiamatian Corundum Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001424"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Destroyer Kahira -->
+	<npc_drop npc_id="218539">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Tiamatian Azure Scale Sword -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100001257"/>
+			<!-- Tiamatian Longbow -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="101300926"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Tiamatian Shoulderplates -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112601181"/>
+			<!-- Tiamatian Spaulders -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112501169"/>
+			<!-- Tiamatian Shoulderguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112301176"/>
+			<!-- Tiamatian Pauldrons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112101193"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tiamatian Corundum Earrings -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="120001263"/>
+			<!-- Tiamatian Turquoise Earrings -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="120001264"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Assassin Brogun -->
+	<npc_drop npc_id="218538">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Tiamatian Dirk -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100201117"/>
+			<!-- Tiamatian Greatsword -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100900963"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Tiamatian Sabatons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114601187"/>
+			<!-- Tiamatian Brogans -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114501245"/>
+			<!-- Tiamatian Boots -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114301287"/>
+			<!-- Tiamatian Shoes -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114101281"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tiamatian Corundum Earrings -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="120001263"/>
+			<!-- Tiamatian Turquoise Earrings -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="120001264"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Training Instructor Paja -->
+	<npc_drop npc_id="218536">
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Tiamatian Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001305"/>
+			<!-- Tiamatian Scale Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001306"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<!-- Tiamatian Bandana -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="125002982"/>
+			<!-- Tiamatian Helm -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="125002985"/>
+			<!-- Tiamatian Chain Hood -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="125002984"/>
+			<!-- Tiamatian Hat -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="125002983"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tiamatian Turquoise Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001425"/>
+			<!-- Tiamatian Corundum Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001424"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Flaming Breath Byak -->
+	<npc_drop npc_id="218540">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Tiamatian Dagger -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100201116"/>
+			<!-- Tiamatian Staff -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="101500988"/>
+			<!-- Tiamatian Tome -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100601034"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Tiamatian Greaves -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113601194"/>
+			<!-- Tiamatian Chausses -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113501241"/>
+			<!-- Tiamatian Breeches -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113301256"/>
+			<!-- Tiamatian Leggings -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113101254"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tiamatian Corundum Necklace -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="121001177"/>
+			<!-- Tiamatian Turquoise Necklace -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="121001178"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Deadly Breath Murak -->
+	<npc_drop npc_id="218541">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Tiamatian Sword -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100001255"/>
+			<!-- Tiamatian Warhammer -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100100960"/>
+			<!-- Tiamatian Jewel -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="100500980"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Tiamatian Breastplate -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110601234"/>
+			<!-- Tiamatian Hauberk -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110501265"/>
+			<!-- Tiamatian Jerkin -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110301287"/>
+			<!-- Tiamatian Tunic -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110101360"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tiamatian Corundum Necklace -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="121001177"/>
+			<!-- Tiamatian Turquoise Necklace -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="121001178"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Elder Kukuru -->
+	<npc_drop npc_id="218494">
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Kukuru Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001345"/>
+			<!-- Kukuru Scale Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001346"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Kukuru's Tunic -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110101383"/>
+			<!-- Kukuru's Jerkin -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110301310"/>
+			<!-- Kukuru's Hauberk -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110501290"/>
+			<!-- Kukuru's Breastplate -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110601261"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Kukuru's Corundum Earrings -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="120001257"/>
+			<!-- Kukuru's Turquoise Earrings -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="120001258"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Chieftain Pukikor -->
+	<npc_drop npc_id="218495">
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<!-- Papar's Hairpin -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="125003134"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Papar's Leggings -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113101277"/>
+			<!-- Papar's Breeches -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113301279"/>
+			<!-- Papar's Chausses -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113501266"/>
+			<!-- Papar's Greaves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113601217"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Papar's Corundum Ring -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="122001418"/>
+			<!-- Papar's Turquoise Ring -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="122001419"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Yndigo Blackice -->
+	<npc_drop npc_id="218519">
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<!-- Yndigo's Hairpin -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="125002989"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Yndigo's Shoes -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114101307"/>
+			<!-- Yndigo's Boots -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114301313"/>
+			<!-- Yndigo's Brogans -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114501273"/>
+			<!-- Yndigo's Sabatons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114601213"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Yndigo's Leather Belt -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="123001237"/>
+			<!-- Yndigo's Sash -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="123001238"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Mysterious Tagus -->
+	<npc_drop npc_id="218520">
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Tagus' Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001349"/>
+			<!-- Tagus' Scale Shield -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001350"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Tagus' Gloves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111101261"/>
+			<!-- Tagus' Vambrace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111301256"/>
+			<!-- Tagus' Handguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111501252"/>
+			<!-- Tagus' Gauntlets -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111601229"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Tagus' Corundum Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001428"/>
+			<!-- Tagus' Turquoise Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001429"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Golden Tatar -->
+	<npc_drop npc_id="218492">
+		<drop_group name="NAMED_EPIC_WEAPON">
+			<!-- Tatar's Flawless Sword -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100001355"/>
+			<!-- Tatar's Flawless Warhammer -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100101033"/>
+			<!-- Tatar's Flawless Dagger -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100201203"/>
+			<!-- Tatar's Flawless Jewel -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100501046"/>
+			<!-- Tatar's Flawless Tome -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100601098"/>
+			<!-- Tatar's Flawless Greatsword -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100901047"/>
+			<!-- Tatar's Flawless Spear -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101300989"/>
+			<!-- Tatar's Flawless Staff -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101501063"/>
+			<!-- Tatar's Flawless Longbow -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101701072"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<!-- Tatar's Flawless Shield -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="115001406"/>
+			<!-- Tatar's Flawless Scale Shield -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="115001407"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_BELT">
+			<!-- Tartar's Leather Belt -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="123001243"/>
+			<!-- Tartar's Sash -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="123001244"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<!-- Tatar's Bandana -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="125003130"/>
+			<!-- Tatar's Hat -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="125003131"/>
+			<!-- Tatar's Chain Hood -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="125003132"/>
+			<!-- Tatar's Helm -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="125003133"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Ativas Crystalline -->
+	<npc_drop npc_id="218521">
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!-- Magic Corundum Ring -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="122001459"/>
+			<!-- Magic Turquoise Ring -->
+			<drop chance="3.0" min_amount="1" max_amount="1" item_id="122001460"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WINGS">
+			<!-- Wing Feather of Magic -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="187000073"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Ativas's Corundum Earrings -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="120001306"/>
+			<!-- Ativas's Turquoise Earrings -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="120001307"/>
+			<!-- Ativas's Corundum Necklace -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="121001209"/>
+			<!-- Ativas's Turquoise Necklace -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="121001210"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Kingpin Shakraw -->
+	<npc_drop npc_id="218254">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Shakraw's Warhammer -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100100986"/>
+			<!-- Shakraw's Greatsword -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100900989"/>
+			<!-- Shakraw's Longbow -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101701028"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Shakraw's Pauldrons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112101216"/>
+			<!-- Shakraw's Shoulderguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112301199"/>
+			<!-- Shakraw's Spaulders -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112501194"/>
+			<!-- Shakraw's Shoulderplates -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112601204"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Mysterious Arnan -->
+	<npc_drop npc_id="218257">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Arnan's Sword -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100001295"/>
+			<!-- Arnan's Staff -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101501014"/>
+			<!-- Arnan's Jewel -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100501002"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Arnan's Sabatons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114601210"/>
+			<!-- Arnan's Brogans -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114501270"/>
+			<!-- Arnan's Boots -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114301310"/>
+			<!-- Arnan's Shoes -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114101304"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Brutal Baraka -->
+	<npc_drop npc_id="218258">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Baraka's Dagger -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100201144"/>
+			<!-- Baraka's Spear -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101300947"/>
+			<!-- Baraka's Tome -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100601056"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Baraka's Gauntlets -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111601226"/>
+			<!-- Baraka's Handguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111501249"/>
+			<!-- Baraka's Vambrace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111301253"/>
+			<!-- Baraka's Gloves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111101258"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Bendo The Traitor -->
+	<npc_drop npc_id="218334">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Bendo's Corundum Earrings -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001261"/>
+			<!-- Bendo's Turquoise Earrings -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001262"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Bendo's Sabatons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114601212"/>
+			<!-- Bendo's Brogans -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114501272"/>
+			<!-- Bendo's Boots -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114301312"/>
+			<!-- Bendo's Shoes -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114101306"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Archeson Halberdsman -->
+	<npc_drop npc_id="218422">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Pozer's Staff -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101501017"/>
+			<!-- Pozer's Greatsword -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100900992"/>
+			<!-- Pozer's Tome -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100601059"/>
+			<!-- Pozer's Dagger -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100201147"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Pozer's Breastplate -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110601263"/>
+			<!-- Pozer's Hauberk -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110501292"/>
+			<!-- Pozer's Jerkin -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110301312"/>
+			<!-- Pozer's Tunic -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110101385"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Imperious Artus -->
+	<npc_drop npc_id="218331">
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!-- Artus' Shield -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="115001347"/>
+			<!-- Artus' Scale Shield -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="115001348"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Artus' Gauntlets -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111601228"/>
+			<!-- Artus' Handguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111501251"/>
+			<!-- Artus' Vambrace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111301255"/>
+			<!-- Artus' Gloves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111101260"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Pouncing Aranta -->
+	<npc_drop npc_id="218335">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Aranta's Corundum Necklace -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="121001175"/>
+			<!-- Aranta's Turquoise Necklace -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="121001176"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Aranta's Pauldrons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112101218"/>
+			<!-- Aranta's Shoulderguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112301201"/>
+			<!-- Aranta's Spaulders -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112501196"/>
+			<!-- Aranta's Shoulderplates -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112601206"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Burning Anesto -->
+	<npc_drop npc_id="218417">
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<!-- Anesto's Bandana -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="125002978"/>
+			<!-- Anesto's Hat -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="125002979"/>
+			<!-- Anesto's Chain Hood -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="125002980"/>
+			<!-- Anesto's Helm -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="125002981"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Anesto's Corundum Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001422"/>
+			<!-- Anesto's Turquoise Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001423"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Obstinate Perut -->
+	<npc_drop npc_id="218420">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Perut's Sword -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100001298"/>
+			<!-- Perut's Warhammer -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100100989"/>
+			<!-- Perut's Jewel -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100501005"/>
+			<!-- Perut's Spear -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101300950"/>
+			<!-- Perut's Longbow -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101701031"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Perut's Leggings -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113101279"/>
+			<!-- Perut's Breeches -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113301281"/>
+			<!-- Perut's Chausses -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113501268"/>
+			<!-- Perut's Greaves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113601219"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Brightglow Bavato -->
+	<npc_drop npc_id="218460">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Bavato's Sword -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100001299"/>
+			<!-- Bavato's Jewel -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100501006"/>
+			<!-- Bavato's Staff -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101501018"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Bavato's Corundum Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001426"/>
+			<!-- Bavato's Turquoise Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001427"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Grudging Doien -->
+	<npc_drop npc_id="218465">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Doien's Dagger -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100201148"/>
+			<!-- Doien's Tome -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100601060"/>
+			<!-- Doien's Spear -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101300951"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Doien's Leather Belt -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="123001235"/>
+			<!-- Doien's Sash -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="123001236"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Wandering Alati -->
+	<npc_drop npc_id="218466">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Alati's Warhammer -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100100990"/>
+			<!-- Alati's Longbow -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="101701032"/>
+			<!-- Alati's Greatsword -->
+			<drop chance="8.0" min_amount="1" max_amount="1" item_id="100900993"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Alati's Corundum Earrings -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="120001265"/>
+			<!-- Alati's Turquoise Earrings -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="120001266"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Berserker Sunayaka -->
+	<npc_drop npc_id="219359">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Sunayaka's Dagger -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100201167"/>
+			<!-- Sunayaka's Greatsword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100901009"/>
+			<!-- Sunayaka's Jewel -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100501020"/>
+			<!-- Sunayaka's Longbow -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101701045"/>
+			<!-- Sunayaka's Spear -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101300963"/>
+			<!-- Sunayaka's Staff -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101501033"/>
+			<!-- Sunayaka's Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100001316"/>
+			<!-- Sunayaka's Tome -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100601073"/>
+			<!-- Sunayaka's Warhammer -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100101005"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<!-- Sunakaya's Hairpin -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125003135"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Ops -->
+	<npc_drop npc_id="219198">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.1" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Orderly -->
+	<npc_drop npc_id="218925">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.1" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Stalker -->
+	<npc_drop npc_id="218924">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.1" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Enforcer -->
+	<npc_drop npc_id="218923">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.1" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

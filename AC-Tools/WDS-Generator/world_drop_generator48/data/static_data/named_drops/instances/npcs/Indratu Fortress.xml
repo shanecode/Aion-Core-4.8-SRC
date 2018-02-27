@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Praetorius Artair -->
+	<npc_drop npc_id="214156">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Artair's Longbow -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101700542"/>
+			<!-- Artair's Dagger -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100200630"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Artair's Earrings -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="120000857"/>
+			<!-- Artair's Ring -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="122000899"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Commander Inshar -->
+	<npc_drop npc_id="214157">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Inshar's Greatsword -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100900506"/>
+			<!-- Inshar's Spear -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101300498"/>
+			<!-- Inshar's Sword -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100000675"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Inshar's Belt -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123000888"/>
+			<!-- Inshar's Leather Belt -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123000887"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_SHIELD">
+			<!-- Inshar's Shield -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="115000788"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Staff Captain Lahumu -->
+	<npc_drop npc_id="214158">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Lahumu's Jewel #1 -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100500524"/>
+			<!-- Lahumu's Jewel #2 -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100500628"/>
+			<!-- Lahumu's Tome #1 -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100600562"/>
+			<!-- Lahumu's Tome #2 -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100600687"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Lahumu's Silver Diadem -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125001885"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Lahumu's Ruby Necklace -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="121000783"/>
+			<!-- Lahumu's Sapphire Necklace -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="121000784"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Commander Inshar #2 -->
+	<npc_drop npc_id="214164">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Inshar's Greatsword -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100900506"/>
+			<!-- Inshar's Spear -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101300498"/>
+			<!-- Inshar's Sword -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100000675"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Inshar's Belt -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123000888"/>
+			<!-- Inshar's Leather Belt -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123000887"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_SHIELD">
+			<!-- Inshar's Shield -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="115000788"/>
+		</drop_group>
+	</npc_drop>
+		<!-- Adjutant Ursanafi -->
+	<npc_drop npc_id="214163">
+			<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Ursanafi's Staff -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101500522"/>
+			<!-- Ursanafi's Warhammer -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100100524"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Ursanafi's Earrings -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="120000858"/>
+			<!-- Ursanafi's Ring -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="122000900"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

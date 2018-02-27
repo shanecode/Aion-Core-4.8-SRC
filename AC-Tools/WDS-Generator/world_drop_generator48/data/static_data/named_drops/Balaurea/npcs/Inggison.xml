@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Enraged Veille (lvl: 55) -->
+	<npc_drop npc_id="258200">
+			<drop_group name="NAMED_EPIC_ARMOR">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114101317"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112101227"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113101288"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111101271"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110101394"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110301320"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111301265"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112301209"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113301289"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114301322"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110501298"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114501280"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113501274"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111501259"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112501202"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113601228"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111601239"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114601223"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112601215"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110601272"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001359"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001357"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_WEAPON">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101701037"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100501012"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100001307"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101501025"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100100996"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100601065"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100201158"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100901001"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101300955"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="122001181"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="122001180"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="121000952"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="121000951"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

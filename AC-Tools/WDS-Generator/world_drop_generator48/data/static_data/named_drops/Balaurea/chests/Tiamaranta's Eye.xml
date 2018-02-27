@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Protectorate's Treasure Chest -->
+	<npc_drop npc_id="701388">
+		<drop_group name="LOOT">
+			<drop chance="1.0" min_amount="1" max_amount="5" item_id="186000137"/>
+			<drop chance="1.0" min_amount="5" max_amount="25" item_id="186000130"/>
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="186000147"/>
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="164000095"/>
+			<drop chance="1.0" min_amount="1" max_amount="2" item_id="162000107"/>
+			<drop chance="1.0" min_amount="1" max_amount="5" item_id="162000069"/>
+			<drop chance="1.0" min_amount="1" max_amount="2" item_id="188020001"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate's Treasure Crate -->
+	<npc_drop npc_id="701389">
+		<drop_group name="LOOT">
+			<drop chance="1.0" min_amount="1" max_amount="10" item_id="186000137"/>
+			<drop chance="1.0" min_amount="10" max_amount="50" item_id="186000130"/>
+			<drop chance="1.0" min_amount="1" max_amount="2" item_id="186000147"/>
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="160010165"/>
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="160010164"/>
+			<drop chance="1.0" min_amount="1" max_amount="2" item_id="164000095"/>
+			<drop chance="1.0" min_amount="1" max_amount="4" item_id="162000107"/>
+			<drop chance="1.0" min_amount="2" max_amount="10" item_id="162000069"/>
+			<drop chance="1.0" min_amount="1" max_amount="4" item_id="188020001"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate's Treasure Chest -->
+	<npc_drop npc_id="701390">
+		<drop_group name="LOOT">
+			<drop chance="1.0" min_amount="1" max_amount="20" item_id="186000137"/>
+			<drop chance="1.0" min_amount="20" max_amount="100" item_id="186000130"/>
+			<drop chance="1.0" min_amount="1" max_amount="3" item_id="186000147"/>
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="160010166"/>
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="160010167"/>
+			<drop chance="1.0" min_amount="1" max_amount="3" item_id="164000095"/>
+			<drop chance="1.0" min_amount="1" max_amount="6" item_id="162000107"/>
+			<drop chance="1.0" min_amount="2" max_amount="15" item_id="162000069"/>
+			<drop chance="1.0" min_amount="1" max_amount="6" item_id="188020001"/>
+			<drop chance="1.0" min_amount="2" max_amount="1" item_id="160010206"/>
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="160010204"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

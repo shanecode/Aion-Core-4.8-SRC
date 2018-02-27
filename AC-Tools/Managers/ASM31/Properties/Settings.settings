@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ASM31.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="gamePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\AionRun47\AC-Game</Value>
+    </Setting>
+    <Setting Name="loginPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\AionRun47\AC-Login</Value>
+    </Setting>
+    <Setting Name="chatPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\AionRun47\AC-Chat</Value>
+    </Setting>
+    <Setting Name="webHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="webPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">80</Value>
+    </Setting>
+    <Setting Name="runMode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="argsChatMode1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-Xms128m -Xmx128m -Xdebug -Xrunjdwp:transport=dt_socket,address=8997,server=y,suspend=n -ea -cp ./libs/*;ac-chat.jar com.aionemu.chatserver.ChatServer</Value>
+    </Setting>
+    <Setting Name="argsChatMode2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-Xms64m -Xmx64m -server -cp ./libs/*;ac-chat.jar com.aionemu.chatserver.ChatServer</Value>
+    </Setting>
+    <Setting Name="argsLoginMode1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-Xms32m -Xmx32m -Xdebug -Xrunjdwp:transport=dt_socket,address=8999,server=y,suspend=n -ea -cp ./libs/*;ac-login.jar com.aionemu.loginserver.LoginServer</Value>
+    </Setting>
+    <Setting Name="argsLoginMode2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-Xms64m -Xmx64m -server -cp ./libs/*;ac-login.jar com.aionemu.loginserver.LoginServer</Value>
+    </Setting>
+    <Setting Name="argsGameMode1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-Xms512m -Xmx%MEMSIZE%m -XX:-UseSplitVerifier -XX:+TieredCompilation -Xdebug -Xrunjdwp:transport=dt_socket,address=8998,server=y,suspend=n -ea -javaagent:./libs/ac-commons-1.3.jar -cp ./libs/*;AC-Game.jar com.aionemu.gameserver.GameServer</Value>
+    </Setting>
+    <Setting Name="argsGameMode2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-Xms512m -Xmx%MEMSIZE%m -XX:-UseSplitVerifier -XX:+TieredCompilation  -server -ea -javaagent:./libs/ac-commons-1.3.jar -cp ./libs/*;AC-Game.jar com.aionemu.gameserver.GameServer</Value>
+    </Setting>
+    <Setting Name="gameMemSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8192</Value>
+    </Setting>
+    <Setting Name="serverBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\AionRun47</Value>
+    </Setting>
+    <Setting Name="javaHome" Type="System.String" Scope="User">
+      <Value Profile="(Default)">***</Value>
+    </Setting>
+    <Setting Name="version" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3.2.0</Value>
+    </Setting>
+    <Setting Name="maxToll" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1000000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

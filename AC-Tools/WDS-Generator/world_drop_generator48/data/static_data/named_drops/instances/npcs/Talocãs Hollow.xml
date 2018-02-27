@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+    <npc_drop npc_id="215456">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000088" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_INSTANCE_TOOL">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="164000137" no_reduce="true"/>
+		</drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215482">
+		<drop_group name="NAMED_INSTANCE_TOOL">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="164000138" no_reduce="true"/>
+        </drop_group>
+        <drop_group name="NAMED_LEGEND_ARMOR">
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="112101022"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="112301009"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="112601012"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="112500997"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">	
+            <drop chance="40.0" min_amount="1" max_amount="1" item_id="123001093"/>
+            <drop chance="40.0" min_amount="1" max_amount="1" item_id="123001092"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215478">
+		<drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000108" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_INSTANCE_TOOL">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="164000139" no_reduce="true" />
+		</drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215480">
+        <drop_group name="NAMED_SUPERIOR_WEAPON">
+            <drop chance="5.0" min_amount="1" max_amount="1" item_id="100000897"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100100679"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100200810"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100500701"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100600758"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100900687"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101300658"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101500701"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101700725"/>
+		</drop_group>
+		 <drop_group name="NAMED_SUPERIOR_ACCESSORY">
+            <drop chance="40.0" min_amount="1" max_amount="1" item_id="125002276"/>
+		</drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215488">
+        <drop_group name="NAMED_SUPERIOR_ARMOR">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113101026"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113301039"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113501013"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113600980"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_WEAPON">
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="100000896"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100100678"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100200809"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500700"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100600757"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100900686"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101300657"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101500700"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101700724"/>
+        </drop_group>
+		<drop_group name="NAMED_LEGEND_MATERIAL">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="152012045"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="120001027"/>
+		    <drop chance="5.0" min_amount="1" max_amount="1" item_id="120001028"/>
+		</drop_group>
+    </npc_drop>
+</npc_drops>

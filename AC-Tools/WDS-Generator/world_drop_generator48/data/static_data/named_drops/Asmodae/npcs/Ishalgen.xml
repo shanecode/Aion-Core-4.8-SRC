@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<npc_drops>
+  <!-- Squzii Ironfist (lvl: 2) -->
+  <npc_drop npc_id="210648">
+    <drop_group name="NAMED_COMMON_POTION">
+      <drop chance="100.0" min_amount="1" max_amount="1" item_id="162000031"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Hulker (lvl: 4) -->
+  <npc_drop npc_id="210590">
+    <drop_group name="NAMED_COMMON_ARMOR">
+      <drop chance="90.0" min_amount="1" max_amount="1" item_id="111100397"/>
+      <drop chance="90.0" min_amount="1" max_amount="1" item_id="111500437"/>
+      <drop chance="90.0" min_amount="1" max_amount="1" item_id="111300398"/>
+    </drop_group>
+    <drop_group name="NAMED_SUPERIOR_ARMOR">
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="113300449"/>
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="113500472"/>
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="113100433"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Hammerhoof (lvl: 6) -->
+  <npc_drop npc_id="210591">
+    <drop_group name="NAMED_COMMON_ACCESSORY">
+      <drop chance="100.0" min_amount="1" max_amount="1" item_id="123000617"/>
+    </drop_group>
+    <drop_group name="NAMED_SUPERIOR_ARMOR">
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="114100450"/>
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="114300463"/>
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="114500479"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Rusty Threehands (lvl: 8) -->
+  <npc_drop npc_id="210594">
+    <drop_group name="NAMED_COMMON_ARMOR">
+      <drop chance="90.0" min_amount="1" max_amount="1" item_id="110100504"/>
+      <drop chance="90.0" min_amount="1" max_amount="1" item_id="110300465"/>
+      <drop chance="90.0" min_amount="1" max_amount="1" item_id="110500493"/>
+    </drop_group>
+    <drop_group name="NAMED_SUPERIOR_WEAPON">
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="100600206"/>
+    </drop_group>
+  </npc_drop>
+</npc_drops>

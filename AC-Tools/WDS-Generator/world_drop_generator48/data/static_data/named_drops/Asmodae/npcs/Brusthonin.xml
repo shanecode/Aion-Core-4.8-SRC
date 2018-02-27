@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!-- Created by Sereine and Ydril -->
+<npc_drops>
+	<!-- Ripened Frightcorn (lvl: 22) -->
+	<npc_drop npc_id="213907">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114300705"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114500671"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114600631"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114100692"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="121000669"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="121000668"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Bakun the Zombified (lvl: 23) -->
+	<npc_drop npc_id="213909">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113500663"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Farmer Havenjark (lvl: 24) -->
+	<npc_drop npc_id="213908">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100900430"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100900612"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112100624"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112300624"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112600620"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112500612"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000783"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000782"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Botanist Aello (lvl: 25) -->
+	<npc_drop npc_id="213910">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100200544"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100000563"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100100440"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100600466"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_BELT">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="123000781"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="123000780"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Thorn Beard Latulatu (lvl: 47) -->
+	<npc_drop npc_id="214582">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114500828"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114300882"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113600790"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012542"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="100500556"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000916"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Ranger Agueria (lvl: 50) -->
+	<npc_drop npc_id="214584">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113100828"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111500807"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111600799"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100200662"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120000871"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012546"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Elder Kitarpa (lvl: 50) -->
+	<npc_drop npc_id="214585">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110100916"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110500841"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="101700576"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="101300529"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_SHIELD">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115000816"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012547"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

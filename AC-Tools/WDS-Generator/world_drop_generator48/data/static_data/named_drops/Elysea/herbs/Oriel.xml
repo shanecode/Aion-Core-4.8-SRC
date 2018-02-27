@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- STR_HLFP_HerbFall1 -->
+	<npc_drop npc_id="218858">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- STR_HLFP_HerbFall2 -->
+	<npc_drop npc_id="218859">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- STR_HLFP_HerbSpring1 -->
+	<npc_drop npc_id="218854">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- STR_HLFP_HerbSpring2 -->
+	<npc_drop npc_id="218855">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- STR_HLFP_HerbSummer1 -->
+	<npc_drop npc_id="218856">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- STR_HLFP_HerbSummer2 -->
+	<npc_drop npc_id="218857">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- STR_HLFP_HerbWinter1 -->
+	<npc_drop npc_id="218860">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- STR_HLFP_HerbWinter2 -->
+	<npc_drop npc_id="218861">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Bosun Kuchuran -->
+	<npc_drop npc_id="219265">
+		<drop_group name="NAMED_UNIQUE_HAIRPIN">
+			<!-- Kucharan's Hairpin -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125003152"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_BELT">
+			<!-- Kucharan's Belt -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="123001269"/>
+		</drop_group>
+		<drop_group name="NAMED_BUNDLE">
+			<!-- Greater Contribution Bundle -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="188051594"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Archivist Davorkar -->
+	<npc_drop npc_id="219266">
+		<drop_group name="NAMED_UNIQUE_HAIRPIN">
+			<!-- Ksanat's Hairpin -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125003153"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_BELT">
+			<!-- Ksanat's Belt -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="123001270"/>
+		</drop_group>
+		<drop_group name="NAMED_BUNDLE">
+			<!-- Greater Contribution Bundle -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="188051594"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Gatekeeper Payad -->
+	<npc_drop npc_id="219269">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Captain's Cabin Passage Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000117" no_reduce="true"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

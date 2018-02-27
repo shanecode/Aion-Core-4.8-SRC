@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Antique Treasure Chest -->
+	<npc_drop npc_id="700826">
+		<drop_group name="NAMED_CHEST_KINAH">
+			<!-- Gentlewoman's Dress -->
+			<drop chance="80.0" min_amount="250000" max_amount="500000" item_id="182400001"/>
+		</drop_group>
+		<drop_group name="NAMED_CHEST_CONTENT">
+			<!-- Gentlewoman's Tiara -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="125002031"/>
+			<!-- Gentlewoman's Dress -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110900040"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

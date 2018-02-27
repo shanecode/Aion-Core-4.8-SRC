@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Epiclone -->
+	<npc_drop npc_id="217733">
+		<drop_group name="[Event] Mysterious Reian Herb">
+			<drop chance="100" max_amount="5" min_amount="1" item_id="182215090"/>
+		</drop_group>
+		<drop_group name="[Event] Stunned Potcrab">
+			<drop chance="100" max_amount="5" min_amount="1" item_id="160010154"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

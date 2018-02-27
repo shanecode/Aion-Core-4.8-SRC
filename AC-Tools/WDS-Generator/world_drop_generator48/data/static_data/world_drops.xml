@@ -1,0 +1,3471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<world_drops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="world_drops.xsd">
+	<!-- ENHANCMENT ITEMS -->
+	<!-- Manastones -->
+	<world_drop dropGroup="MANASTONE_COMMON" chance="15">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="0"/>
+			<pattern xsi:type="item_cat" category="MANASTONE"/>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+			<pattern xsi:type="item_level" min_level="10" max_level="60"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="MANASTONE_COMMON" chance="7">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="10"/>
+			<pattern xsi:type="item_cat" category="MANASTONE"/>
+			<pattern xsi:type="item_name" val="Attack">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+			<pattern xsi:type="item_level" min_level="10" max_level="60"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="MANASTONE_RARE" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="0"/>
+			<pattern xsi:type="item_cat" category="MANASTONE"/>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+			<pattern xsi:type="item_level" min_level="20" max_level="60"/>
+			<pattern xsi:type="not_pattern">
+				<pattern xsi:type="item_ids" item_ids="167000563 167000465 167000497 167000523 167000559"/>
+			</pattern>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="MANASTONE_RARE" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="10"/>
+			<pattern xsi:type="item_cat" category="MANASTONE"/>
+			<pattern xsi:type="item_name" val="Attack">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+			<pattern xsi:type="item_level" min_level="10" max_level="60"/>
+		</pattern>
+	</world_drop>
+	<!-- Godstones -->
+	<world_drop dropGroup="GODSTONES" chance="0.005">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="10"/>
+			<pattern xsi:type="item_cat" category="GODSTONE"/>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+			<pattern xsi:type="item_level" min_level="40" max_level="55"/>
+			<pattern xsi:type="not_pattern">
+				<pattern xsi:type="item_ids" item_ids="168000037 168000040 168000038"/> <!-- 10% GS which are not dropable anymore on retail -->
+			</pattern>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="GODSTONES" chance="0.001">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="10"/>
+			<pattern xsi:type="item_cat" category="GODSTONE"/>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_rating" rating="ELITE"/>
+				<pattern xsi:type="npc_rating" rating="HERO"/>
+			</pattern>
+			<pattern xsi:type="item_level" min_level="40" max_level="55"/>
+		</pattern>
+	</world_drop>
+	<!-- Power Shards -->
+	<world_drop dropGroup="POWER_SHARDS" min_amount="1" max_amount="5" chance="30">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="item_ids" item_ids="169000003 169000004 169000005 169000007 169000008 169000009"/>
+		</pattern>
+	</world_drop>
+	<!-- Stigma Shards -->
+	
+	<!-- SKILLS -->
+	<!-- Stigma -->
+	<world_drop dropGroup="STIGMA" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="1"/>
+			<pattern xsi:type="item_cat" category="STIGMA"/>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+			<pattern xsi:type="item_level" min_level="20" max_level="60"/>
+			<pattern xsi:type="not_pattern">
+				<pattern xsi:type="item_ids" item_ids="140000095"/>
+			</pattern>
+		</pattern>
+	</world_drop>
+	<!-- Skill Books -->
+	<!-- 42 -->
+	<world_drop dropGroup="SKILL_BOOKS" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="3"/>
+			<pattern xsi:type="npc_map_id" map_ids="320110000 310050000" />
+			<pattern xsi:type="item_ids" item_ids="169500698 169500699 169500095 169500096 169500596 169500597 169500499 169500432 169500258 169500338 169500157 169500257 169500156 169500433 169500500 169500337"/>
+		</pattern>
+	</world_drop>
+	<!-- 46 -->
+	<world_drop dropGroup="SKILL_BOOKS" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="210060000 220050000" />
+			<pattern xsi:type="item_ids" item_ids="169500607 169500269 169500164 169500443 169500105 169500508 169500346 169500707"/>
+		</pattern>
+	</world_drop>
+	<!-- 53 -->
+	<world_drop dropGroup="SKILL_BOOKS" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="1"/>
+			<pattern xsi:type="npc_map_id" map_ids="300150000 300160000" />
+			<pattern xsi:type="item_ids" item_ids="169500842 169500861 169500818 169500785 169500877 169500803 169500830 169500774"/>
+		</pattern>
+	</world_drop>
+	<!-- 54 -->
+	<world_drop dropGroup="SKILL_BOOKS" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000" />
+			<pattern xsi:type="item_ids" item_ids="169500777 169500776 169500864 169500865 169500844 169500832 169500805 169500788 169500804 169500787 169500833 169500845"/>
+		</pattern>
+	</world_drop>
+	
+	<!-- CRAFT MATERIALS -->
+	<!-- Flux -->
+	<world_drop dropGroup="FLUX_COMMON" chance="8">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="item_level" min_level="13" max_level="60"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_name" val="Flux">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_cat" category="FLUX"/>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="FLUX_RARE" chance="4">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="item_level" min_level="23" max_level="60"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_name" val="Flux">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_cat" category="FLUX"/>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="FLUX_LEGEND" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="item_level" min_level="33" max_level="60"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_name" val="Flux">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_cat" category="FLUX"/>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="FLUX_UNIQUE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="item_level" min_level="43" max_level="60"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_name" val="Flux">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_cat" category="FLUX"/>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Elemental Stones -->
+	<world_drop dropGroup="ELEMENTAL_STONES" chance="25">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="item_ids" item_ids="152010314 152010315 152010316 152010317 152010319"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_rating" rating="NORMAL"/>
+				<pattern xsi:type="npc_rating" rating="ELITE"/>
+				<pattern xsi:type="npc_rating" rating="HERO"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="BEAST"/>
+				<pattern xsi:type="npc_race" race="MAGICALMONSTER"/>
+				<pattern xsi:type="npc_race" race="ELEMENTAL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="OUTSIDER"/>
+			</pattern>
+		</pattern>
+	</world_drop>
+	<!-- TODO : Raw -->
+	
+	<!-- Balic Materials -->
+	<world_drop dropGroup="BALAUR_MATERIAL" chance="3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="186000032 186000033 186000097"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="BALAUR_BLOOD" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="10"/>
+			<pattern xsi:type="item_ids" item_ids="152014019 152014014 152014009 152014004"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="BALAUR_SKIN" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="10"/>
+			<pattern xsi:type="item_ids" item_ids="152014018 152014013 152014008 152014003"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="BALAUR_HORN" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="10"/>
+			<pattern xsi:type="item_ids" item_ids="152014016 152014011 152014006 152014001"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="BALAUR_MEAT" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="10"/>
+			<pattern xsi:type="item_ids" item_ids="152014020 152014015 152014010 152014005"/>
+		</pattern>
+	</world_drop>
+	<world_drop dropGroup="BALAUR_SCALE" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-9" max_dif="10"/>
+			<pattern xsi:type="item_ids" item_ids="152014002 152014007 152014012 152014017"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (30,Rare) -->
+	<world_drop dropGroup="BALIC_EMOTION_RARE" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="5"/>
+			<pattern xsi:type="item_ids" item_ids="152013013 152013001 152013007"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (40,Rare) -->
+	<world_drop dropGroup="BALIC_EMOTION_RARE" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="10"/>
+			<pattern xsi:type="item_ids" item_ids="152013008 152013014 152013002"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (50,Rare) -->
+	<world_drop dropGroup="BALIC_EMOTION_RARE" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-4" max_dif="5"/>
+			<pattern xsi:type="item_ids" item_ids="152013015 152013003 152013009"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (55,Rare) -->
+	<world_drop dropGroup="BALIC_EMOTION_RARE" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152013019 152013022 152013025"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (60,Rare) -->
+	<world_drop dropGroup="BALIC_EMOTION_RARE" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-4" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152013028 152013031 152013034"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (30,Legend) -->
+	<world_drop dropGroup="BALIC_EMOTION_LEGEND" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="5"/>
+			<pattern xsi:type="item_ids" item_ids="152013016 152013010 152013004"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (40,Legend) -->
+	<world_drop dropGroup="BALIC_EMOTION_LEGEND" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="10"/>
+			<pattern xsi:type="item_ids" item_ids="152013011 152013017 152013005"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (50,Legend) -->
+	<world_drop dropGroup="BALIC_EMOTION_LEGEND" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-4" max_dif="5"/>
+			<pattern xsi:type="item_ids" item_ids="152013012 152013018 152013006"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (55,Legend) -->
+	<world_drop dropGroup="BALIC_EMOTION_LEGEND" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_ids" item_ids="152013020 152013026 152013023"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (60,Legend) -->
+	<world_drop dropGroup="BALIC_EMOTION_LEGEND" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152013029 152013032 152013035"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (55,Unique) -->
+	<world_drop dropGroup="BALIC_EMOTION_UNIQUE" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="4"/>
+			<pattern xsi:type="item_ids" item_ids="152013027 152013024 152013021"/>
+		</pattern>
+	</world_drop>
+	<!-- Balic emotions (60,Unique) -->
+	<world_drop dropGroup="BALIC_EMOTION_UNIQUE" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="NAGA"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-1" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152013030 152013033 152013036"/>
+		</pattern>
+	</world_drop>
+	<!-- RECIPES -->
+	<!-- Rare (Elyos) -->
+	<world_drop dropGroup="RECIPE_RARE" race_restriction="ELYOS" chance="3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_ids" item_ids="
+			152201230 152201231 152201232 152201233 152201234 152201235 152201236 152201237 152201238 152201247 152201248 152201249 152201250 152201251 152201252 152201253 152201254 152201269 152201276 152201277 152201280 152201281 152201282 152201283 152201290 152201291 152201296 152201297 152201300 152201301 152201309 152201310 152201315 152201316 152201319 152201320 152201326 152201327 152201328 152201560 152201579 152201580 152202125 152202126 152202127 152202139 152202140
+			152200253 152200281 152200282 152200283 152200284 152200285 152200286 152200287 152200288 152200289 152200290 152200291 152200292 152200293 152200307 152200308 152200309 152200310 152200311 152200312 152200313 152200314 152200315 152200316 152200317 152200318 152200319 152200320 152200321 152200322 152200323 152200324 152200325 152200345 152200346 152200347 152200348 152200349 152200350 152200351 152200352 152200353 152200354 152200355 152200356 152200357 152200384 152200385 152200386 152200387 152200388 152200389 152200390 152200391 152200392 152200393 152200394 152200395 152200396 152200410 152200411 152200412 152200413 152200414 152200415 152200438 152200439 152200440 152200441 152200442 152200443 152200444 152200445 152200446 152200447 152200448 152200449 152200450 152200477 152200478 152200479 152200480 152200481 152200482 152200483 152200484 152200485 152200486 152200487 152200488 152200489 152200503 152200504 152200505 152200506 152201541 152201542 152201754 152201755 152201756 152201757 152201758 152201759 152201760 152201761 152201762 152201763 152201764 152201765 152201766 
+			152201401 152201402 152201403 152201404 152201405 152201406 152201407 152201408 152201419 152201420 152201421 152201422 152201423 152201424 152201425 152201426 152201444 152201445 152201446 152201447 152201448 152201449 152201450 152201451 152201563 152201564 152201565 152201566 152201581 152201582 152201583 			152200612 152200613 152200614 152200615 152200616 152200617 152200618 152200626 152200627 152200628 152200629 152200630 152200631 152200632 152200633 152200634 152200635 152200636 152200647 152200648 152200649 152200650 152200651 152200652 152200653 152200668 152200669 152200670 152200671 152200672 152200673 152200674 152200682 152200683 152200684 152200685 152200697 152200698 152200699 152200700 152200701 152200702 152200703 152200718 152200719 152200720 152200721 152200722 152200723 152200724 152200732 152200733 152200734 152200735 152200805 152200806 152200807 152200808 152200809 152200810 152200811 152200819 152200820 152200821 152200822 152200823 152200824 152200825 152200826 152200827 152200828 152200829 152200840 152200841 152200842 152200843 152200844 152200845 152200846 152200861 152200862 152200863 152200864 152200865 152200866 152200867 152200875 152200876 152200877 152200878 152200890 152200891 152200892 152200893 152200894 152200895 152200896 152200911 152200912 152200913 152200914 152200915 152200916 152200917 152200925 152200926 152200927 152200928 152201870 152201871 152201872 152201873 152201874 152201875 152201876 152201936 152201937 152201938 152201939 152201940 152201941 152201942
+			152200993 152200994 152200996 152200997 152200999 152201000 152201002 152201003 152201004 152201005 152201007 152201008 152201009 152201010 152201012 152201013 152201014 152201015 152201016 152201017 152201019 152201020 152201021 152201022 152201028 152201029 152201030 152201031 152201037 152201038 152201039 152201040 152201045 152201046 152201047 152201051 152201052 152201053 152201054 152201060 152201061 152201062 152201063 152201069 152201070 152201071 152201072 152201077 152201078 152201079 152201127 152201133 152201134 152201137 152201138 152201139 152201140 152201146 152201147 152201152 152201153 152201155 152201156 152201157 152201164 152201165 152201170 152201171 152201174 152201175 152202016 152202017 152202018 152202019 152202033 152202034 152202035 152202036 152202085 152202086 
+			152200088 152200089 152200098 152200099 152200100 152200101 152200102 152200108 152200109 152200110 152200111 152200112 152200113 152200114 152200115 152200124 152200125 152200126 152200127 152200128 152200139 152200140 152200141 152200142 152200143 152200149 152200150 152200151 152200152 152200153 152200165 152200166 152200167 152200168 152200169 152200180 152200181 152200182 152200183 152200184 152200190 152200191 152200192 152201538 152201686 152201687 152201688 152201689 152201690 
+			"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Elyos lvl 60) -->
+	<world_drop dropGroup="RECIPE_RARE" race_restriction="ELYOS" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152202130 152202131 152202180 152202234 152202179 152202183 152202181 152202185 152202182 152202184 152202186"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare TypeB(Elyos lvl 60) -->
+	<world_drop dropGroup="RECIPE_RARE_TYPEB_ELYOS" race_restriction="ELYOS" chance="0.001">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="5"/>
+			<pattern xsi:type="item_ids" item_ids="152203531 152203532 152203533 152203534"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Asmodians) -->
+	<world_drop dropGroup="RECIPE_RARE" race_restriction="ASMODIANS" chance="3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_ids" item_ids="
+			152206236 152206237 152206238 152206239 152206240 152206241 152206242 152206243 152206244 152206253 152206254 152206255 152206256 152206257 152206258 152206259 152206260 152206275 152206282 152206283 152206286 152206287 152206288 152206289 152206296 152206297 152206302 152206303 152206306 152206307 152206315 152206316 152206321 152206322 152206325 152206326 152206331 152206332 152206333 152206565 152206581 152206582 152207127 152207128 152207129 152207141 152207142 
+			152205277 152205278 152205279 152205280 152205281 152205282 152205283 152205284 152205285 152205286 152205287 152205288 152205289 152205303 152205304 152205305 152205306 152205307 152205308 152205309 152205310 152205311 152205312 152205313 152205314 152205315 152205316 152205317 152205318 152205319 152205320 152205321 152205322 152205342 152205343 152205344 152205345 152205346 152205347 152205348 152205349 152205350 152205351 152205352 152205353 152205354 152205381 152205382 152205383 152205384 152205385 152205386 152205387 152205388 152205389 152205390 152205391 152205392 152205393 152205407 152205408 152205409 152205410 152205434 152205435 152205436 152205437 152205438 152205439 152205440 152205441 152205442 152205443 152205444 152205445 152205446 152205473 152205474 152205475 152205476 152205477 152205478 152205479 152205480 152205481 152205482 152205483 152205484 152205485 152205499 152205500 152205501 152205502 152206546 152206547 152206756 152206757 152206758 152206759 152206760 152206761 152206762 152206763 152206764 152206765 152206766 152206767 152206768 
+			152206406 152206407 152206408 152206409 152206410 152206411 152206412 152206413 152206424 152206425 152206426 152206427 152206428 152206429 152206430 152206431 152206449 152206450 152206451 152206452 152206453 152206454 152206455 152206456 152206567 152206568 152206569 152206570 152206583 152206584 152206585 			152205614 152205615 152205616 152205617 152205618 152205619 152205620 152205628 152205629 152205630 152205631 152205632 152205633 152205634 152205635 152205636 152205637 152205648 152205649 152205650 152205651 152205652 152205653 152205654 152205669 152205670 152205671 152205672 152205673 152205674 152205675 152205683 152205684 152205685 152205686 152205700 152205701 152205702 152205703 152205704 152205705 152205706 152205721 152205722 152205723 152205724 152205725 152205726 152205727 152205735 152205736 152205737 152205738 152205808 152205809 152205810 152205811 152205812 152205813 152205814 152205822 152205823 152205824 152205825 152205826 152205827 152205828 152205829 152205830 152205831 152205832 152205843 152205844 152205845 152205846 152205847 152205848 152205849 152205864 152205865 152205866 152205867 152205868 152205869 152205870 152205878 152205879 152205880 152205881 152205894 152205895 152205896 152205897 152205898 152205899 152205900 152205915 152205916 152205917 152205918 152205919 152205920 152205921 152205929 152205930 152205931 152205932 152206550 152206551 152206554 152206555 152206556 152206872 152206873 152206874 152206875 152206876 152206877 152206878 152206938 152206939 152206940 152206941 152206942 152206943 152206944 
+			152205998 152205999 152206001 152206002 152206004 152206005 152206007 152206008 152206009 152206010 152206012 152206013 152206014 152206015 152206017 152206018 152206019 152206020 152206021 152206022 152206023 152206025 152206026 152206027 152206028 152206034 152206035 152206036 152206037 152206043 152206044 152206045 152206046 152206051 152206052 152206053 152206057 152206058 152206059 152206060 152206066 152206067 152206068 152206069 152206075 152206076 152206077 152206078 152206083 152206084 152206085 152206133 152206139 152206140 152206143 152206144 152206145 152206146 152206152 152206153 152206158 152206159 152206162 152206163 152206170 152206171 152206176 152206177 152206180 152206181 152206559 152206560 152206563 152206578 152206579 152206580 152207001 152207002 152207003 152207004 152207018 152207019 152207020 152207021 152207035 152207036 152207037 152207038 152207087 152207088 
+			152205088 152205089 152205098 152205099 152205100 152205101 152205102 152205108 152205109 152205110 152205111 152205112 152205113 152205114 152205115 152205124 152205125 152205126 152205127 152205128 152205139 152205140 152205141 152205142 152205143 152205149 152205150 152205162 152205163 152205164 152205165 152205166 152205177 152205178 152205179 152205180 152205181 152205187 152205188 152205189 152206543 152206576 152206577 152206688 152206689 152206690 152206691 152206692 
+			"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Asmodians lvl 60) -->
+	<world_drop dropGroup="RECIPE_RARE" race_restriction="ASMODIANS" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152207132 152207133 152207185 152207187 152207183 152207181 152207182 152207184 152207188 152207186 152207236"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare TypeB(Asmodians lvl 60) -->
+	<world_drop dropGroup="RECIPE_RARE_TYPEB_ASMOS" race_restriction="ASMODIANS" chance="0.001">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DRAGON"/>
+			</pattern>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="5"/>
+			<pattern xsi:type="item_ids" item_ids="152208533 152208534 152208535 152208536"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Elyos) -->
+	<world_drop dropGroup="RECIPE_LEGEND" race_restriction="ELYOS" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_ids" item_ids="
+				152201292 152201293 152201298 152201299 152201302 152201311 152201312 152201317 152201318 152201321 152201322 152201329 152201330 152201561 152201562 152202141 152202142 
+				152201427 152201428 152201429 152201430 152201431 152201432 152201433 152201452 152201453 152201454 152201455 152201456 152201457 152201458 152201501 152201502 
+				152200588 152200654 152200655 152200656 152200657 152200658 152200659 152200660 152200675 152200676 152200677 152200678 152200679 152200680 152200681 152200686 152200704 152200705 152200706 152200707 152200708 152200709 152200710 152200725 152200726 152200727 152200728 152200729 152200730 152200731 152200847 152200848 152200849 152200850 152200851 152200852 152200853 152200868 152200869 152200870 152200871 152200872 152200873 152200874 152200879 152200897 152200898 152200899 152200900 152200901 152200902 152200903 152200918 152200919 152200920 152200921 152200922 152200923 152200924 152200929 152201546 152201547 152201548 152201551 152201552 152201570 152201571 152201572 152201943 152201944 152201945 152201946 152201947 152201948 152201949 
+				152201023 152201024 152201025 152201026 152201032 152201033 152201034 152201035 152201041 152201042 152201043 152201044 152201048 152201049 152201055 152201056 152201057 152201058 152201064 152201065 152201066 152201067 152201073 152201074 152201075 152201076 152201080 152201081 152201148 152201149 152201154 152201158 152201166 152201167 152201172 152201173 152201176 152201555 152201556 152201557 152201559 152201573 152202000 152202003 152202004 152202005 152202006 152202020 152202021 152202022 152202023 152202037 152202038 152202039 152202040 152202051 152202052 152202053 152202054 152202055 152202056 152202087 152202088 
+				152200076 152200129 152200130 152200131 152200132 152200133 152200144 152200145 152200146 152200147 152200148 152200154 152200155 152200156 152200170 152200171 152200172 152200173 152200174 152200185 152200186 152200187 152200188 152200189 152200193 152200194 152200195 152201539 152201540 152201691 152201692 152201693 152201694 152201695 
+				152200358 152200359 152200360 152200361 152200362 152200363 152200364 152200365 152200366 152200367 152200368 152200369 152200370 152200397 152200398 152200399 152200400 152200401 152200402 152200403 152200404 152200405 152200406 152200407 152200408 152200409 152200416 152200417 152200418 152200451 152200452 152200453 152200454 152200455 152200456 152200457 152200458 152200459 152200460 152200461 152200462 152200463 152200490 152200491 152200492 152200493 152200494 152200495 152200496 152200497 152200498 152200499 152200500 152200501 152200502 152200507 152200508 152200509 152201767 152201768 152201769 152201770 152201771 152201772 152201773 152201774 152201775 152201776 152201777 152201778 152201779 
+			"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Elyos lvl 60) -->
+	<world_drop dropGroup="RECIPE_LEGEND" race_restriction="ELYOS" chance="0.3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152202192 152202189 152202191 152202193 152202151 152202187 152202190 152202188"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Asmodians) -->
+	<world_drop dropGroup="RECIPE_LEGEND" race_restriction="ASMODIANS" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_ids" item_ids="
+				152206284 152206298 152206299 152206304 152206305 152206308 152206317 152206318 152206323 152206324 152206334 152206335 152207143 152207144 152207153 
+				152206432 152206433 152206434 152206435 152206436 152206437 152206438 152206457 152206458 152206459 152206460 152206461 152206462 152206463 152206506 152206507 
+				152205655 152205656 152205657 152205658 152205659 152205660 152205661 152205676 152205677 152205678 152205679 152205680 152205681 152205682 152205687 152205688 152205689 152205707 152205708 152205709 152205710 152205711 152205712 152205713 152205728 152205729 152205730 152205731 152205732 152205733 152205734 152205739 152205740 152205850 152205851 152205852 152205853 152205854 152205855 152205856 152205871 152205872 152205873 152205874 152205875 152205876 152205877 152205882 152205883 152205901 152205902 152205903 152205904 152205905 152205906 152205907 152205922 152205923 152205924 152205925 152205926 152205927 152205928 152205933 152205934 152206552 152206553 152206557 152206558 152206574 152206879 152206880 152206881 152206882 152206883 152206884 152206885 152206945 152206946 152206947 152206948 152206949 152206950 152206951 
+				152206029 152206030 152206031 152206032 152206038 152206039 152206040 152206041 152206047 152206048 152206049 152206050 152206054 152206055 152206061 152206062 152206063 152206064 152206070 152206071 152206072 152206073 152206079 152206080 152206081 152206082 152206086 152206087 152206154 152206155 152206160 152206161 152206164 152206172 152206173 152206178 152206179 152206182 152206561 152206562 152206564 152206575 152207005 152207006 152207007 152207008 152207022 152207023 152207024 152207025 152207039 152207040 152207041 152207042 152207053 152207054 152207055 152207056 152207057 152207058 152207089 152207090 
+				152205129 152205130 152205131 152205132 152205133 152205144 152205145 152205146 152205147 152205148 152205151 152205152 152205153 152205167 152205168 152205169 152205170 152205171 152205182 152205183 152205184 152205185 152205186 152205190 152205191 152206544 152206545 152206693 152206694 152206695 152206696 152206697 
+				152205355 152205356 152205357 152205358 152205359 152205360 152205361 152205362 152205363 152205364 152205365 152205366 152205367 152205394 152205395 152205396 152205397 152205398 152205399 152205400 152205401 152205402 152205403 152205404 152205405 152205406 152205411 152205412 152205413 152205414 152205447 152205448 152205449 152205450 152205451 152205452 152205453 152205454 152205455 152205456 152205457 152205458 152205459 152205486 152205487 152205488 152205489 152205490 152205491 152205492 152205493 152205494 152205495 152205496 152205497 152205498 152205503 152205504 152205505 152206548 152206549 152206571 152206572 152206573 152206769 152206770 152206771 152206772 152206773 152206774 152206775 152206776 152206777 152206778 152206779 152206780 152206781 
+			"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Asmodians lvl 60) -->
+	<world_drop dropGroup="RECIPE_LEGEND" race_restriction="ASMODIANS" chance="0.03">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-4" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152207189 152207191 152207195 152207193 152207192 152207194 152207190"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Elyos) -->
+	<world_drop dropGroup="RECIPE_UNIQUE" race_restriction="ELYOS" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_ids" item_ids="
+					152202143 152202144
+					152201570 152201884 152201885 152201886 152201887 152201888 152201889 152201890 152201950 152201951 152201952 152201953 152201954 152201955 152201956 
+					152202007 152202008 152202009 152202010 152202024 152202025 152202026 152202027 152202041 152202042 152202043 152202044 152202089 152202090 
+					152201696 152201697 152201698 152201699 152201700 
+					152201780 152201781 152201782 152201783 152201784 152201785 152201786 152201787 152201788 152201789 152201790 152201791 152201792 
+					"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Elyos lvl 60) -->
+	<world_drop dropGroup="RECIPE_UNIQUE" race_restriction="ELYOS" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+			220030000 220040000 220050000 220010000 220020000 
+			210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-5" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152202196 152202194 152202198 152202195 152202197 152202199"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Asmodians) -->
+	<world_drop dropGroup="RECIPE_UNIQUE" race_restriction="ASMODIANS" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+				220030000 220040000 220050000 220010000 220020000 
+				210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="item_ids" item_ids="
+				152207145 152207146 
+				152206886 152206887 152206888 152206889 152206890 152206891 152206892 152206952 152206953 152206954 152206955 152206956 152206957 152206958 
+				152207009 152207010 152207011 152207012 152207026 152207027 152207028 152207029 152207043 152207044 152207045 152207046 152207091 152207092 
+				152206698 152206699 152206700 152206701 152206702 
+				152206782 152206783 152206784 152206785 152206786 152206787 152206788 152206789 152206790 152206791 152206792 152206793 152206794 
+			"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Asmodians lvl 60) -->
+	<world_drop dropGroup="RECIPE_UNIQUE" race_restriction="ASMODIANS" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="DRAKAN"/>
+				<pattern xsi:type="npc_race" race="DEMIHUMANOID"/>
+				<pattern xsi:type="npc_race" race="KRALL"/>
+				<pattern xsi:type="npc_race" race="UNDEAD"/>
+				<pattern xsi:type="npc_race" race="SHULACK"/>
+				<pattern xsi:type="npc_race" race="LIZARDMAN"/>
+				<pattern xsi:type="npc_race" race="LYCAN"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="
+				220030000 220040000 220050000 220010000 220020000 
+				210030000 210040000 210060000 210010000 210020000 210050000 220070000 
+			"/>
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-4" max_dif="0"/>
+			<pattern xsi:type="item_ids" item_ids="152207198 152207200 152207196 152207197 152207201 152207199"/>
+		</pattern>
+	</world_drop>
+	
+	<!-- WEAPONS -->
+	<!-- Common (Elysea) -->
+	<world_drop dropGroup="WEAPON_COMMON" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PLAINSMAN'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="2" max_level="2"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CANYON">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="7" max_level="7"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FOREST">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HILL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="17" max_level="17"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DESOLATION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="22" max_level="22"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PATRIOT'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SWAMPY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="JUNGLE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RUIN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="STORM ">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="49" max_level="49"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Asmodae) -->
+	<world_drop dropGroup="WEAPON_COMMON" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PRAIRIE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="2" max_level="2"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="LAKE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="7" max_level="7"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WEALD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PLATEAU">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="17" max_level="17"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TUNDRA">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="22" max_level="22"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FREEZING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="VOLCANO">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BARRENS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GLACIER">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLIZZARD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Balaurea Peace) -->
+	<world_drop dropGroup="WEAPON_COMMON" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SCABROUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="52" max_level="52"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OUTWORLD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="57" max_level="57"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Bi-Faction Maps) -->
+	<world_drop dropGroup="WEAPON_COMMON" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BASFELT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="24" max_level="24"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SOUL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="24" max_level="24"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DIVISIVE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="29" max_level="29"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="IMMEMORIAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="34" max_level="34"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="NEBULOUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="39" max_level="39"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DIMENSIONAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="44" max_level="44"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GIANT'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="49" max_level="49"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CHAOS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="54" max_level="54"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BALAURBONE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="59" max_level="59"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Elysea) -->
+	<world_drop dropGroup="WEAPON_RARE" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RANGER">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="4" max_level="4"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MERCENARY CAPTAIN'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="9" max_level="9"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TROPICAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="14" max_level="14"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WIND BREEZE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="19" max_level="19"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WANDERER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="24" max_level="24"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MIRAGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="29" max_level="29"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ALTAR">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="34" max_level="34"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DEMISE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="39" max_level="39"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANCIENT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="44" max_level="44"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SUNSET">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="49" max_level="49"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Asmodae) -->
+	<world_drop dropGroup="WEAPON_RARE" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FIENDISH">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="4" max_level="4"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="NIGHT SKY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="9" max_level="9"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FROZEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="14" max_level="14"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLACK CLAW">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="19" max_level="19"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="INFAMOUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="24" max_level="24"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BEAST'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="29" max_level="29"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OFFERING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="34" max_level="34"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CORRUPTING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="39" max_level="39"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OTHERWORLDLY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="44" max_level="44"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DUSKY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="49" max_level="49"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Balaurea Peace) -->
+	<world_drop dropGroup="WEAPON_RARE" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SUBTERRANEAN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="54" max_level="54"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FALLEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="59" max_level="59"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Bi-Faction Maps) -->
+	<world_drop dropGroup="WEAPON_RARE" chance="0.5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WRAITH'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="REDDENED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BURIED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ODIOUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="COMET">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HORRIFIC">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="52" max_level="52"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OF THE FALLEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="57" max_level="57"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Elyos) -->
+	<world_drop dropGroup="WEAPON_LEGEND" chance="0.05">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="LIFE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FANTASTIC">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FREEDOM">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="JUSTICE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="LUMINARY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TIME">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Asmodians) -->
+	<world_drop dropGroup="WEAPON_LEGEND" chance="0.05">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FATE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WISDOM">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DEATH">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DESTRUCTIVE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="NACHAL'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="VOID">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="not_pattern">
+				<pattern xsi:type="item_ids" item_ids="100500181 100500129"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Balaurea Peace) -->
+	<world_drop dropGroup="WEAPON_LEGEND" chance="0.05">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DIABOLICAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="55" max_level="55"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SOLITAIRE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="60" max_level="60"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Bi-Faction Maps) -->
+	<world_drop dropGroup="WEAPON_LEGEND" chance="0.05">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLOOD SEEKING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="28" max_level="28"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RAIN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="33" max_level="33"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FALLEN LEGIONARY'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="38" max_level="38"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OBLATE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="43" max_level="43"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANCIENT HERO'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="48" max_level="48"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CATASTROPHIC">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="53" max_level="53"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GENESIS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="58" max_level="58"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Elyos) -->
+	<world_drop dropGroup="WEAPON_UNIQUE" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="DESCENDANT'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="JUDGMENT">
+					<function xsi:type="contains"/>
+				</pattern>
+				<!-- Rest of lvl 25 Gold weapons -->
+				<pattern xsi:type="item_ids" item_ids="100500146 100900143 100000223 101300139 100100137 101700158 100600162 100200239"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Elyos - Graceful) : max_dif different from other unique drops -->
+	<world_drop dropGroup="WEAPON_UNIQUE" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="10"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="item_name" val="GRACEFUL">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Asmodians) -->
+	<world_drop dropGroup="WEAPON_UNIQUE" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="DEPARTED SOUL">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="DOLAN'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<!-- Rest of lvl 25 Gold weapons -->
+				<pattern xsi:type="item_ids" item_ids="100200288 100600210 101500196 101700208 101300187 100500196 100100182 100000267 100900189"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Asmodians - Demolition) : max_dif different from other unique drops -->
+	<world_drop dropGroup="WEAPON_UNIQUE" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="10"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="item_name" val="DEMOLITION">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Bi-Faction Maps) -->
+	<world_drop dropGroup="WEAPON_UNIQUE" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CELESTIAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="REAPER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ELDER">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>				
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RAVAGER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="60" max_level="60"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="not_pattern">
+				<pattern xsi:type="item_ids" item_ids="100500741 101300697 100600798 100500740 101300696 100600797"/> <!-- Craft items with "Elder" in their name -->
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Balaurea Peace) -->
+	<world_drop dropGroup="WEAPON_UNIQUE" chance="0.01">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BOW"/>
+				<pattern xsi:type="item_cat" category="DAGGER"/>
+				<pattern xsi:type="item_cat" category="GREATSWORD"/>
+				<pattern xsi:type="item_cat" category="MACE"/>
+				<pattern xsi:type="item_cat" category="ORB"/>
+				<pattern xsi:type="item_cat" category="POLEARM"/>
+				<pattern xsi:type="item_cat" category="SPELLBOOK"/>
+				<pattern xsi:type="item_cat" category="STAFF"/>
+				<pattern xsi:type="item_cat" category="SWORD"/>
+				<pattern xsi:type="item_cat" category="SHIELD"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_rating" rating="ELITE"/>
+				<pattern xsi:type="npc_rating" rating="HERO"/>
+			</pattern>
+			<pattern xsi:type="item_name" val="PACIFICATION">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Daevanion -->
+	<world_drop dropGroup="ARMOR_DAEVANION" add_untradeable="true" chance="0.05">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="item_ids" item_ids="110600834 110500849 110300881 110100931 113600800 113500827 113300860 113100843 112600785 111600813 114600794 112500774 111500821 114500837 112300784 111300834 114300893 112100790 111100831 114100866"/>
+		</pattern>
+	</world_drop>
+	
+	<!-- ARMOR -->
+	<!-- Common (Elyos) -->
+	<world_drop dropGroup="ARMOR_COMMON" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PLAINSMAN'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="4" max_level="4"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CANYON">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="9" max_level="9"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FOREST">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="14" max_level="14"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HILL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="19" max_level="19"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DESOLATION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="24" max_level="24"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PATRIOT'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="29" max_level="29"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SWAMPY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="34" max_level="34"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="JUNGLE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="39" max_level="39"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RUIN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="44" max_level="44"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="STORM ">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="49" max_level="49"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Asmodians) -->
+	<world_drop dropGroup="ARMOR_COMMON" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PRAIRIE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="4" max_level="4"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="LAKE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="9" max_level="9"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WEALD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="14" max_level="14"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PLATEAU">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="19" max_level="19"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TUNDRA">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="24" max_level="24"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FREEZING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="29" max_level="29"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="VOLCANO">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="34" max_level="34"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BARRENS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="39" max_level="39"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GLACIER">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="44" max_level="44"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLIZZARD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="49" max_level="49"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Balaurea Peace) -->
+	<world_drop dropGroup="ARMOR_COMMON" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SCABROUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="54" max_level="54"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OUTWORLD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="59" max_level="59"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Bi-Faction Maps) -->
+	<world_drop dropGroup="ARMOR_COMMON" chance="2">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BATTLEFIELD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANCIENT DAEVA'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GLYPH">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PROTECTOR'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="IMMEMORIAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CHAOS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="52" max_level="52"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BALAURBONE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="57" max_level="57"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Elyos) -->
+	<world_drop dropGroup="ARMOR_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CLIONA">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="7" max_level="7"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HEALER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HUNTER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="KNOWLEDGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TEMPLE GUARD'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MIRAGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="17" max_level="17"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PIONEER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="22" max_level="22"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PIT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SOUL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BERSERKING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ENVIOUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="REVIVING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SHADOW">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DIMENSIONAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ARCHBISHOP'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ASSASSIN'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GUARDED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SAGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Asmodians) -->
+	<world_drop dropGroup="ARMOR_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ALDELLE'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="7" max_level="7"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MIDNIGHT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RESTLESS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="17" max_level="17"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="REVENGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="22" max_level="22"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SURA'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CURSED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TAINTED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ASCENSION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TORMENT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Bi-Faction Maps) -->
+	<world_drop dropGroup="ARMOR_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ELDRITCH">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="24" max_level="24"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ETERNITY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="29" max_level="29"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RED DRAGON LEGION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="34" max_level="34"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="IMMORTAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="39" max_level="39"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GIANT LORD'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="44" max_level="44"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SKY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="49" max_level="49"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HORRIFIC">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="54" max_level="54"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OF THE FORGOTTEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="59" max_level="59"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Balaurea Peace) -->
+	<world_drop dropGroup="ARMOR_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SUBTERRANEAN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="52" max_level="52"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FALLEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="57" max_level="57"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Elyos) -->
+	<world_drop dropGroup="ARMOR_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="LIFE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="23" max_level="23"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FANTASTIC">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="28" max_level="28"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FREEDOM">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="33" max_level="33"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="JUSTICE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="38" max_level="38"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="LUMINARY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="43" max_level="43"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TIME">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="48" max_level="48"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Asmodians) -->
+	<world_drop dropGroup="ARMOR_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FATE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="23" max_level="23"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WISDOM">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="28" max_level="28"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DEATH">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="33" max_level="33"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DESTRUCTIVE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="38" max_level="38"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="NACHAL'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="43" max_level="43"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="VOID">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="48" max_level="48"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Bi-Faction Maps) -->
+	<world_drop dropGroup="ARMOR_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GROUNDED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OLD GUARD'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANONYMOUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SLEEPER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANCIENT GIANT'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MIRACLE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CATASTROPHIC">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="55" max_level="55"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GENESIS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="60" max_level="60"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Balaurea Peace) -->
+	<world_drop dropGroup="ARMOR_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DIABOLICAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="53" max_level="53"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SOLITAIRE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="58" max_level="58"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Elyos) -->
+	<world_drop dropGroup="ARMOR_UNIQUE" chance="0.02">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="DESCENDANT'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="JUDGMENT">
+					<function xsi:type="contains"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Elyos - Graceful) : max_dif different from other unique drops -->
+	<world_drop dropGroup="ARMOR_UNIQUE" chance="0.02">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="10"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="item_name" val="GRACEFUL">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Asmodians) -->
+	<world_drop dropGroup="ARMOR_UNIQUE" chance="0.02">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="DEPARTED SOUL">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="DOLAN'S">
+					<function xsi:type="contains"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Asmodians - Demolition) : max_dif different from other unique drops -->
+	<world_drop dropGroup="ARMOR_UNIQUE" chance="0.02">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="10"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="item_name" val="DEMOLITION">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Balaurea Peace) -->
+	<world_drop dropGroup="ARMOR_UNIQUE" chance="0.02">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_rating" rating="ELITE"/>
+				<pattern xsi:type="npc_rating" rating="HERO"/>
+			</pattern>
+			<pattern xsi:type="item_name" val="PACIFICATION">
+				<function xsi:type="contains"/>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	<!-- Unique (Bi-Faction Maps) -->
+	<world_drop dropGroup="ARMOR_UNIQUE" chance="0.02">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="9"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="GLOVES"/>
+				<pattern xsi:type="item_cat" category="JACKET"/>
+				<pattern xsi:type="item_cat" category="PANTS"/>
+				<pattern xsi:type="item_cat" category="SHOES"/>
+				<pattern xsi:type="item_cat" category="SHOULDERS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="CELESTIAL">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="REAPER'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="ELDER">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="RAVAGER'S">
+					<function xsi:type="contains"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="UNIQUE"/>
+		</pattern>
+	</world_drop>
+	
+	<!-- ACCESSORIES -->
+	<!-- Common (Elyos) -->
+	<world_drop dropGroup="ACCESSORY_COMMON" chance="3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GREEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="7" max_level="7"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FOREST">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RANGER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HILL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="17" max_level="17"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ELF'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="17" max_level="17"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DESOLATION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="22" max_level="22"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DAYLIGHT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="22" max_level="22"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PATRIOT'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="29" max_level="29"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OASIS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SWAMPY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="AVALANCHE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="JUNGLE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SUNSET">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RUIN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BEGGAR'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="STORM">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANGEL'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Asmodians) -->
+	<world_drop dropGroup="ACCESSORY_COMMON" chance="3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WEALD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="12" max_level="12"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PLATEAU">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="17" max_level="17"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TUNDRA">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="22" max_level="22"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FREEZING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="VOLCANO">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BARRENS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GLACIER">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RESTLESS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLIZZARD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Bi-Faction Maps) -->
+	<world_drop dropGroup="ACCESSORY_COMMON" chance="3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANGRY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BATTLEFIELD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANCIENT DAEVA'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="INVADER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DEPARTED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GLYPH">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PROTECTOR'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RESTLESS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ANTIQUE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="IMMEMORIAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLOOD CLOUD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="COMET">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CHAOS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="55" max_level="55"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BALAURBONE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="60" max_level="60"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Common (Balaurea Peace) -->
+	<world_drop dropGroup="ACCESSORY_COMMON" chance="3">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SCABROUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="52" max_level="52"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OUTWORLD">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="57" max_level="57"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="COMMON"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Elyos) -->
+	<world_drop dropGroup="ACCESSORY_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SOLDIER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="10" max_level="10"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HEALER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="15" max_level="15"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HUNTER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="15" max_level="15"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="KNOWLEDGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="15" max_level="15"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TEMPLE GUARD'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="15" max_level="15"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TRAVELLER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="15" max_level="15"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MIRAGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="20" max_level="20"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SPIRITED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="20" max_level="20"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PIONEER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PURGEE'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PIT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="INCEPTION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SOUL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLESSED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BERSERKING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ENVIOUS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="REVIVING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SHADOW">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="INFINITY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DIMENSIONAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="PRAYER">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ARCHBISHOP'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ASSASSIN'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GUARDED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SAGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="DISPELLING">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Asmodians) -->
+	<world_drop dropGroup="ACCESSORY_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="NOBLE'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="10" max_level="10"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MIDNIGHT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="15" max_level="15"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RESTLESS">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="20" max_level="20"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GHOST">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="20" max_level="20"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="REVENGE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BETRAYER'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="25" max_level="25"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SURA'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FASCINATION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="CURSED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GENTLEWOMAN'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="35" max_level="35"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TAINTED">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SPIRITUAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="40" max_level="40"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ASCENSION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OBLIVION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="45" max_level="45"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TORMENT">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="TYRANT'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="50" max_level="50"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (bI-fACTION Maps) -->
+	<world_drop dropGroup="ACCESSORY_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FASCINATION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="30" max_level="30"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="ETERNITY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="27" max_level="27"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="RED DRAGON LEGION">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="WHITE">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="32" max_level="32"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="IMMORTAL">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="BLOODY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="37" max_level="37"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="GIANT LORD'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="MARTYR'S">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="42" max_level="42"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SKY">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="METEOR">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="47" max_level="47"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="HORRIFIC">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="52" max_level="52"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="OF THE FORGOTTEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="57" max_level="57"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Rare (Balaurea Peace) -->
+	<world_drop dropGroup="ACCESSORY_RARE" chance="1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="-2" max_dif="2"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="SUBTERRANEAN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="55" max_level="55"/>
+				</pattern>
+				<pattern xsi:type="and_pattern">
+					<pattern xsi:type="item_name" val="FALLEN">
+						<function xsi:type="contains"/>
+					</pattern>
+					<pattern xsi:type="item_level" min_level="60" max_level="60"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="RARE"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Elyos) -->
+	<world_drop dropGroup="ACCESSORY_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="item_level" min_level="2" max_level="55"/>
+			<pattern xsi:type="npc_map_id" map_ids="110010000 110020000 110070000 210010000 210020000 210030000 210040000 210050000 210060000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="LIFE">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="FANTASTIC">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="FREEDOM">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="JUSTICE">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="LUMINARY">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="TIME">
+					<function xsi:type="contains"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Asmodians) -->
+	<world_drop dropGroup="ACCESSORY_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="120010000 120020000 120080000 220010000 220020000 220030000 220040000 220050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="FATE">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="WISDOM">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="DEATH">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="DESTRUCTIVE">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="NACHAL'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="VOID">
+					<function xsi:type="contains"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Bi-Faction Maps) -->
+	<world_drop dropGroup="ACCESSORY_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="300030000 300040000 300050000 300060000 300070000 300080000 300090000 300100000
+				300110000 300120000 300130000 300140000 300150000 300160000 300170000 300180000 300190000 300200000
+				300210000 300220000 300230000 300240000 300250000 300260000 300270000 300280000 300290000 300300000
+				300310000 300320000 300440000 300470000 400010000 600010000 600020000 600030000 600040000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="OLD GUARD'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="ZEALOUS">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="CARVED">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="ANONYMOUS">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="CALAMITY">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="SLEEPER'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="STARLIGHT">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="ANCIENT GIANT'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="CALAMITY">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="SLEEPER'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="STARLIGHT">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="ANCIENT GIANT'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="LORD'S">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="MIRACLE">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="CATASTROPHIC">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="GENESIS">
+					<function xsi:type="contains"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	<!-- Legend (Balaurea Peace) -->
+	<world_drop dropGroup="ACCESSORY_LEGEND" chance="0.1">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="npc_map_id" map_ids="210050000 220070000"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_cat" category="BELT"/>
+				<pattern xsi:type="item_cat" category="EARRINGS"/>
+				<pattern xsi:type="item_cat" category="HELMET"/>
+				<pattern xsi:type="item_cat" category="NECKLACE"/>
+				<pattern xsi:type="item_cat" category="RINGS"/>
+			</pattern>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="item_name" val="DIABOLICAL">
+					<function xsi:type="contains"/>
+				</pattern>
+				<pattern xsi:type="item_name" val="SOLITAIRE">
+					<function xsi:type="contains"/>
+				</pattern>
+			</pattern>
+			<pattern xsi:type="item_quality" quality="LEGEND"/>
+		</pattern>
+	</world_drop>
+	
+	<!-- MISCELLANEOUS -->
+	<world_drop dropGroup="KRALL_RATION" min_amount="1" max_amount="1" chance="5">
+		<pattern xsi:type="and_pattern">
+			<pattern xsi:type="npc_item_lvl_diff" min_dif="0" max_dif="4"/>
+			<pattern xsi:type="or_pattern">
+				<pattern xsi:type="npc_race" race="KRALL"/>
+			</pattern>
+			<pattern xsi:type="npc_map_id" map_ids="210030000"/>
+			<pattern xsi:type="item_ids" item_ids="186000012"/>
+		</pattern>
+	</world_drop>
+</world_drops>

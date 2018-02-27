@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Lab Director Odetu -->
+	<npc_drop npc_id="214099">
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Odetu's Ring -->
+			<drop chance="30.0" max_amount="1" min_amount="1" item_id="122000898"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_SHIELD">
+			<!-- Odetu's Shield -->
+			<drop chance="15.0" max_amount="1" min_amount="1" item_id="115000780"/>
+		</drop_group>
+	</npc_drop>
+	<!-- RA-121ex -->
+	<npc_drop npc_id="214100">
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Mutant's Earrings -->
+			<drop chance="30.0" max_amount="1" min_amount="1" item_id="120000856"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_WEAPON">
+			<!-- Mutant's Dagger -->
+			<drop chance="30.0" max_amount="1" min_amount="1" item_id="100200612"/>
+			<!-- Mutant's Sword -->
+			<drop chance="30.0" max_amount="1" min_amount="1" item_id="100000650"/>
+			<!-- Mutant's Tome -->
+			<drop chance="30.0" max_amount="1" min_amount="1" item_id="100600542"/>
+			<!-- Mutant's Warhammer -->
+			<drop chance="30.0" max_amount="1" min_amount="1" item_id="100100504"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

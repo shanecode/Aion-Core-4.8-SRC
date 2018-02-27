@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Keymaster Chookuri -->
+	<npc_drop npc_id="219218">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Keymaster Niksi -->
+	<npc_drop npc_id="219191">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Keymaster Zumita -->
+	<npc_drop npc_id="219192">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Crate Key -->
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="185000115"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Keymaster Dabra -->
+	<npc_drop npc_id="219193">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Box Key -->
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="185000116"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Malevolent Muraba -->
+	<npc_drop npc_id="218721">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Guardian Legionary's Sword -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100001300"/>
+			<!-- Guardian Legionary's Staff -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101501019"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_BELT">
+			<!-- Guardian Legionary's Leather Belt -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="123001239"/>
+			<!-- Guardian Legionary's Sash -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="123001240"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Karlata The Huntress -->
+	<npc_drop npc_id="218722">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Guardian Legionary's Dagger -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100201149"/>
+			<!-- Guardian Legionary's Jewel -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100501007"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Guardian Legionary's Corundum Ring -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="122001430"/>
+			<!-- Guardian Legionary's Turquoise Ring -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="122001431"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Oginyum The Dealer -->
+	<npc_drop npc_id="218723">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Guardian Legionary's Warhammer -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100100991"/>
+			<!-- Guardian Legionary's Greatsword -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100900994"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Guardian Legionary's Corundum Earrings -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="120001267"/>
+			<!-- Guardian Legionary's Turquoise Earrings -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="120001268"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Merciful Davati -->
+	<npc_drop npc_id="218724">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Guardian Legionary's Tome -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100601061"/>
+			<!-- Guardian Legionary's Longbow -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101701033"/>
+			<!-- Guardian Legionary's Spear -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101300952"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Guardian Legionary's Turquoise Necklace -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="121001180"/>
+			<!-- Guardian Legionary's Corundum Necklace -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="121001179"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Governor Sunayaka -->
+	<npc_drop npc_id="218553">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Sunayaka's Dagger -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100201167"/>
+			<!-- Sunayaka's Greatsword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100901009"/>
+			<!-- Sunayaka's Jewel -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100501020"/>
+			<!-- Sunayaka's Longbow -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101701045"/>
+			<!-- Sunayaka's Spear -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101300963"/>
+			<!-- Sunayaka's Staff -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101501033"/>
+			<!-- Sunayaka's Sword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100001316"/>
+			<!-- Sunayaka's Tome -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100601073"/>
+			<!-- Sunayaka's Warhammer -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100101005"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<!-- Sunakaya's Hairpin -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125003135"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Orderly -->
+	<npc_drop npc_id="218547">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.2" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Seer -->
+	<npc_drop npc_id="218546">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.2" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Stalker -->
+	<npc_drop npc_id="218545">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.2" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Protectorate Special Enforcer -->
+	<npc_drop npc_id="218925">
+		<drop_group name="NAMED_LEGION_EPAULET">
+			<!-- Tiamat Legion Epaulet -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="186000144"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Protectorate's Treasure Chest Key -->
+			<drop chance="0.2" min_amount="1" max_amount="1" item_id="185000114"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

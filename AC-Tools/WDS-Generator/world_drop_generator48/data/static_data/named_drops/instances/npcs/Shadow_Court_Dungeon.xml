@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+	<!-- Unfest Guard Captain -->
+    <npc_drop npc_id="214347">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Arena Basement Level 3 Key 1 -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000014" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Dyspeptic Karnif -->
+    <npc_drop npc_id="214349">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Arena Basement Level 2 Key 1 -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000011" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Dyspepsic Tayga -->
+    <npc_drop npc_id="214351">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Arena Basement Level 2 Key 2 -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000012" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Bejeweled Mosbear -->
+    <npc_drop npc_id="214353">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Arena Basement Level 2 Key 3 -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000013" no_reduce="true"/>
+        </drop_group>
+	</npc_drop>
+	<!-- Prison Guard -->
+    <npc_drop npc_id="214531">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Arena Basement Level 1 Key 1 -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000008" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Cleric Wraith -->
+    <npc_drop npc_id="214357">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Arena Basement Level 1 Key 2 -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000009" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Ranger Spirit -->
+    <npc_drop npc_id="214360">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Arena Basement Level 1 Key 3 -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000010" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+</npc_drops>

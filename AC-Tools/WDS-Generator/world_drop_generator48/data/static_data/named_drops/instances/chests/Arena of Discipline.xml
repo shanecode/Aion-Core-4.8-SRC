@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+    <npc_drop npc_id="218802">
+        <drop_group name="NAMED_POTION">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="164000165"/>			
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="164000167"/>
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="164000168"/>
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="164000169"/>
+		</drop_group>
+    </npc_drop>
+</npc_drops>

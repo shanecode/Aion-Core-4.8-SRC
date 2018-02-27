@@ -1,0 +1,1 @@
+java -cp libs/*; org.aionlightning.wdgen.SQL2XML jdbc:mysql://localhost:3306/gs root 1234  npc_drops_by_SQL.xml

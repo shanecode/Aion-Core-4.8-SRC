@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player_initial_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="player_initial_data.xsd">
+    <asmodian_spawn_location map_id="120010000" heading="68" x="1315.2991" y="1427.7393" z="209.09084"/>
+    <elyos_spawn_location map_id="110010000" heading="0" x="1500.45" y="1511.5292" z="565.94086"/>
+    <player_data class="WARRIOR">
+        <items>
+            <item id="182400001" count="1000"/><!-- Kinah -->
+        </items>
+    </player_data>
+    <player_data class="MAGE">
+        <items>
+            <item id="182400001" count="1000"/><!-- Kinah -->
+        </items>
+    </player_data>
+    <player_data class="PRIEST">
+        <items>
+            <item id="182400001" count="1000"/><!-- Kinah -->
+        </items>
+    </player_data>
+    <player_data class="SCOUT">
+        <items>
+            <item id="182400001" count="1000"/><!-- Kinah -->
+        </items>
+    </player_data>
+    <player_data class="ENGINEER">
+        <items>
+            <item id="182400001" count="1000"/><!-- Kinah -->
+        </items>
+    </player_data>
+    <player_data class="ARTIST">
+        <items>
+            <item id="182400001" count="1000"/><!-- Kinah -->
+        </items>
+    </player_data>
+</player_initial_data>

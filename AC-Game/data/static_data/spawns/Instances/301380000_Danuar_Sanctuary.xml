@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spawns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<spawn_map map_id="301380000">
+		<!-- vip buff -->
+		<spawn npc_id="831990">
+			<spot x="389.18817" y="1194.7375" z="55.295887"/>
+		</spawn>
+		<spawn npc_id="832906">
+			<spot x="388.45288" y="1134.2689" z="61.946301" static_id="1759"/>
+		</spawn>
+		<spawn npc_id="832907">
+			<spot x="1097.7761" y="408.8153" z="285.83484" h="30"/>
+		</spawn>
+		<spawn npc_id="832908">
+			<spot x="1047.3221" y="1206.5594" z="315.71503" h="37"/>
+		</spawn>		
+		<!-- Box Chest -->
+		<spawn npc_id="233190">
+			<spot z="285.69" y="422.58" x="1097.82" static_id="21"/>
+			<spot z="336.53" y="1310.47" x="978.22" static_id="33"/>
+			<spot z="328.09" y="1286.92" x="1058.11" static_id="1138"/>
+			<spot z="306.74" y="874.76" x="885.44" static_id="11"/>
+			<spot z="296.54" y="931.41" x="958.30" static_id="1166"/>
+			<spot z="284.486" y="826.54486" x="1063.9862" static_id="6"/>
+            <spot x="820.5704" y="950.8146" z="304.9163" h="20"/>		
+		</spawn>
+		<!--  -->
+		<spawn npc_id="284749">
+			<spot x="388.78" y="1171.59" z="58.00943" h="30"/>
+		</spawn>
+		<!--  -->
+		<spawn npc_id="284750">
+			<spot x="1053.04" y="863.81" z="284.00943" h="30"/>
+		</spawn>
+		<!--  -->
+		<spawn npc_id="284753">
+			<spot x="1067.54" y="670.45" z="290.00943" h="30"/>
+		</spawn>
+		<!--  -->
+		<spawn npc_id="284754">
+			<spot x="1064.89" y="670.45" z="290.00943" h="30"/>
+		</spawn>
+		<!--  -->
+		<spawn npc_id="284755">
+			<spot x="1057.47" y="846.00" z="290.00943" h="30"/>
+		</spawn>
+		<!--  -->
+		<spawn npc_id="284756">
+			<spot x="1055.11" y="846.00" z="290.00943" h="30"/>
+		</spawn>
+		<!--  -->
+		<spawn npc_id="855537">
+			<spot x="1058.15" y="659.45" z="290.00943" h="30"/>
+		</spawn>
+		<!-- Steel Rose Cannon -->
+		<spawn npc_id="730863">
+			<spot x="900.30823" y="839.59943" z="292.76813" static_id="117"/>
+		</spawn>
+		<!-- IDF5_U2_Cannon_Mov_Invi -->
+		<spawn npc_id="730866">
+			<spot x="937.55585" y="876.63904" z="305.12701" static_id="1820"/>
+		</spawn>
+		<!-- Siege Drill -->
+		<spawn npc_id="233331">
+			<spot x="1048.6477" y="823.97369" z="286.021" h="93"/>
+		</spawn>
+		<!-- Chamber of Ruin Entrance -->
+		<spawn npc_id="233189">
+			<spot x="1056.257080" y="808.344727" z="286.157471" static_id="362"/>
+		</spawn>
+		<!-- Sturdy Boulder -->
+		<spawn npc_id="233187">
+			<spot x="831.09186" y="966.3501" z="305.12903" static_id="1663"/>
+			<spot x="928.17126" y="926.90375" z="293.10721" static_id="1661"/>
+			<spot x="1047.4684" y="1204.2748" z="315.48434" static_id="1692"/>
+			<spot x="1060.2437" y="1386.8799" z="336.2121" static_id="400"/>
+		</spawn>
+		<!-- Sturdy Boulder -->
+		<spawn npc_id="233447">
+			<spot x="1032.0061" y="1287.3173" z="327.70145" static_id="156"/>
+		</spawn>
+		<!-- Sturdy Boulder -->
+		<spawn npc_id="233448">
+			<spot x="859.69092" y="908.85358" z="293.04236" static_id="1657"/>
+			<spot x="1074.63" y="486.09" z="285.00943" static_id="1656"/>
+		</spawn>
+		<!-- Sturdy Boulder -->
+		<spawn npc_id="233188">
+			<spot x="905.67981" y="859.79224" z="278.0314" static_id="158"/>
+		</spawn>
+		<!-- Under_02_TowerObject_62_an -->
+		<spawn npc_id="233087">
+			<spot x="905.84" y="861.39" z="280.00943" h="30"/>
+		</spawn>
+		<!-- Unscrupulous Sachirunerk -->
+		<spawn npc_id="235657">
+			<spot x="1059.2056" y="824.02" z="284.486" h="30"/>
+		</spawn>
+		<!-- Bodyguard Girakin -->
+		<spawn npc_id="235659">
+			<spot x="1057.59" y="889.17" z="282.58716" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design9"/>
+		</spawn>
+		<!-- Bodyguard Yatakin -->
+		<spawn npc_id="235658">
+			<spot x="1054.795" y="823.89166" z="284.00943" h="30"/>
+		</spawn>
+		<!-- Shulack Mercenary Assaulter -->
+		<spawn npc_id="235595">
+			<spot x="1030.87" y="422.41" z="295.314" walker_id="idldf5_under_02_e_NPCPathA_section10"/>
+			<spot x="885.77" y="867.45" z="306.17" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design15"/>
+			<spot x="955.60" y="923.17" z="296.64" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design2"/>
+			<spot x="1050.22" y="1223.55" z="315.00943" h="78"/>
+			<spot x="1052.5231" y="1285.1312" z="329.00174" h="50"/>
+		</spawn>
+		<!-- Research Team Swiftalon -->
+		<spawn npc_id="235606">
+			<spot x="1056.89" y="583.26" z="280.00943" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design12"/>
+			<spot x="1059.40" y="650.04" z="280.00943" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design40"/>
+		</spawn>
+		<!-- Ancient Bloodwing -->
+		<spawn npc_id="235611">
+			<spot x="973.18835" y="1341.4718" z="338.08347" h="70"/>
+			<spot x="975.9422" y="1343.7074" z="338.0892" h="70"/>
+			<spot x="976.88562" y="1339.766" z="338.11935" h="70"/>
+			<spot x="981.54779" y="1346.1962" z="338.08347" h="70"/>
+			<spot x="984.30164" y="1348.4318" z="338.0892" h="70"/>
+			<spot x="985.24506" y="1344.4904" z="338.11935" h="70"/>
+			<spot x="1002.7113" y="1262.8112" z="327.95419" h="70"/>
+			<spot x="1005.4652" y="1265.0468" z="327.95993" h="70"/>
+			<spot x="1006.4086" y="1261.1053" z="327.99008" h="70"/>
+			<spot x="1006.5411" y="1270.3097" z="327.95419" h="70"/>
+			<spot x="1009.295" y="1272.5453" z="327.95993" h="70"/>
+			<spot x="1010.2384" y="1268.6039" z="327.99008" h="70"/>
+			<spot x="1069.3262" y="1312.7596" z="328.45816" h="70"/>
+			<spot x="1072.0801" y="1314.9955" z="328.4639" h="70"/>
+			<spot x="1073.0234" y="1311.0541" z="328.49399" h="70"/>
+			<spot x="1074.6218" y="1366.0452" z="338.58551" h="70"/>
+			<spot x="1077.3757" y="1368.281" z="338.59125" h="70"/>
+			<spot x="1077.4164" y="1335.7936" z="331.17938" h="70"/>
+			<spot x="1078.3191" y="1364.3396" z="338.62134" h="70"/>
+			<spot x="1080.1703" y="1338.0294" z="331.75244" h="70"/>
+			<spot x="1081.1136" y="1334.088" z="331.37613" h="70"/>
+		</spawn>
+		<!-- Dukaki Peon -->
+		<spawn npc_id="235615">
+			<spot x="1041.1957" y="853.20276" z="283.70544" h="73"/>
+			<spot x="1041.3354" y="849.37805" z="283.7229" h="53"/>
+			<spot x="1041.8857" y="890.54022" z="283.90509" h="46"/>
+			<spot x="1042.0236" y="893.56604" z="283.37695" h="73"/>
+			<spot x="1065.3154" y="895.54425" z="283.56082" h="26"/>
+			<spot x="1066.4037" y="847.63013" z="283.98151" h="100"/>
+			<spot x="1067.0308" y="882.04749" z="283.56082" h="100"/>
+			<spot x="1067.0948" y="861.18463" z="283.98151"/>
+			<spot x="1067.4509" y="894.72266" z="283.8761" h="13"/>
+			<spot x="1068.5178" y="847.59601" z="283.98151"/>
+			<spot x="1069.5688" y="882.49677" z="283.56082"/>
+			<spot x="1069.6104" y="859.14795" z="283.98151" h="23"/>
+		</spawn>
+		<!-- Ancient Clodworm -->
+		<spawn npc_id="235612">
+			<spot x="861.51129" y="942.06262" z="293.49036" h="106"/>
+			<spot x="861.58813" y="938.69409" z="293.61749" h="106"/>
+			<spot x="870.9076" y="902.2681" z="291.3168" h="106"/>
+			<spot x="870.98444" y="898.8996" z="289.89603" h="106"/>
+			<spot x="871.04205" y="944.61456" z="293.54651" h="106"/>
+			<spot x="873.68976" y="900.7654" z="289.64975" h="106"/>
+			<spot x="877.08374" y="898.7998" z="287.34384" h="106"/>
+			<spot x="877.1606" y="895.4313" z="286.86267" h="106"/>
+			<spot x="879.8659" y="897.29706" z="286.05673" h="106"/>
+			<spot x="906.47955" y="952.0636" z="291.49942" h="106"/>
+			<spot x="906.5564" y="948.69507" z="293.61749" h="106"/>
+			<spot x="913.1715" y="905.517" z="285.70206" h="106"/>
+			<spot x="913.24835" y="902.1485" z="284.4045" h="106"/>
+			<spot x="915.9537" y="904.0143" z="284.4045" h="106"/>
+			<spot x="916.0103" y="954.61554" z="291.33264" h="106"/>
+			<spot x="919.7388" y="912.5534" z="289.57495" h="106"/>
+			<spot x="919.8156" y="909.1849" z="287.38647" h="106"/>
+			<spot x="922.52094" y="911.05066" z="289.07196" h="106"/>
+			<spot x="1016.6239" y="882.02625" z="282.29373" h="106"/>
+			<spot x="1016.5471" y="885.39484" z="282.29373" h="106"/>
+			<spot x="1019.3292" y="883.892" z="282.29132" h="106"/>
+		</spawn>
+		<!-- Shulack Mercenary Cannon Chief -->
+		<spawn npc_id="235600">
+			<spot x="897.42157" y="839.29602" z="294.78052" h="33"/>
+		</spawn>
+		<!-- Shulack Mercenary Medic -->
+		<spawn npc_id="235592">
+			<spot x="1051.9683" y="1221.1644" z="317.30319" h="66"/>
+			<spot x="1036.2853" y="1288.6742" z="329.23102" h="10"/>
+			<spot x="1050.74" y="1390.78" z="337.00943" h="30"/>
+		</spawn>
+		<!-- Shulack Mercenary Healer -->
+		<spawn npc_id="235597">
+			<spot x="961.39197" y="928.72009" z="298.5892" h="103"/>
+			<spot x="1041.9658" y="415.78815" z="297.26971" h="46"/>
+		</spawn>
+		<!-- Shulack Mercenary Sorcerer -->
+		<spawn npc_id="235593">
+			<spot x="1057.9495" y="1388.9733" z="337.07022" h="43"/>
+			<spot x="1046.7377" y="1209.0897" z="316.67279" h="40"/>
+			<spot x="922.85895" y="839.91119" z="281.66513" h="40"/>
+		</spawn>
+		<!-- Shulack Mercenary Watcher -->
+		<spawn npc_id="235591">
+			<spot x="1047.86" y="1211.97" z="315.00943" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design50"/>
+			<spot x="1022.83" y="428.43" z="295.4" walker_id="idldf5_under_02_e_NPCPathA_section2"/>
+			<spot x="1055.4528" y="1286.7786" z="329.15649" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design49"/>
+			<spot x="1041.1873" y="428.19427" z="295.7598" h="60"/>
+		</spawn>
+		<!-- Shulack Mercenary Outrider -->
+		<spawn npc_id="235594">
+			<spot x="972.71936" y="915.4415" z="296.62582" h="60"/>
+		</spawn>
+		<!-- Shulack Mercenary Scout -->
+		<spawn npc_id="235596">
+			<spot x="884.70837" y="859.80042" z="281.76117" h="6"/>
+			<spot x="1041.98" y="1249.28" z="323.00943" h="30"/>
+		</spawn>
+		<!-- Research Team Scaleraider -->
+		<spawn npc_id="235603">
+			<spot x="1060.23" y="505.01" z="285.00943" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design48"/>
+			<spot x="1041.54" y="493.99" z="285.28" walker_id="idldf5_under_02_e_NPCPathIDLDF5_UNDER_02_Design37"/>
+		</spawn>
+		<!-- Research Team Swiftclaw -->
+		<spawn npc_id="235607">
+			<spot x="875.2475" y="959.90753" z="295.34937" h="20"/>
+			<spot x="933.26" y="927.64" z="293.00943" h="30"/>
+		</spawn>
+		<!-- Research Team Veteran Scalemage -->
+		<spawn npc_id="235608">
+			<spot x="888.38562" y="979.19849" z="296.19424" h="80"/>
+		</spawn>
+		<!-- Research Team Wyrmdrum -->
+		<spawn npc_id="235604">
+			<spot x="1064.31" y="488.47" z="286.58" h="30"/>
+		</spawn>
+		<!-- Research Team Scalebalde -->
+		<spawn npc_id="235609">
+			<spot x="891.23572" y="964.341" z="295.34937" h="50"/>
+			<spot x="1063.59" y="496.23" z="287.16" h="30"/>
+		</spawn>
+		<!-- Research Team Talonscout -->
+		<spawn npc_id="235601">
+			<spot x="1030.14" y="481.35" z="292.57" h="30"/>
+		</spawn>
+		<!-- Research Team Drakencaster -->
+		<spawn npc_id="235602">
+			<spot x="1057.3843" y="502.2897" z="287.09537" h="60"/>
+		</spawn>
+		<!-- Danuar Sanctuary Worker -->
+		<spawn npc_id="235614">
+			<spot x="1020.8884" y="390.54889" z="299.56732" h="53"/>
+			<spot x="1021.0842" y="393.07312" z="297.8753" h="46"/>
+			<spot x="1045.6366" y="394.2923" z="299.78116" h="26"/>
+			<spot x="1046.1383" y="392.63669" z="299.95227" h="20"/>
+		</spawn>
+		<!-- Degenerated Klaw Worker -->
+		<spawn npc_id="235613">
+			<spot x="1029.1171" y="456.86035" z="297.27585" h="60"/>
+			<spot x="1031.077" y="456.06161" z="297.19656" h="60"/>
+			<spot x="1031.1602" y="458.59421" z="297.21878" h="60"/>
+			<spot x="1072.2029" y="460.77444" z="285.43985" h="60"/>
+			<spot x="1074.1628" y="459.9757" z="285.4658" h="60"/>
+			<spot x="1074.246" y="462.5083" z="285.43155" h="60"/>
+			<spot x="1097.2369" y="460.68918" z="285.45352" h="60"/>
+			<spot x="1095.1938" y="458.95532" z="285.39655" h="60"/>
+			<spot x="1097.1538" y="458.1566" z="285.46835" h="60"/>
+		</spawn>
+		<!-- Sanctioner Angolem -->
+		<spawn npc_id="235616">
+			<spot x="977.27991" y="1314.6737" z="337.03168" h="46"/>
+			<spot x="1097.3243" y="423.23471" z="285.37436" h="30"/>
+			<spot x="825.1566" y="958.9936" z="304.96292" h="18"/>
+		</spawn>
+		<!-- Under_02_Boss Control Transparent NPC -->
+		<spawn npc_id="701874">
+			<spot x="388.09232" y="1169.6959" z="58.292622" h="30"/>
+		</spawn>
+		<!-- Warmage Suyaroka 
+		<spawn npc_id="235624">
+			<spot x="1056.54" y="685.76" z="282.00943" h="30"/>
+		</spawn> -->
+		<!-- Virulent Ukahim
+		<spawn npc_id="235626">
+			<spot x="1056.54" y="685.76" z="282.00943" h="30"/>
+		</spawn> -->
+		<!-- Chief Medic Tagnu 
+		<spawn npc_id="235625">
+			<spot x="1056.54" y="685.76" z="282.00943" h="30"/>
+		</spawn> -->
+		<!-- Emergency Exit 
+		<spawn npc_id="701876">
+			<spot x="1072.3127" y="683.0832" z="282.0391" h="90"/>
+		</spawn> -->
+		<!-- Cleave Armor
+		<spawn npc_id="282009">
+			<spot x="906.1991" y="859.88177" z="278.64731" static_id="1699"/>
+		</spawn> -->
+		<!-- Alkatron 
+		<spawn npc_id="804862">
+			<spot x="402.00427" y="1169.8123" z="55.257767" h="49"/>
+		</spawn>-->
+		<!-- Dintanum 
+		<spawn npc_id="804863">
+			<spot x="376.5756" y="1170.1969" z="55.257565" h="49"/>
+		</spawn>-->
+		
+	</spawn_map>
+</spawns>

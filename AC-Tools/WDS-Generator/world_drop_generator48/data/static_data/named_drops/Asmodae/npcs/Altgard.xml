@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Silverback Haku (lvl: 17) -->
+	<npc_drop npc_id="210626">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114100416"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Bluewing (lvl: 19) -->
+	<npc_drop npc_id="210616">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110500458"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Depthcharge (lvl: 20) -->
+	<npc_drop npc_id="210625">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="111300401"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Karat Ikid (lvl: 18) -->
+	<npc_drop npc_id="210619">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100900187"/>
+		</drop_group>
+	</npc_drop>
+	
+	<!-- Commander Mohen (lvl: 13) -->
+	<npc_drop npc_id="210431">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100900184"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100500192"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101700204"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101300183"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101500192"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_BELT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123000618"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Stoneskin Stoffu (lvl: 18) -->
+	<npc_drop npc_id="210617">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="115000478"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="121000493"/>
+		</drop_group>
+	</npc_drop>
+	
+	<!-- Numurru Quickfist (lvl: 17) -->
+	<npc_drop npc_id="210603">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114100415"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114300429"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114500446"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114600415"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100000265"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100500193"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000890"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="122000599"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Fourpoints (lvl: 17) -->
+	<npc_drop npc_id="210605">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111100399"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111300400"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111500439"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111600427"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100200286"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101500193"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000890"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="122000599"/>
+		</drop_group>
+	</npc_drop>
+	<!-- The Peltclaimer (lvl: 18) -->
+	<npc_drop npc_id="210606">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110100468"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110300430"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110500457"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110600454"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="120000554"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000890"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="122000599"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Scowl (lvl: 18) -->
+	<npc_drop npc_id="210630">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113100399"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113300415"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113500438"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113600422"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100900185"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100100179"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000890"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="122000599"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Jahama the Ruthless (lvl: 18) -->
+	<npc_drop npc_id="210607">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112100365"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112300365"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112500404"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112600409"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101700205"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101300184"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100600208"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000890"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="122000599"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Chieftain Kumbaron (lvl: 20) -->
+	<npc_drop npc_id="210548">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100200287"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100900186"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100500194"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101700206"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101300185"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101500194"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100000266"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100600209"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100100180"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_HEAD">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125001191"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125001192"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125001193"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125001194"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000890"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="122000599"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_HEAD">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125001886"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

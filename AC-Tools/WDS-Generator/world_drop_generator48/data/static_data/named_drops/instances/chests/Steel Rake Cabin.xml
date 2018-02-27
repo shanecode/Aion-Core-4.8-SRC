@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+	<!-- Treasure Box -->
+    <npc_drop npc_id="215489">
+        <drop_group name="NAMED_TREASURE_KINAH">
+			<!-- Kinah -->
+            <drop chance="100.0" min_amount="100000" max_amount="300000" item_id="182400001"/>		
+        </drop_group>
+        <drop_group name="NAMED_UNIQUE_ACCESSORY">	
+			<!-- Steel Beard Pirate's Sapphire Earrings -->
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="120000911"/>
+			<!-- Steel Beard Pirate's Diamond Earrings -->
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="120000910"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Key Box -->
+    <npc_drop npc_id="700553">
+        <drop_group name="NAMED_TREASURE_KEY">
+			<!-- Steel Rake Treasure Chest Key -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000076" no_reduce="true"/>		
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="700554">
+        <drop_group name="NAMED_TREASURE_KINAH">
+			<!-- Kinah -->
+            <drop chance="100.0" min_amount="100000" max_amount="300000" item_id="182400001"/>
+        </drop_group>
+        <drop_group name="NAMED_UNIQUE_BOX">
+			<!-- Lahulahu's Fabled Jacket Chest -->
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="188051415"/>
+			<!-- Koakoa's Fabled Pants Chest -->
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="188051413"/>				
+        </drop_group>
+    </npc_drop>
+</npc_drops>

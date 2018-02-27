@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Empress Muada -->
+	<npc_drop npc_id="218782">
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!-- Muada's Corundum Necklace -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="121001211"/>
+			<!-- Muada's Turquoise Necklace -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="121001212"/>
+			<!-- Muada's Corundum Necklace -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="121001181"/>
+			<!-- Muada's Turquoise Necklace -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="121001182"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Muada Shield -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115001343"/>
+			<!-- Muada Scale Shield -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115001344"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<!-- Muada's Hairpin -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="125002988"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

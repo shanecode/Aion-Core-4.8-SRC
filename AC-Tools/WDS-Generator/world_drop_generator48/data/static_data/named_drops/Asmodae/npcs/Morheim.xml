@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<!-- Created by Sereine and Ydril -->
+<npc_drops>
+	<!-- Head Hamok (lvl: 22) -->
+  <npc_drop npc_id="212641">
+    <drop_group name="NAMED_SUPERIOR_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100100181"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100900188"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101500195"/>
+    </drop_group>
+	<drop_group name="NAMED_SUPERIOR_BELT">
+      <drop chance="20.0" min_amount="1" max_amount="1" item_id="123000573"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Captain Subaku (lvl: 25) -->
+  <npc_drop npc_id="212643">
+    <drop_group name="NAMED_SUPERIOR_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100500195"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101700207"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101300186"/>
+    </drop_group>
+	<drop_group name="NAMED_SUPERIOR_ARMOR">
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="111600428"/>
+	  <drop chance="50.0" min_amount="1" max_amount="1" item_id="111100400"/>
+	  <drop chance="50.0" min_amount="1" max_amount="1" item_id="111500440"/>
+	  <drop chance="50.0" min_amount="1" max_amount="1" item_id="111300402"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Weeping Bigalia (lvl: 27) -->
+  <npc_drop npc_id="212645">
+    <drop_group name="NAMED_SUPERIOR_SHIELD">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="115000435"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Queen Sper (lvl: 27) -->
+  <npc_drop npc_id="212646">
+    <drop_group name="NAMED_SUPERIOR_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100200290"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100100184"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100600212"/>
+    </drop_group>
+  </npc_drop>
+  <!-- King Klawtun (lvl: 27) -->
+  <npc_drop npc_id="212819">
+    <drop_group name="NAMED_SUPERIOR_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100200289"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100100183"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100500197"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101300188"/>
+    </drop_group>
+  </npc_drop>
+  <!-- King Zugog (lvl: 27) -->
+  <npc_drop npc_id="212644">
+    <drop_group name="NAMED_RARE_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100200291"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100000270"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100100185"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100600213"/>
+    </drop_group>
+	<drop_group name="NAMED_RARE_SHIELD">
+      <drop chance="20.0" min_amount="1" max_amount="1" item_id="115000436"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Black Tears Sequoel (lvl: 27) -->
+  <npc_drop npc_id="212647">
+    <drop_group name="NAMDE_RARE_ARMOR">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="113600427"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Gigantic Sulfur Slime (lvl: 27) -->
+  <npc_drop npc_id="212660">
+    <drop_group name="NAMED_SUPERIOR_BELT">
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="123000574"/>
+    </drop_group>
+	<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="121000455"/>
+    </drop_group>
+	<drop_group name="NAMED_SUPERIOR_CRAFT">
+      <drop chance="100.0" min_amount="1" max_amount="1" item_id="152012510"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Weary Fidelio (lvl: 27) -->
+  <npc_drop npc_id="212650">
+    <drop_group name="NAMED_SUPERIOR_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100000269"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100900191"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101300189"/>
+    </drop_group>
+	<drop_group name="NAMED_SUPERIOR_ARMOR">
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="114300431"/>
+    </drop_group>
+	<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+      <drop chance="20.0" min_amount="1" max_amount="1" item_id="122000555"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Nanny Nuk (lvl: 28) -->
+  <npc_drop npc_id="212822">
+    <drop_group name="NAMED_SUPERIOR_SHIELD">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="115000485"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Queen Taran (lvl: 28) -->
+  <npc_drop npc_id="212821">
+    <drop_group name="NAMED_SUPERIOR_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100000268"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100900190"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101700209"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101500197"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100600211"/>
+    </drop_group>
+	<drop_group name="NAMED_RARE_ACCESSORY">
+      <drop chance="20.0" min_amount="1" max_amount="1" item_id="121000454"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Third Baby of Octanu (lvl: 28) -->
+  <npc_drop npc_id="212658">
+    <drop_group name="NAMED_RARE_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100200294"/>
+    </drop_group>
+  </npc_drop>
+  <!-- Soul Ripping Hazan (lvl: 31) -->
+  <npc_drop npc_id="212829">
+    <drop_group name="NAMED_RARE_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100200296"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100100189"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100900194"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100600217"/>
+    </drop_group>
+	<drop_group name="NAMED_RARE_ARMOR">
+      <drop chance="50.0" min_amount="1" max_amount="1" item_id="113300420"/>
+	  <drop chance="50.0" min_amount="1" max_amount="1" item_id="113500443"/>
+	  <drop chance="50.0" min_amount="1" max_amount="1" item_id="113600428"/>
+	  <drop chance="50.0" min_amount="1" max_amount="1" item_id="113100404"/>
+    </drop_group>
+  </npc_drop>
+  <!-- King Consierd (lvl: 38) -->
+  <npc_drop npc_id="212648">
+    <drop_group name="NAMED_RARE_WEAPON">
+      <drop chance="33.0" min_amount="1" max_amount="1" item_id="100200300"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100000277"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100100194"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100900199"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100500206"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101700218"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101300196"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="101500207"/>
+	  <drop chance="33.0" min_amount="1" max_amount="1" item_id="100600221"/>
+    </drop_group>
+	<drop_group name="NAMED_UNIQUE_BELT">
+      <drop chance="10.0" min_amount="1" max_amount="1" item_id="123000581"/>
+    </drop_group>
+	<drop_group name="NAMED_RARE_POTION">
+      <drop chance="25.0" min_amount="1" max_amount="1" item_id="152012532"/>
+    </drop_group>
+  </npc_drop>
+</npc_drops>
+
+
+
+
+

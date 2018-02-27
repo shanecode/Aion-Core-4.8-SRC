@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Flamehide Daru -->
+	<npc_drop npc_id="217683">
+		<drop_group name="[Event] Flamehide Daru Fur">
+			<drop chance="100" min_amount="40" max_amount="10" item_id="182215064"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Icehide Daru -->
+	<npc_drop npc_id="217688">
+		<drop_group name="[Event] Icehide Daru Fur">
+			<drop chance="100" min_amount="40" max_amount="10" item_id="182215065"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

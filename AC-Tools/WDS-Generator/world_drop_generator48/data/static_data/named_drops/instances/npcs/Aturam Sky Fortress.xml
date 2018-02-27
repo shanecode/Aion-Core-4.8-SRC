@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Popuchin -->
+	<npc_drop npc_id="217373">
+		<drop_group name="NAMED_LEGEND_ARMOR_BOX">
+			<!-- Popuchin's Shoebox -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="188051569"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD_BOX">
+			<!-- Popuchin's Hairpin Box -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="188051570"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY_BOX">
+		<!-- Popuchin's Hairpin Box -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="188051572"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Aldreen -->
+	<npc_drop npc_id="219185">
+		<drop_group name="NAMED_RARE_COSTUME">
+			<!-- Shulack Work Clothes -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="110900259"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Weapon H -->
+	<npc_drop npc_id="217371">
+		<drop_group name="NAMED_LEGEND_ARMOR_BOX">
+			<!-- Hugen's Pants Box -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="188051566"/>
+			<!-- Hugen's Pauldron Box -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="188051567"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_BELT_BOX">
+			<!-- Hugen's Belt Box -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="188051573"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Ashunatal Shadowslip -->
+	<npc_drop npc_id="217376">
+		<drop_group name="NAMED_LEGEND_ARMOR_BOX">
+			<!-- Ishunatal's Glove Box -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="188051568"/>
+			<!-- Ishunatal's Jacket Box -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="188051565"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Ishunatal's Earrings Box -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="188051571"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

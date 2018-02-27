@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Canyonguard's Coffer -->
+	<npc_drop npc_id="700999">
+		<drop_group name="NAMED_EPIC_ARMOR">
+			<!-- Primal Spirit Pauldrons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112101198"/>
+			<!-- Primal Spirit Shoulderplates -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112601186"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Primal Spirit Assassin Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100001261"/>
+			<!-- Primal Spirit Jewel -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500981"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_BELT">
+			<!-- Cursed Forest Leather Belt -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001213"/>
+			<!-- Cursed Forest Sash -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001214"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Cursed Forest Corundum Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001239"/>
+			<!-- Cursed Forest Turquoise Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001240"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Fallen Spirit Sabatons -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114601189"/>
+			<!-- Fallen Spirit Brogans -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114501247"/>
+			<!-- Fallen Spirit Boots -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114301289"/>
+			<!-- Fallen Spirit Shoes -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114101283"/>
+			<!-- Fallen Spirit Shoulderplates -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112601183"/>
+			<!-- Fallen Spirit Spaulders -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112501171"/>
+			<!-- Fallen Spirit Shoulderguards -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112301178"/>
+			<!-- Fallen Spirit Pauldrons -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112101195"/>
+			<!-- Fallen Spirit Gauntlets -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111601205"/>
+			<!-- Fallen Spirit Handguards -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111501226"/>
+			<!-- Fallen Spirit Vambrace -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111301232"/>
+			<!-- Fallen Spirit Gloves -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111101237"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Jurdin The Cursed -->
+	<npc_drop npc_id="217238">
+		<drop_group name="NAMED_EPIC_ARMOR">
+			<!-- Primal Spirit Vambrace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111301235"/>
+			<!-- Primal Spirit Handguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111501229"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Primal Spirit Dagger -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100201119"/>
+			<!-- Primal Spirit Mace -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100100962"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_BELT">
+			<!-- Cursed Forest Leather Belt -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001213"/>
+			<!-- Cursed Forest Sash -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001214"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Cursed Forest Corundum Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001239"/>
+			<!-- Cursed Forest Turquoise Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001240"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Fallen Spirit Sabatons -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114601189"/>
+			<!-- Fallen Spirit Brogans -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114501247"/>
+			<!-- Fallen Spirit Boots -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114301289"/>
+			<!-- Fallen Spirit Shoes -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114101283"/>
+			<!-- Fallen Spirit Shoulderplates -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112601183"/>
+			<!-- Fallen Spirit Spaulders -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112501171"/>
+			<!-- Fallen Spirit Shoulderguards -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112301178"/>
+			<!-- Fallen Spirit Pauldrons -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112101195"/>
+			<!-- Fallen Spirit Gauntlets -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111601205"/>
+			<!-- Fallen Spirit Handguards -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111501226"/>
+			<!-- Fallen Spirit Vambrace -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111301232"/>
+			<!-- Fallen Spirit Gloves -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111101237"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Head Kutol -->
+	<npc_drop npc_id="217277">
+		<drop_group name="NAMED_EPIC_HEAD">
+			<!-- Primal Spirit Bandana -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="125002904"/>
+			<!-- Primal Spirit Hat -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="125002905"/>
+			<!-- Primal Spirit Chain Hood -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="125002906"/>
+			<!-- Primal Spirit Helm -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="125002907"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Primal Spirit Greatsword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100900964"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Primal Spirit Shield -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="115001308"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Fallen Spirit Greaves -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113601196"/>
+			<!-- Fallen Spirit Chausses -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113501243"/>
+			<!-- Fallen Spirit Breeches -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113301258"/>
+			<!-- Fallen Spirit Leggings -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113101256"/>
+			<!-- Fallen Spirit Breastplate -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110601236"/>
+			<!-- Fallen Spirit Hauberk -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110501267"/>
+			<!-- Fallen Spirit Jerkin -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110301289"/>
+			<!-- Fallen Spirit Tunic -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110101362"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Tuali -->
+	<npc_drop npc_id="217234">
+		<drop_group name="NAMED_EPIC_ARMOR">
+			<!-- Primal Spirit Leggings -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113101259"/>
+			<!-- Primal Spirit Breeches -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113301261"/>
+			<!-- Primal Spirit Chausses -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113501246"/>
+			<!-- Primal Spirit Greaves -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113601199"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Primal Spirit Orb -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500982"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Primal Spirit Protection Shield -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="115001307"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Fallen Spirit Greaves -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113601196"/>
+			<!-- Fallen Spirit Chausses -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113501243"/>
+			<!-- Fallen Spirit Breeches -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113301258"/>
+			<!-- Fallen Spirit Leggings -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113101256"/>
+			<!-- Fallen Spirit Breastplate -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110601236"/>
+			<!-- Fallen Spirit Hauberk -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110501267"/>
+			<!-- Fallen Spirit Jerkin -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110301289"/>
+			<!-- Fallen Spirit Tunic -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110101362"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Terma's Coffer -->
+	<npc_drop npc_id="701009">
+		<drop_group name="NAMED_EPIC_ARMOR">
+			<!-- Primal Spirit Boots -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114301292"/>
+			<!-- Primal Spirit Brogans -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114501250"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Primal Spirit Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100001258"/>
+			<!-- Primal Spirit Staff -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101500989"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_BELT">
+			<!-- Cursed Forest Leather Belt -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001213"/>
+			<!-- Cursed Forest Sash -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001214"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Cursed Forest Corundum Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001239"/>
+			<!-- Cursed Forest Turquoise Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001240"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Fallen Spirit Sabatons -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114601189"/>
+			<!-- Fallen Spirit Brogans -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114501247"/>
+			<!-- Fallen Spirit Boots -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114301289"/>
+			<!-- Fallen Spirit Shoes -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114101283"/>
+			<!-- Fallen Spirit Shoulderplates -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112601183"/>
+			<!-- Fallen Spirit Spaulders -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112501171"/>
+			<!-- Fallen Spirit Shoulderguards -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112301178"/>
+			<!-- Fallen Spirit Pauldrons -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112101195"/>
+			<!-- Fallen Spirit Gauntlets -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111601205"/>
+			<!-- Fallen Spirit Handguards -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111501226"/>
+			<!-- Fallen Spirit Vambrace -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111301232"/>
+			<!-- Fallen Spirit Gloves -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111101237"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

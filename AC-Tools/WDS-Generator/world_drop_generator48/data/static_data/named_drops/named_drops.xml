@@ -1,0 +1,1266 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!--skully crimsonshell (lvl: 54)-->
+	<npc_drop npc_id="216561">
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Skully's Turquoise Ring (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001189"/>
+			<!--Skully's Corundum Ring (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001188"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Skully's Leggings (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113100993"/>
+			<!--Skully's Greaves (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113600947"/>
+			<!--Skully's Chausses (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113500976"/>
+			<!--Skully's Breeches (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113301006"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Skully's Turquoise Necklace (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000958"/>
+			<!--Skully's Corundum Necklace (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000957"/>
+		</drop_group>
+	</npc_drop>
+	<!--the administrator (lvl: 54)-->
+	<npc_drop npc_id="216564">
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Administrator's Corundum Ring (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="122001184"/>
+			<!--Administrator's Turquoise Ring (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="122001185"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Administrator's Hat (lvl: 53)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="125002319"/>
+			<!--Administrator's Leather Belt (lvl: 53)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123001050"/>
+			<!--Administrator's Sash (lvl: 53)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123001051"/>
+		</drop_group>
+	</npc_drop>
+	<!--turatu spawnfoot (lvl: 55)-->
+	<npc_drop npc_id="216570">
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<!--Turatu's Shield (lvl: 54)-->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="115000985"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Turatu Fragment (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012548"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Turatu's Vambrace (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206900"/>
+			<!--Design: Turatu's Shield (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206815"/>
+			<!--Design: Turatu's Breastplate (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206814"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Turatu's Tunic (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110101089"/>
+			<!--Turatu's Jerkin (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110301038"/>
+			<!--Turatu's Hauberk (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110501006"/>
+			<!--Turatu's Breastplate (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110600986"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Turatu's Hat (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002320"/>
+		</drop_group>
+	</npc_drop>
+	<!--highpriest heka (lvl: 55)-->
+	<npc_drop npc_id="216569">
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Heka's Hauberk (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110501004"/>
+			<!--Heka's Tunic (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110101087"/>
+			<!--Heka's Jerkin (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110301036"/>
+			<!--Heka's Breastplate (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110600984"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCECCORY">
+			<!--Heka's Corundum Necklace (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="121000959"/>
+			<!--Heka's Turquoise Necklace (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="121000960"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Heka's Breeches (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113301007"/>
+			<!--Heka's Leggings (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113100994"/>
+			<!--Heka's Chausses (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113500977"/>
+			<!--Heka's Greaves (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113600948"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_WEAPON">
+			<!--Heka's Warhammer (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="100100688"/>
+			<!--Heka's Greatsword (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="100900695"/>
+			<!--Heka's Dagger (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="100200818"/>
+			<!--Heka's Jewel (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="100500709"/>
+			<!--Heka's Longbow (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="101700733"/>
+			<!--Heka's Spear (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="101300665"/>
+			<!--Heka's Staff (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="101500709"/>
+			<!--Heka's Sword (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="100000918"/>
+			<!--Heka's Tome (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="100600766"/>
+		</drop_group>
+	</npc_drop>
+	<!--saira sharpeyes (lvl: 54)-->
+	<npc_drop npc_id="216568">
+		<drop_group name="NAMED_RARE_SHIELD">
+			<!--Saira's Drenium Shield (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="115000982"/>
+			<!--Saira's Drenium Shield (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="115000981"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCECCORY">
+			<!--Saira's Bandana (lvl: 53)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="125002315"/>
+			<!--Saira's Chain Hood (lvl: 53)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="125002317"/>
+			<!--Saira's Hat (lvl: 53)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="125002316"/>
+			<!--Saira's Helm (lvl: 53)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="125002318"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Orb of Saira Sharpeyes (lvl: 52)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="152207152"/>
+			<!--Design: Polearm of Saira Sharpeyes (lvl: 52)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="152206712"/>
+			<!--Design: Spellbook of Saira Sharpeyes (lvl: 52)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="152207151"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Core of Saira Sharpeyes (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012552"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!--Saira's Warhammer (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100100689"/>
+			<!--Saira's Tome (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100600767"/>
+			<!--Saira's Dagger (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100200819"/>
+			<!--Saira's Greatsword (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100900696"/>
+			<!--Saira's Jewel (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100500710"/>
+			<!--Saira's Longbow (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101700734"/>
+			<!--Saira's Spear (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101300666"/>
+			<!--Saira's Staff (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101500710"/>
+			<!--Saira's Sword (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100000919"/>
+		</drop_group>
+	</npc_drop>
+	<!--elder malekor (lvl: 55)-->
+	<npc_drop npc_id="216575">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Malekor's Gloves (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="111100984"/>
+			<!--Malekor's Handguards (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="111500976"/>
+			<!--Malekor's Vambrace (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="111300989"/>
+			<!--Malekor's Gauntlets (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="111600967"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Malekor's Turquoise Earrings (lvl: 54)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="120001050"/>
+			<!--Malekor's Corundum Earrings (lvl: 54)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="120001049"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Malekor's Spaulders (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112500924"/>
+			<!--Malekor's Shoulderplates (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112600939"/>
+			<!--Malekor's Shoulderguards (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112300937"/>
+			<!--Malekor's Pauldrons (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112100939"/>
+		</drop_group>
+	</npc_drop>
+	<!--hashak the plough (lvl: 55)-->
+	<npc_drop npc_id="216574">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Hashak's Boots (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114301044"/>
+			<!--Hashak's Gloves (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="111100983"/>
+			<!--Hashak's Brogans (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114500987"/>
+			<!--Hashak's Gauntlets (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="111600966"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Hashak's Spaulders (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="112500925"/>
+			<!--Hashak's Shoulderguards (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="112300938"/>
+		</drop_group>
+	</npc_drop>
+	<!--pincers prime (lvl: 55)-->
+	<npc_drop npc_id="216572">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Pincers's Shoulderplates (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="112600940"/>
+			<!--Pincers's Pauldrons (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="112100940"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Pincers's Handguards (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="111500975"/>
+			<!--Pincers's Shoes (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114101024"/>
+			<!--Pincers's Sabatons (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114600946"/>
+			<!--Pincers's Vambrace (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="111300988"/>
+		</drop_group>
+	</npc_drop>
+	<!--flesh-eating swarm (lvl: 52)-->
+	<npc_drop npc_id="216546">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Flesheating Swarm's Shoes (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="114101020"/>
+			<!--Flesheating Swarm's Sabatons (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="114600943"/>
+			<!--Flesheating Swarm's Brogans (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="114500984"/>
+			<!--Flesheating Swarm's Boots (lvl: 51)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="114301041"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Flesheating Swarm's Earrings (lvl: 51)-->
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="120001043"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Flesheating Swarm's Leather Belt (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001046"/>
+			<!--Flesheating Swarm's Cloth Waist (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001047"/>
+		</drop_group>
+	</npc_drop>
+	<!--alpha kuruku (lvl: 1)-->
+	<npc_drop npc_id="216547">
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Kuruku's Earrings (lvl: 51)-->
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="120001044"/>
+			<!--Kuruku's Leather Belt (lvl: 51)-->
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="123001044"/>
+			<!--Kuruku's Sash (lvl: 51)-->
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="123001045"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Kuruku's Hat (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002309"/>
+		</drop_group>
+	</npc_drop>
+	<!--camu the forestkeeper (lvl: 52)-->
+	<npc_drop npc_id="216550">
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!--Camu's Shield (lvl: 51)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115000979"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Camu's Handguards (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111500972"/>
+			<!--Camu's Vambrace (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111300985"/>
+			<!--Camu's Gloves (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111100980"/>
+			<!--Camu's Gauntlets (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111600963"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Camu's Ring (lvl: 51)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="122001182"/>
+		</drop_group>
+	</npc_drop>
+	<!--deathwing (lvl: 53)-->
+	<npc_drop npc_id="216551">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Deathwing's Leggings (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113100991"/>
+			<!--Deathwing's Greaves (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113600945"/>
+			<!--Deathwing's Chausses (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113500974"/>
+			<!--Deathwing's Breeches (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113301004"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!--Deathwing's Dagger (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100200817"/>
+			<!--Deathwing's Greatsword (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100900694"/>
+			<!--Deathwing's Jewel (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100500708"/>
+			<!--Deathwing's Longbow (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101700732"/>
+			<!--Deathwing's Spear (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101300664"/>
+			<!--Deathwing's Staff (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101500708"/>
+			<!--Deathwing's Sword (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100000917"/>
+			<!--Deathwing's Tome (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100600765"/>
+			<!--Deathwing's Warhammer (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100100687"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Deathwing's Turquoise Necklace (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000956"/>
+			<!--Deathwing's Corundum Necklace (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000955"/>
+		</drop_group>
+	</npc_drop>
+	<!--alpha mansat (lvl: 52)-->
+	<npc_drop npc_id="216548">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Mansat's Pauldrons (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112100936"/>
+			<!--Mansat's Shoulderplates (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112600936"/>
+			<!--Mansat's Shoulderguards (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112300934"/>
+			<!--Mansat's Spaulders (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112500921"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!--Mansat's Shield (lvl: 51)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115000978"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Mansat's Ring (lvl: 51)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="122001183"/>
+		</drop_group>
+	</npc_drop>
+	<!--windchaser (lvl: 52)-->
+	<npc_drop npc_id="216554">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Windchaser's Corundum Ring (lvl: 53)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="122001186"/>
+			<!--Windchaser's Turquoise Ring (lvl: 53)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="122001187"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Windchaser's Boots (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114301043"/>
+			<!--Windchaser's Brogans (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114500986"/>
+			<!--Windchaser's Sabatons (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114600945"/>
+			<!--Windchaser's Shoes (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114101023"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Windchaser's Hairpin (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002314"/>
+		</drop_group>
+	</npc_drop>
+	<!--chieftain ulagu (lvl: 53)-->
+	<npc_drop npc_id="216553">
+		<drop_group name="">
+			<!--Crystal containing Chieftain Ulagu's soul (lvl: 52)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="152012549"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Chieftain Ulagu's Sword (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206710"/>
+			<!--Design: Chieftain Ulagu's Mace (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206711"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!--Ulagu's Shield (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="115000980"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Ulagu's Turquoise Earrings (lvl: 51)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="120001046"/>
+			<!--Ulagu's Corundum Earrings (lvl: 51)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="120001045"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Ulagu's Tunic (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110101085"/>
+			<!--Ulagu's Hauberk (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110501002"/>
+			<!--Ulagu's Jerkin (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110301034"/>
+			<!--Ulagu's Breastplate (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110600982"/>
+		</drop_group>
+	</npc_drop>
+	<!--captain naiyak (lvl: 54)-->
+	<npc_drop npc_id="216558">
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Naiyak's Bandana (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002310"/>
+			<!--Naiyak's Chain Hood (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002312"/>
+			<!--Naiyak's Hat (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002311"/>
+			<!--Naiyak's Helm (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002313"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!--Naiyak's Malevite Shield (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="115000984"/>
+			<!--Naiyak's Drenium Shield (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="115000983"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Naiyak's Vambrace (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111300987"/>
+			<!--Naiyak's Handguards (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111500974"/>
+			<!--Naiyak's Gloves (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111100982"/>
+			<!--Naiyak's Gauntlets (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111600965"/>
+		</drop_group>
+	</npc_drop>
+	<!--little lost may (lvl: 53)-->
+	<npc_drop npc_id="216556">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--May's Shoes (lvl: 52)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114101022"/>
+		</drop_group>
+	</npc_drop>
+	<!--orciphae (lvl: 53)-->
+	<npc_drop npc_id="216557">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Orciphae's Corundum Earrings (lvl: 53)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="120001047"/>
+			<!--Orciphae's Turquoise Earrings (lvl: 53)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="120001048"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Orciphae's Pauldrons (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112100938"/>
+			<!--Orciphae's Shoulderguards (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112300936"/>
+			<!--Orciphae's Shoulderplates (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112600938"/>
+			<!--Orciphae's Spaulders (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112500923"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Orciphae's Sash (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001049"/>
+			<!--Orciphae's Leather Belt (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001048"/>
+		</drop_group>
+	</npc_drop>
+	<!--priest zitan (lvl: 54)-->
+	<npc_drop npc_id="216512">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Zitan's Shoes (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114101015"/>
+			<!--Zitan's Sabatons (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114600938"/>
+			<!--Zitan's Boots (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114301036"/>
+			<!--Zitan's Brogans (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114500979"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Zitan's Corundum Earrings (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="120001035"/>
+			<!--Zitan's Turquoise Earrings (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="120001036"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Zitan's Bandana (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002294"/>
+			<!--Zitan's Chain Hood (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002296"/>
+			<!--Zitan's Hat (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002295"/>
+			<!--Zitan's Helm (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002297"/>
+		</drop_group>
+	</npc_drop>
+	<!--tiritaphon (lvl: 54)-->
+	<npc_drop npc_id="216513">
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!--Tiritaphon's Drenium Shield (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115000975"/>
+			<!--Tiritaphon's Malevite Shield (lvl: 53)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115000976"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Tiritaphon's Sash (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001039"/>
+			<!--Tiritaphon's Leather Belt (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001038"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Tiritaphon's Hairpin (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002298"/>
+		</drop_group>
+	</npc_drop>
+	<!--queen klawnickt (lvl: 55)-->
+	<npc_drop npc_id="216514">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!--Klawnickt's Jewel (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100500705"/>
+			<!--Klawnickt's Longbow (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101700729"/>
+			<!--Klawnickt's Spear (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101300661"/>
+			<!--Klawnickt's Staff (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101500705"/>
+			<!--Klawnickt's Sword (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100000914"/>
+			<!--Klawnickt's Warhammer (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100100683"/>
+			<!--Klawnickt's Tome (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100600762"/>
+			<!--Klawnickt's Greatsword (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100900691"/>
+			<!--Klawnickt Dagger (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100200814"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Klawnickt's Turquoise Earrings (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="120001034"/>
+			<!--Klawnickt's Corundum Earrings (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="120001033"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Klawnickt's Corundum Necklace (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="121000945"/>
+			<!--Klawnickt's Turquoise Necklace (lvl: 53)-->
+			<drop chance="70.0" min_amount="1" max_amount="1" item_id="121000946"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Klawnickt's Breastplate (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201812"/>
+			<!--Design: Klawnickt's Shield (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201813"/>
+			<!--Design: Klawnickt's Vambrace (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201898"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Klawnickt Fragment (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012046"/>
+		</drop_group>
+	</npc_drop>
+	<!--mervin (lvl: 54)-->
+	<npc_drop npc_id="216515">
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Mervin's Breastplate (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110600977"/>
+			<!--Mervin's Jerkin (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110301029"/>
+			<!--Mervin's Tunic (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110101080"/>
+			<!--Mervin's Hauberk (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110500997"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Mervin's Belt (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001037"/>
+			<!--Mervin's Necklace (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000943"/>
+		</drop_group>
+	</npc_drop>
+	<!--omega (lvl: 55)-->
+	<npc_drop npc_id="216516">
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!--Omega's Corundum Necklace (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="121000953"/>
+			<!--Omega's Chain Hood (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002307"/>
+			<!--Omega's Bandana (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002305"/>
+			<!--Omega's Hat (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002306"/>
+			<!--Omega's Turquoise Necklace (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="121000954"/>
+			<!--Omega's Helm (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002308"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Omega's Turquoise Earrings (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="120001042"/>
+			<!--Omega's Leather Belt (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001042"/>
+			<!--Omega's Corundum Earrings (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="120001041"/>
+			<!--Omega's Sash (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001043"/>
+		</drop_group>
+	</npc_drop>
+	<!--kyang redmane (lvl: 55)-->
+	<npc_drop npc_id="216517">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Kyang's Vambrace (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111300981"/>
+			<!--Kyang's Brogans (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="114500980"/>
+			<!--Kyang's Handguards (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111500968"/>
+			<!--Kyang's Gloves (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111100976"/>
+			<!--Kyang's Gauntlets (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111600959"/>
+			<!--Kyang's Boots (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="114301037"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Kyang's Pauldrons (lvl: 54)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="112100933"/>
+			<!--Kyang's Shoulderplates (lvl: 54)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="112600933"/>
+		</drop_group>
+	</npc_drop>
+	<!--latzio stoneheart (lvl: 55)-->
+	<npc_drop npc_id="216518">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Latzio's Corundum Earrings (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="120001037"/>
+			<!--Latzio's Turquoise Earrings (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="120001038"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Latzio's Hauberk (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110500998"/>
+			<!--Latzio's Jerkin (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110301030"/>
+			<!--Latzio's Tunic (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110101081"/>
+			<!--Latzio's Breastplate (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110600978"/>
+			<!--Latzio's Vambrace (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111300982"/>
+			<!--Latzio's Handguards (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111500969"/>
+			<!--Latzio's Gloves (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111100977"/>
+			<!--Latzio's Gauntlets (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111600960"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Latzio's Blood (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012048"/>
+			<!--Design: Latzio's Staff (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152202093"/>
+			<!--Design: Latzio's Bow (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152202094"/>
+		</drop_group>
+	</npc_drop>
+	<!--captain voltayre (lvl: 55)-->
+	<npc_drop npc_id="216519">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Voltayre's Hairpin (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002304"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Voltayre's Turquoise Necklace (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="121000950"/>
+			<!--Voltayre's Corundum Necklace (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="121000949"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Violoton's Handguards (lvl: 52)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="111500966"/>
+			<!--Voltayre Greaves (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113600942"/>
+			<!--Voltayre Chausses (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113500971"/>
+			<!--Voltayre Breeches (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113301001"/>
+		</drop_group>
+	</npc_drop>
+	<!--baydeeafa (lvl: 55)-->
+	<npc_drop npc_id="216521">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Baydeeafa's Shoes (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114101016"/>
+			<!--Wormwood Pauldrons (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112100932"/>
+			<!--Wormwood Shoulderguards (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112300930"/>
+			<!--Wormwood Shoulderplates (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112600932"/>
+			<!--Wormwood Spaulders (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="112500917"/>
+			<!--Baydeeafa's Sabatons (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114600939"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Baydeeafa's Shoulderguards (lvl: 54)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="112300931"/>
+			<!--Baydeeafa's Spaulders (lvl: 54)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="112500918"/>
+		</drop_group>
+	</npc_drop>
+	<!--sukana the learned (lvl: 55)-->
+	<npc_drop npc_id="216522">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Sukana's Sabatons (lvl: 54)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114600940"/>
+			<!--Sukana's Boots (lvl: 54)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114301038"/>
+			<!--Sukana's Shoes (lvl: 54)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114101017"/>
+			<!--Sukana's Brogans (lvl: 54)-->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114500981"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Sukana's Turquoise Ring (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="122001179"/>
+			<!--Sukana's Corundum Ring (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="122001178"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Sukana's Leggings (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="113100987"/>
+			<!--Sukana's Greaves (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="113600941"/>
+			<!--Sukana's Chausses (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="113500970"/>
+			<!--Sukana's Breeches (lvl: 54)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="113301000"/>
+		</drop_group>
+	</npc_drop>
+	<!--head priest nashuma (lvl: 55)-->
+	<npc_drop npc_id="216523">
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Head Priest Nashuma's Chausses (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201811"/>
+			<!--Design: Head Priest Nashuma's Pauldrons (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201969"/>
+			<!--Design: Head Priest Nashuma's Brogans (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201810"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Grudge Stone of Head Priest Nashuma (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012049"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Nashuma's Corundum Necklace (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000947"/>
+			<!--Nashuma's Turquoise Necklace (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000948"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<!--Nashuma's Shield (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="115000977"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Nashuma's Tunic (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110101082"/>
+			<!--Nashuma's Jerkin (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110301031"/>
+			<!--Nashuma's Hauberk (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110500999"/>
+			<!--Nashuma's Breastplate (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110600979"/>
+		</drop_group>
+	</npc_drop>
+	<!--geffen (lvl: 55)-->
+	<npc_drop npc_id="216524">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Geffen's Warhammer (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="100100684"/>
+		</drop_group>
+	</npc_drop>
+	<!--glugbeard (lvl: 52)-->
+	<npc_drop npc_id="216503">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!--Glugbeard's Warhammer (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="100100681"/>
+			<!--Glugbeard's Tome (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="100600760"/>
+			<!--Glugbeard's Sword (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="100000912"/>
+			<!--Glugbeard's Staff (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="101500703"/>
+			<!--Glugbeard's Spear (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="101300659"/>
+			<!--Glugbeard's Longbow (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="101700727"/>
+			<!--Glugbeard's Dagger (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="100200812"/>
+			<!--Glugbeard's Greatsword (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="100900689"/>
+			<!--Glugbeard's Jewel (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="100500703"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Glugbeard's Boots (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114301033"/>
+			<!--Glugbeard's Breeches (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113300997"/>
+			<!--Glugbeard's Brogans (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114500976"/>
+			<!--Glugbeard's Chausses (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113500967"/>
+			<!--Glugbeard's Greaves (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113600938"/>
+			<!--Glugbeard's Leggings (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113100984"/>
+			<!--Glugbeard's Sabatons (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114600935"/>
+			<!--Glugbeard's Shoes (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="114101012"/>
+		</drop_group>
+	</npc_drop>
+	<!--titch kippie (lvl: 52)-->
+	<npc_drop npc_id="216502">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Titch's Vambrace (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111300978"/>
+			<!--Titch's Handguards (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111500964"/>
+			<!--Titch's Gauntlets (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111600956"/>
+			<!--Titch's Gloves (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="111100973"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!--Titch's Drenium Shield (lvl: 51)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115000970"/>
+			<!--Titch's Malevite Shield (lvl: 51)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115000971"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Titch's Corundum Earrings (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="120001029"/>
+			<!--Titch's Turquoise Earrings (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="120001030"/>
+		</drop_group>
+	</npc_drop>
+	<!--chief kurnus (lvl: 53)-->
+	<npc_drop npc_id="216501">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Kurnus's Spaulders (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112500914"/>
+			<!--Kurnus's Shoulderplates (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112600929"/>
+			<!--Kurnus's Shoulderguards (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112300927"/>
+			<!--Kurnus's Pauldrons (lvl: 51)-->
+			<drop chance="75.0" min_amount="1" max_amount="1" item_id="112100929"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Kurnus's Turquoise Ring (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="122001169"/>
+			<!--Kurnus's Corundum Ring (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="122001168"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Kurnus's Hairpin (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002293"/>
+		</drop_group>
+	</npc_drop>
+	<!--lord dhuni (lvl: 55)-->
+	<npc_drop npc_id="216579">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Dhuni's Tunic (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110101088"/>
+			<!--Dhuni's Jerkin (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110301037"/>
+			<!--Dhuni's Hauberk (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110501005"/>
+			<!--Dhuni's Breastplate (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110600985"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!--Grudge Stone of Lord Dhuni (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012551"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Lord Dhuni's Pauldrons (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206971"/>
+			<!--Design: Lord Dhuni's Chausses (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206813"/>
+			<!--Design: Lord Dhuni's Brogans (lvl: 54)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152206812"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Dhuni's Turquoise Earrings (lvl: 54)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="120001052"/>
+			<!--Dhuni's Corundum Earrings (lvl: 54)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="120001051"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Dhuni's Leggings (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113100996"/>
+			<!--Dhuni's Greaves (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113600950"/>
+			<!--Dhuni's Chausses (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113500979"/>
+			<!--Dhuni's Breeches (lvl: 54)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113301009"/>
+		</drop_group>
+	</npc_drop>
+	<!--the punisher (lvl: 53)-->
+	<npc_drop npc_id="216511">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Punisher's Bandana (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002299"/>
+			<!--Punisher's Chain Hood (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002301"/>
+			<!--Punisher's Hat (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002300"/>
+			<!--Punisher's Helm (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002302"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Punisher's Belt (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001036"/>
+			<!--Punisher's Necklace (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000944"/>
+		</drop_group>
+	</npc_drop>
+	<!--gravekeeper basaim (lvl: 55)-->
+	<npc_drop npc_id="216578">
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Gravekeeper Basaim's Bow (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152207096"/>
+			<!--Design: Gravekeeper Basaim's Staff (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152207095"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Basaim's Shoes (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="114101025"/>
+			<!--Basaim's Sabatons (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="114600947"/>
+			<!--Basaim's Brogans (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="114500988"/>
+			<!--Basaim's Boots (lvl: 54)-->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="114301045"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCECCORY">
+			<!--Basaim's Turquoise Necklace (lvl: 54)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="121000962"/>
+			<!--Basaim's Corundum Necklace (lvl: 54)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="121000961"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Basaim's Leggings (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113100995"/>
+			<!--Basaim's Greaves (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113600949"/>
+			<!--Basaim's Chausses (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113500978"/>
+			<!--Basaim's Breeches (lvl: 54)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="113301008"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!--Gravekeeper Basaim's Blood (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012550"/>
+		</drop_group>
+	</npc_drop>
+	<!--skar (lvl: 54)-->
+	<npc_drop npc_id="216510">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Skar's Turquoise Ring (lvl: 53)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="122001175"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!--Skar's Corundum Ring (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="122001174"/>
+			<!--Skar's Hairpin (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="125002303"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Skar's Breeches (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113300999"/>
+			<!--Skar's Chausses (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113500969"/>
+			<!--Skar's Greaves (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113600940"/>
+			<!--Skar's Leggings (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113100986"/>
+		</drop_group>
+	</npc_drop>
+	<!--ragnarok (lvl: 55)-->
+	<npc_drop npc_id="216576">
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Ragnarok's Corundum Necklace (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000963"/>
+			<!--Ragnarok's Turquoise Necklace (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="121000964"/>
+			<!--Ragnarok's Leather Belt (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001052"/>
+			<!--Ragnarok's Sash (lvl: 55)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="123001053"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!--Ragnarok's Corundum Earrings (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001105"/>
+			<!--Ragnarok's Turquoise Earrings (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001106"/>
+			<!--Ragnarok's Corundum Ring (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001190"/>
+			<!--Ragnarok's Turquoise Ring (lvl: 55)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001191"/>
+		</drop_group>
+	</npc_drop>
+	<!--skuma silvereye (lvl: 54)-->
+	<npc_drop npc_id="216507">
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Skuma's Mace (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201709"/>
+			<!--Design: Skuma's Sword (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201708"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_WEAPON">
+			<!--Skuma's Tome (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="100600761"/>
+			<!--Skuma's Staff (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="101500704"/>
+			<!--Skuma's Spear (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="101300660"/>
+			<!--Skuma's Sword (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="100000913"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Crystal containing Skuma's soul (lvl: 52)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012047"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Skuma's Spaulders (lvl: 53)-->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112500916"/>
+			<!--Skuma's Shoulderplates (lvl: 53)-->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112600931"/>
+			<!--Skuma's Shoulderguards (lvl: 53)-->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112300929"/>
+			<!--Skuma's Pauldrons (lvl: 53)-->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112100931"/>
+			<!--Skuma's Gloves (lvl: 53)-->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111100975"/>
+			<!--Skuma's Gauntlets (lvl: 53)-->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111600958"/>
+		</drop_group>
+	</npc_drop>
+	<!--minga bigeyes (lvl: 55)-->
+	<npc_drop npc_id="216581">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!--Minga's Staff (lvl: 54)-->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101500711"/>
+		</drop_group>
+	</npc_drop>
+	<!--rockhorn (lvl: 53)-->
+	<npc_drop npc_id="216505">
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Rockhorn's Sash (lvl: 53)-->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="123001041"/>
+			<!--Rockhorn's Leather Belt (lvl: 53)-->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="123001040"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Rockhorn's Corundum Ring (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001176"/>
+			<!--Rockhorn's Turquoise Ring (lvl: 53)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001177"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_SHIELD">
+			<!--Rockhorn's Drenium Shield (lvl: 53)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="115000973"/>
+			<!--Rockhorn's Malevite Shield (lvl: 53)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="115000974"/>
+		</drop_group>
+	</npc_drop>
+	<!--elder narikiki (lvl: 53)-->
+	<npc_drop npc_id="216504">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Narikiki's Leather Belt (lvl: 51)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123001034"/>
+			<!--Narikiki's Sash (lvl: 51)-->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="123001035"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Narikiki's Corundum Ring (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001170"/>
+			<!--Narikiki's Turquoise Ring (lvl: 51)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001171"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!--Narikiki's Shield (lvl: 51)-->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="115000972"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<!--Design: Elder Narikiki's Spellbook (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152202149"/>
+			<!--Design: Elder Narikiki's Polearm (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152201710"/>
+			<!--Design: Elder Narikiki's Orb (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="152202150"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Core of Elder Narikiki (lvl: 53)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012050"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Narikiki's Tunic (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110101078"/>
+			<!--Narikiki's Hauberk (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110500995"/>
+			<!--Narikiki's Jerkin (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110301027"/>
+			<!--Narikiki's Breastplate (lvl: 51)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="110600975"/>
+		</drop_group>
+	</npc_drop>
+	<!--vallakhan (lvl: 53)-->
+	<npc_drop npc_id="215782">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Vallakhan's Ring (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001160"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Forsaken Temple Gloves (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111100959"/>
+			<!--Forsaken Temple Gauntlets (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111600942"/>
+			<!--Gloves of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111101108"/>
+			<!--Gauntlets of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111601081"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Deserter's Shoulderguards (lvl: 52)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="112300914"/>
+			<!--Deserter's Shoulderguards (lvl: 52)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="112300914"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Great Chapel Key (lvl: 1)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000084"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Malika's Vambrace (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="111300965"/>
+			<!--Malika's Handguards (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="111500951"/>
+			<!--Malika's Gloves (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="111100960"/>
+			<!--Malika's Gauntlets (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="111600943"/>
+		</drop_group>
+	</npc_drop>
+	<!--nexus (lvl: 53)-->
+	<npc_drop npc_id="215783">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!--Malika's Shoulderguards (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="112300916"/>
+			<!--Malika's Spaulders (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="112500903"/>
+			<!--Malika's Pauldrons (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="112100918"/>
+			<!--Malika's Shoulderplates (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="112600918"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Malika's Leather Belt (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="123001100"/>
+			<!--Malika's Sash (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="123001101"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Forsaken Temple Vambrace (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111300964"/>
+			<!--Forsaken Temple Handguards (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111500950"/>
+			<!--Vambrace of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111301105"/>
+			<!--Deserter's Shoulderplates (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112600916"/>
+			<!--Deserter's Pauldrons (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112100916"/>
+			<!--Handguards of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111501091"/>
+		</drop_group>
+		<drop_group name="">
+			<!--Balic Key (lvl: 1)-->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="182209189"/>
+		</drop_group>
+	</npc_drop>
+	<!--devoted anurati (lvl: 55)-->
+	<npc_drop npc_id="215793">
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!--Forsaken Temple Greaves (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113600926"/>
+			<!--Forsaken Temple Chausses (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113500955"/>
+			<!--Forsaken Temple Breeches (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113300985"/>
+			<!--Forsaken Temple Leggings (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113100972"/>
+			<!--Breeches of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113301123"/>
+			<!--Chausses of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113501100"/>
+			<!--Greaves of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113601065"/>
+			<!--Leggings of the Destroyed Temple (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113101120"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!--Anurati's Dirk (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100200804"/>
+			<!--Anurati's Dirk (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100200804"/>
+			<!--Anurati's Sword (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100000889"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!--Anurati's Necklace (lvl: 52)-->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="121000939"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!--Anurati's Turquoise Earrings (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001126"/>
+			<!--Anurati's Corundum Earrings (lvl: 52)-->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120001125"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!--Anurati's Turquoise Ring (lvl: 52)-->
+			<drop chance="7.0" min_amount="1" max_amount="1" item_id="122001173"/>
+			<!--Anurati's Corundum Ring (lvl: 52)-->
+			<drop chance="7.0" min_amount="1" max_amount="1" item_id="122001172"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!--Deserter's Tunic (lvl: 52)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="110101065"/>
+			<!--Deserter's Breastplate (lvl: 52)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="110600962"/>
+			<!--Deserter's Hauberk (lvl: 52)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="110500982"/>
+			<!--Deserter's Jerkin (lvl: 52)-->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="110301014"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

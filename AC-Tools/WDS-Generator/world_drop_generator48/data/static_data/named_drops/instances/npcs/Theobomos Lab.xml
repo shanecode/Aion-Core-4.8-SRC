@@ -1,0 +1,246 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Queen Arachne -->
+	<npc_drop npc_id="214659">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Laboratory Chest Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000015" no_reduce="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Frozen Harint -->
+	<npc_drop npc_id="214660">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Fire Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000016" no_reduce="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Cracked Nuhas -->
+	<npc_drop npc_id="214661">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Wind Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000020" no_reduce="true"/>
+			<!-- Water Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000018" no_reduce="true"/>
+			<!-- Earth Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000019" no_reduce="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Naughty Pocaching -->
+	<npc_drop npc_id="214662">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Laboratory Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000025" no_reduce="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Torch Spirit Iprita -->
+	<npc_drop npc_id="214663">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Research Center Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000017" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Clandestine Chausses -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113500829"/>
+			<!-- Clandestine Leggings -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113100846"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!-- Iprita's Shield -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="115000832"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Wistful Syripne -->
+	<npc_drop npc_id="214664">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Syripne's Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000023" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Clandestine Pauldrons -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112100793"/>
+			<!-- Clandestine Shoulderguards -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112300787"/>
+			<!-- Clandestine Brogans -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114500839"/>
+			<!-- Clandestine Sabatons -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114600798"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Berserk Spirit's Shoes -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114100879"/>
+			<!-- Berserk Spirit's Boots -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114300904"/>
+			<!-- Berserk Spirit's Brogans -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114500847"/>
+			<!-- Berserk Spirit's Sabatons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114600806"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Ancient Spirit's Ruby Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120000898"/>
+			<!-- Ancient Spirit's Sapphire Ring -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="122001034"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Golem Spirit Nomura -->
+	<npc_drop npc_id="214665">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Nomura's Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000022" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Clandestine Shoes -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114100871"/>
+			<!-- Clandestine Boots -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="114300896"/>
+			<!-- Clandestine Handguards -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111500827"/>
+			<!-- Clandestine Gauntlets -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111600815"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Berserk Spirit's Gloves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111100844"/>
+			<!-- Berserk Spirit's Vambrace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111300845"/>
+			<!-- Berserk Spirit's Handguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111500835"/>
+			<!-- Berserk Spirit's Gauntlets -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111600823"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Ancient Spirit's Sapphire Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120000897"/>
+			<!-- Ancient Spirit's Ruby Ring -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="122001033"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Water Spirit Undine -->
+	<npc_drop npc_id="214666">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Undine's Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000021" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Clandestine Gloves -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111100836"/>
+			<!-- Clandestine Vambrace -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111300837"/>
+			<!-- Clandestine Spaulders -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112500778"/>
+			<!-- Clandestine Shoulderplates -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="112600789"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Berserk Spirit's Pauldrons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112100801"/>
+			<!-- Berserk Spirit's Shoulderguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112300795"/>
+			<!-- Berserk Spirit's Spaulders -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112500786"/>
+			<!-- Berserk Spirit's Shoulderplates -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112600797"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Ancient Spirit's Diamond Earrings -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="120000896"/>
+			<!-- Ancient Spirit's Diamond Ring -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="122001035"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Rune of Distraction -->
+	<npc_drop npc_id="214667">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Wind Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000020" no_reduce="true"/>
+			<!-- Water Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000018" no_reduce="true"/>
+			<!-- Earth Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000019" no_reduce="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Silikor of Memory -->
+	<npc_drop npc_id="214668">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Silikor's Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000024" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Clandestine Breeches  -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113300863"/>
+			<!-- Clandestine Greaves -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113600804"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Berserk Spirit's Breeches -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113300871"/>
+			<!-- Berserk Spirit's Chausses -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113500837"/>
+			<!-- Berserk Spirit's Greaves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113600812"/>
+			<!-- Berserk Spirit's Leggings -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113100854"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_BELT">
+			<!-- Silikor's Band -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="123000926"/>
+			<!-- Silikor's Leather Belt -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="123000925"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Unstable Triroan -->
+	<npc_drop npc_id="214669">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Clandestine Breastplate -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110600838"/>
+			<!-- Clandestine Hauberk -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110500853"/>
+			<!-- Clandestine Jerkin -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110300886"/>
+			<!-- Clandestine Tunic -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110100938"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Berserk Spirit's Breastplate -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="110600846"/>
+			<!-- Berserk Spirit's Hauberk -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="110500861"/>
+			<!-- Berserk Spirit's Jerkin -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="110300894"/>
+			<!-- Berserk Spirit's Tunic -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="110100946"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Ancient Spirit's Diamond Necklace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="121000812"/>
+			<!-- Ancient Spirit's Sapphire Necklace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="121000811"/>
+			<!-- Ancient Spirit's Ruby Necklace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="121000810"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Triroan's Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100000727"/>
+			<!-- Triroan's Dagger -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100200677"/>
+			<!-- Triroan's Warhammer -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100100572"/>
+			<!-- Triroan's Greatsword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100900570"/>
+			<!-- Triroan's Spear -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101300542"/>
+			<!-- Triroan's Staff -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101500570"/>
+			<!-- Triroan's Longbow -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101700598"/>
+			<!-- Triroan's Orb -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500632"/>
+			<!-- Triroan's Spellbook -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100600689"/>
+			<!-- Triroan's Jewel -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500576"/>
+			<!-- Triroan's Tome -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100600613"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

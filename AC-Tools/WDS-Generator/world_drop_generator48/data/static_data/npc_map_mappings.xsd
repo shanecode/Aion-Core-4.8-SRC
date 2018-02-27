@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="npc_map_mapping" type="npcMapMapping"/>
+
+  <xs:element name="npc_map_mappings" type="npcMapMappingData"/>
+
+  <xs:complexType name="npcMapMappingData">
+    <xs:sequence>
+      <xs:element ref="npc_map_mapping" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="npcMapMapping">
+    <xs:sequence>
+      <xs:element name="map_id" type="xs:int" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="npc_id" type="xs:int" use="required"/>
+  </xs:complexType>
+</xs:schema>
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+	<!-- Sweeper Nunukin -->
+    <npc_drop npc_id="219026">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Sailor Waiting Room Key -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000042" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Kedomke the Drinker -->
+    <npc_drop npc_id="219025">
+        <drop_group name="NAMED_KEY_ALONE">
+			<!-- Mercenary Quarters Key -->
+            <drop chance="70.0" min_amount="1" max_amount="1" item_id="185000054" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Whistler Gududom -->
+    <npc_drop npc_id="219030">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Shulack Sailor's Tunic -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110100977"/>
+			<!-- Shulack Sailor's Breastplate -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110600874"/>
+			<!-- Shulack Sailor's Hauberk -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110500890"/>
+			<!-- Shulack Sailor's Jerkin -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110300922"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Shulack Pirate's Sabatons -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="114600833"/>
+			<!-- Shulack Pirate's Shoes -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="114100906"/>
+			<!-- Shulack Pirate's Brogans -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="114500874"/>
+			<!-- Shulack Pirate's Boots -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="114300931"/>
+		</drop_group>
+    </npc_drop>
+	<!-- Bhagwaninerk -->
+    <npc_drop npc_id="219027">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Starboard Deck Key -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000043" no_reduce="true"/>
+        </drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Shulack Sailor's Gauntlets -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="111600851"/>
+			<!-- Shulack Sailor's Gloves -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="111100872"/>
+			<!-- Shulack Sailor's Handguards -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="111500863"/>
+			<!-- Shulack Sailor's Vambrace -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="111300873"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Shulack Pirate's Pauldrons -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="112100828"/>
+			<!-- Shulack Pirate's Shoulderplates -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="112600824"/>
+			<!-- Shulack Pirate's Spaulders -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="112500813"/>
+			<!-- Shulack Pirate's Shoulderguards -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="112300822"/>
+		</drop_group>
+    </npc_drop>
+	<!-- Madame Bovariki -->
+    <npc_drop npc_id="219032">
+		<drop_group name="NAMED_KEY_RARE">
+			<!-- Starboard Deck Key -->
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="185000044" no_reduce="true"/>
+        </drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Loot Depository Key -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000045" no_reduce="true"/>
+        </drop_group>
+        <drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Bovariki's Ring -->
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="122001046"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Bovariki's Belt -->
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="123000937"/>
+        </drop_group>
+    </npc_drop>
+	<!-- Collector Memekin -->
+    <npc_drop npc_id="219028">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Grogget's Safe Key -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000077" no_reduce="true"/>
+        </drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Shulack Sailor's Spaulders -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="112500814"/>
+			<!-- Shulack Sailor's Shoulderplates -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="112600825"/>
+			<!-- Shulack Sailor's Shoulderguards -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="112300823"/>
+			<!-- Shulack Sailor's Pauldrons -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="112100829"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Shulack Pirate's Vambrace -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="111300872"/>
+			<!-- Shulack Pirate's Gauntlets -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="111600850"/>
+			<!-- Shulack Pirate's Gloves -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="111100871"/>
+			<!-- Shulack Pirate's Handguards -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="111500862"/>
+		</drop_group>
+    </npc_drop>
+	<!-- Discerner Werikiki -->
+    <npc_drop npc_id="219029">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Grogget's Safe Key -->
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000077" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Shulack Sailor's Boots -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="114300932"/>
+			<!-- Shulack Sailor's Sabatons -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="114600834"/>
+			<!-- Shulack Sailor's Shoes -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="114100907"/>
+			<!-- Shulack Sailor's Brogans -->
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="114500875"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Shulack Pirate's Breeches -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="113300897"/>
+			<!-- Shulack Pirate's Greaves -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="113600838"/>
+			<!-- SShulack Pirate's Chausses -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="113500863"/>
+			<!-- Shulack Pirate's Leggings -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="113100880"/>
+		</drop_group>
+	<!-- Golden Eye Mantutu -->
+    <npc_drop npc_id="219033">
+        <drop_group name="NAMED_UNIQUE_BOX">
+			<!-- Mantutu's Fabled Shoe Chest -->
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="188051414"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Shulack Sailor's Chausses -->
+            <drop chance="45.0" min_amount="1" max_amount="1" item_id="113500864"/>
+			<!-- Shulack Sailor's Greaves -->
+            <drop chance="45.0" min_amount="1" max_amount="1" item_id="113600839"/>
+			<!-- Shulack Sailor's Leggings -->
+            <drop chance="45.0" min_amount="1" max_amount="1" item_id="113100881"/>
+			<!-- Shulack Sailor's Breeches -->
+            <drop chance="45.0" min_amount="1" max_amount="1" item_id="113300898"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Shulack Pirate's Breastplate -->
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="110600873"/>
+			<!-- Shulack Pirate's Hauberk -->
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="110500889"/>
+			<!-- Shulack Pirate's Jerkin -->
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="110300921"/>
+			<!-- Shulack Pirate's Tunic -->
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="110100976"/>
+		</drop_group>
+    </npc_drop>
+</npc_drops>

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Winter Agrint -->
+	<npc_drop npc_id="218853">
+		<drop_group name="NAMED_MOUNT">
+			<!-- Waveform Surfrider -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="190100012"/>
+		</drop_group>
+		<drop_group name="NAMED_BUNLDE">
+			<!-- Housing Accessory Bundle -->
+			<drop chance="100.0" min_amount="1" max_amount="2" item_id="188051564"/>
+		</drop_group>
+			<!-- Winter Crystal -->
+		<drop_group name="NAMED_SEASON_CRYSTAL">
+			<drop chance="100.0" min_amount="1" max_amount="3" item_id="182006842"/>
+		</drop_group>
+			<!-- Winter Leaf -->
+		<drop_group name="NAMED_SEASON_LEAF">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="182006846" each_member="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Summer Agrint -->
+	<npc_drop npc_id="218851">
+		<drop_group name="NAMED_MOUNT">
+			<!-- Waveform Surfrider -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="190100012"/>
+		</drop_group>
+		<drop_group name="NAMED_BUNLDE">
+			<!-- Housing Accessory Bundle -->
+			<drop chance="100.0" min_amount="1" max_amount="2" item_id="188051564"/>
+		</drop_group>
+			<!-- Summer Crystal -->
+		<drop_group name="NAMED_SEASON_CRYSTAL">
+			<drop chance="100.0" min_amount="1" max_amount="3" item_id="182006840"/>
+		</drop_group>
+			<!-- Summer Leaf -->
+		<drop_group name="NAMED_SEASON_LEAF">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="182006844" each_member="true"/>
+		</drop_group>
+  </npc_drop>
+	<!-- Spring Agrint -->
+	<npc_drop npc_id="218850">
+		<drop_group name="NAMED_MOUNT">
+			<!-- Waveform Surfrider -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="190100012"/>
+		</drop_group>
+		<drop_group name="NAMED_BUNLDE">
+			<!-- Housing Accessory Bundle -->
+			<drop chance="100.0" min_amount="1" max_amount="2" item_id="188051564"/>
+		</drop_group>
+			<!-- Spring Crystal -->
+		<drop_group name="NAMED_SEASON_CRYSTAL">
+			<drop chance="100.0" min_amount="1" max_amount="3" item_id="182006839"/>
+		</drop_group>
+			<!-- Spring Leaf -->
+		<drop_group name="NAMED_SEASON_LEAF">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="182006843" each_member="true"/>
+		</drop_group>
+  </npc_drop>
+	<!-- Fall Agrint -->
+	<npc_drop npc_id="218852">
+		<drop_group name="NAMED_MOUNT">
+			<!-- Waveform Surfrider -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="190100012"/>
+		</drop_group>
+		<drop_group name="NAMED_BUNLDE">
+			<!-- Housing Accessory Bundle -->
+			<drop chance="100.0" min_amount="1" max_amount="2" item_id="188051564"/>
+		</drop_group>
+			<!-- Fall Crystal -->
+		<drop_group name="NAMED_SEASON_CRYSTAL">
+			<drop chance="100.0" min_amount="1" max_amount="3" item_id="182006841"/>
+		</drop_group>
+			<!-- Autumn Leaf -->
+		<drop_group name="NAMED_SEASON_LEAF">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="182006845" each_member="true"/>
+		</drop_group>
+  </npc_drop>
+</npc_drops>

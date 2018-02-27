@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- RM-78c -->
+	<npc_drop npc_id="212211">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Dominating Sword -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100000580"/>
+			<!-- Dominating Dagger -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100200554"/>
+			<!-- Dominating Greatsword -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100900439"/>
+			<!-- Dominating Jewel -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100500442"/>
+			<!-- Dominating Longbow -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101700458"/>
+			<!-- Dominating Spear -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101300429"/>
+			<!-- Dominating Staff -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101500444"/>
+			<!-- Dominating Tome -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100600475"/>
+			<!-- Dominating Warhammer -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100100445"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<!-- Researcher's Breastplate -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110600723"/>
+			<!-- Researcher's Breeches -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113300741"/>
+			<!-- Researcher's Chausses -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113500715"/>
+			<!-- Researcher's Greaves -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113600689"/>
+			<!-- Researcher's Hauberk -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110500735"/>
+			<!-- Researcher's Jerkin -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110300758"/>
+			<!-- Researcher's Leggings -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113100725"/>
+			<!-- Researcher's Tunic -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="110100802"/>
+		</drop_group>
+	</npc_drop>
+	<!-- The Keykeeper -->
+	<npc_drop npc_id="212341">
+		<drop_group name="NAMED_KEY_ALONE">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000001" no_reduce="true"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

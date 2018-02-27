@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Flesh-eating Swarm (lvl: 52) -->
+	<npc_drop npc_id="216546">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114101020"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114600943"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114500984"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114301041"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001043"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001047"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123001046"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Alpha Kuruku (lvl: 52) -->
+	<npc_drop npc_id="216547">
+		<drop_group name="NAMED_SUPERIOR_WAIST">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001044"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001045"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+				<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001044"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125002309"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Alpha Mansat (lvl: 52) -->
+	<npc_drop npc_id="216548">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112100936"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112300934"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112600936"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112500921"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+				<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001183"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115000978"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Camu the Forestkeeper (lvl: 52) -->
+	<npc_drop npc_id="216550">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111600963"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111100980"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111500972"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111300985"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122001182"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115000979"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Windchaser (lvl: 52) -->
+	<npc_drop npc_id="216554">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114301043"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114500986"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114600945"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114101023"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+				<drop chance="50.0" min_amount="1" max_amount="1" item_id="125002314"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="122001187"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="122001186"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Deathwing (lvl: 53) -->
+	<npc_drop npc_id="216551">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113301004"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113500974"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113600945"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113100991"/>
+  	</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="121000956"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="121000955"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100200817"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100900694"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500708"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101700732"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101300664"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101500708"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100000917"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100600765"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100100687"/>
+		</drop_group>
+	</npc_drop>
+  	<!-- Chieftain Ulagu (lvl: 52) -->
+	<npc_drop npc_id="216553">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110600982"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110501002"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110301034"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110101085"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="120001046"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="120001045"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115000980"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="152012549"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_RECIPE">
+			<drop chance="0.5" min_amount="1" max_amount="1" item_id="152206711"/>
+			<drop chance="0.5" min_amount="1" max_amount="1" item_id="152206710"/>
+		</drop_group>
+	</npc_drop>
+   	<!-- Little Lost May (lvl: 53) -->
+	<npc_drop npc_id="216556">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114101022"/>
+		</drop_group>
+	</npc_drop>
+   	<!-- Turatu Spawnfoot (lvl: 55) -->
+	<npc_drop npc_id="216570">
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<!-- Turatu's Shield -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="152012548"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="152012548"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<!-- Turatu's Hat -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="125002320"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Turatu's Breastplate -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="110600986"/>
+			<!-- Turatu's Hauberk -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="110501006"/>
+			<!-- Turatu's Jerkin -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="110301038"/>
+			<!-- Turatu's Tunic -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="110101089"/>
+		</drop_group>
+	</npc_drop>
+  	<!-- Enraged Mastarius (lvl: 55) -->
+	<npc_drop npc_id="258205">
+		<drop_group name="NAMED_EPIC_ARMOR">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114101318"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112101228"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111101272"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113101289"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110101395"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110301321"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113301290"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112301210"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111301266"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114301323"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110501299"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114501281"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113501275"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111501260"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112501203"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110601273"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113601229"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111601240"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114601224"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112601216"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_SHIELD">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001358"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="115001360"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_WEAPON">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100100997"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100601066"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100901002"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100201159"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101300956"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100001308"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100501013"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101701038"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101501026"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="120001054"/>
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="120001053"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

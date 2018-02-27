@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Drudgelord Kakiti -->
+	<npc_drop npc_id="216897">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<!-- Kakiti's Big Club -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="100900811"/>
+		</drop_group>
+			<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Hamerun's Crystal Necklace -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="121001030"/>
+			<!-- Hamerun's Jewel Necklace -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="121001029"/>
+		</drop_group>
+	</npc_drop>
+	<!-- MuMu Ham the Grey -->
+	<npc_drop npc_id="216907">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<!-- MuMu Ham's Odella Flower Sword -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="100001071"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Hamerun's Crystal Ring -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="122001265"/>
+			<!-- Hamerun's Jewel Ring -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="122001264"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Bossman Nukiti -->
+	<npc_drop npc_id="216915">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<!-- Nukiti's Hammer -->
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="100100811"/>
+		</drop_group>
+			<drop_group name="NAMED_RARE_ACCESSORY">
+			<!-- Thick Belt of Kobold -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="123001094"/>
+			<!-- Kobold's Big Belt -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="123001095"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

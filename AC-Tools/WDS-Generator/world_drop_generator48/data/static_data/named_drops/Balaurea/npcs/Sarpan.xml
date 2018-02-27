@@ -1,0 +1,497 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Insidious Barolf -->
+	<npc_drop npc_id="217890">
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Barolf's Corundum Necklace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="121001165"/>
+			<!-- Barolf's Turquoise Necklace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="121001166"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Barolf's Leather Belt -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="123001223"/>
+			<!-- Barolf's Sash -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="123001224"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Barolf's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012066"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Captain Sakamat -->
+	<npc_drop npc_id="218105">
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Sakamat's Corundum Necklace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="121001173"/>
+			<!-- Sakamat's Turquoise Necklace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="121001174"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Sakamat's Breastplate -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110601260"/>
+			<!-- Sakamat's Hauberk -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110501289"/>
+			<!-- Sakamat's Jerkin -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110301309"/>
+			<!-- Sakamat's Tunic -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110101382"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Labor Supervisor Mukusa -->
+	<npc_drop npc_id="218147">
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Mukusa's Corundum Earrings -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="120001259"/>
+			<!-- Mukusa's Turquoise Earrings -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="120001260"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Mukusa's Greaves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113601216"/>
+			<!-- Mukusa's Chausses -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113501265"/>
+			<!-- Mukusa's Breeches -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113301278"/>
+			<!-- Mukusa's Leggings -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="113101276"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Leti The Rascal -->
+	<npc_drop npc_id="218103">
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<!-- Leti's Corundum Ring -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="122001420"/>
+			<!-- Leti's Turquoise Ring -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="122001421"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Leti's Shoulderplates -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112601203"/>
+			<!-- Leti's Spaulders -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112501193"/>
+			<!-- Leti's Shoulderguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112301198"/>
+			<!-- Leti's Pauldrons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="112101215"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Dowager Geren -->
+	<npc_drop npc_id="218181">
+		<drop_group name="NAMED_UNIQUE_BELT">
+			<!-- Geren's Leather Belt -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="123001233"/>
+			<!-- Geren's Sash -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="123001234"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Geren's Gauntlets -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111601225"/>
+			<!-- Geren's Handguards -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111501248"/>
+			<!-- Geren's Vambrace -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111301252"/>
+			<!-- Geren's Gloves -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="111101257"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Spirit Of Tranquility -->
+	<npc_drop npc_id="218027">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Tranquility's Gauntlets -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111601227"/>
+			<!-- Tranquility's Handguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111501250"/>
+			<!-- Tranquility's Vambrace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111301254"/>
+			<!-- Tranquility's Gloves -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111101259"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tranquility's Turquoise Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001415"/>
+			<!-- Tranquility's Corundum Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001414"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Tranquility's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012059"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Captain Babelkin -->
+	<npc_drop npc_id="217915">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Babelkin's Shoes -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114101302"/>
+			<!-- Babelkin's Boots -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114301308"/>
+			<!-- Babelkin's Brogans -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114501268"/>
+			<!-- Babelkin's Sabatons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114601208"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Babelkin's Corundum Necklace -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="121001167"/>
+			<!-- Babelkin's Turquoise Necklace -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="121001168"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Babelkin's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012061"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Haughty Kirke -->
+	<npc_drop npc_id="218030">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Kirke's Shoes -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114101305"/>
+			<!-- Kirke's Boots -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114301311"/>
+			<!-- Kirke's Brogans -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114501271"/>
+			<!-- Kirke's Sabatons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="114601211"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Kirke's Leather Belt -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="123001227"/>
+			<!-- Kirke's Sash -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="123001228"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Grand Chieftain Zakufu -->
+	<npc_drop npc_id="217965">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Zakufu's Leggings -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113101275"/>
+			<!-- Zakufu's Breeches -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113301277"/>
+			<!-- Zakufu's Chausses -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113501264"/>
+			<!-- Zakufu's Greaves -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113601215"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_SHIELD">
+			<!-- Zakufu's Shield -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="115001339"/>
+			<!-- Zakufu's Scale Shield -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="115001340"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Zakufu's Corundum Earrings -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="120001253"/>
+			<!-- Zakufu's Turquoise Earrings -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="120001254"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Chieftain Haridoo -->
+	<npc_drop npc_id="218005">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Haridoo's Tunic -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110101381"/>
+			<!-- Haridoo's Jerkin -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110301308"/>
+			<!-- Haridoo's Hauberk -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110501288"/>
+			<!-- Haridoo's Breastplate -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110601259"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Haridoo's Corundum Ring -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="122001412"/>
+			<!-- Haridoo's Turquoise Ring -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="122001413"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Haridoo's Sword -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100001293"/>
+			<!-- Haridoo's Warhammer -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100100984"/>
+			<!-- Haridoo's Dagger -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100201142"/>
+			<!-- Haridoo's Jewel -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100501000"/>
+			<!-- Haridoo's Tome -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100601054"/>
+			<!-- Haridoo's Greatsword -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="100900987"/>
+			<!-- Haridoo's Polearm -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101300945"/>
+			<!-- Haridoo's Staff -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101501012"/>
+			<!-- Haridoo's Longbow -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="101701026"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Gabo The Obstinate -->
+	<npc_drop npc_id="217891">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Gabo's Dagger -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100201141"/>
+			<!-- Gabo's Tome -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100601053"/>
+			<!-- Gabo's Greatsword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100900986"/>
+			<!-- Gabo's Staff -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101501011"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Gabo's Corundum Ring -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="122001408"/>
+			<!-- Gabo's Turquoise Ring -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="122001409"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Gabo's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012065"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Vanuka The Earthshaker -->
+	<npc_drop npc_id="218026">
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Vanuka's Shoes -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114101303"/>
+			<!-- Vanuka's Boots -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114301309"/>
+			<!-- Vanuka's Brogans -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114501269"/>
+			<!-- Vanuka's Sabatons -->
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114601209"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!-- Vanuka's Shield -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115001341"/>
+			<!-- Vanuka's Scale Shield -->
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="115001342"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Vanuka's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012062"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Shivhum Stonestriker -->
+	<npc_drop npc_id="218075">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Shivhum's Dagger -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100201143"/>
+			<!-- Shivhum's Tome -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100601055"/>
+			<!-- Shivhum's Greatsword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100900988"/>
+			<!-- Shivhum's Staff -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101501013"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_SHIELD">
+			<!-- Shivhum's Corundum Ring -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="122001416"/>
+			<!-- Shivhum's Turquoise Ring -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="122001417"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Shivhum's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012063"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Ironjaw Tarapu -->
+	<npc_drop npc_id="217916">
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Tarapu's Corundum Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001410"/>
+			<!-- Tarapu's Turquoise Ring -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="122001411"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<!-- Tarapu's Hairpin -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125002986"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Tarapu's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012064"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Mankur The Elusive -->
+	<npc_drop npc_id="218084">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Manukur's Tunic -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110101384"/>
+			<!-- Manukur's Breastplate -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110601262"/>
+			<!-- Manukur's Hauberk -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110501291"/>
+			<!-- Manukur's Jerkin -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="110301311"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_HEAD">
+			<!-- Manukur's Hairpin -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="125002987"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Zakul Deadeye -->
+	<npc_drop npc_id="218083">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Zakul's Leggings -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113101278"/>
+			<!-- Zakul's Greaves -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113601218"/>
+			<!-- Zakul's Chausses -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113501267"/>
+			<!-- Zakul's Breeches -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="113301280"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Zakul's Corundum Necklace -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="121001169"/>
+			<!-- Zakul's Turquoise Necklace -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="121001170"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Daturum Wreckhelm -->
+	<npc_drop npc_id="218082">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Daturum's Pauldrons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112101217"/>
+			<!-- Daturum's Shoulderplates -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112601205"/>
+			<!-- Daturum's Spaulders -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112501195"/>
+			<!-- Daturum's Shoulderguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112301200"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Daturum's Corundum Earrings -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="120001255"/>
+			<!-- Daturum's Turquoise Earrings -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="120001256"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+			<!-- Daturum's Soul -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="152012060"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Debarim The Omnipotent -->
+	<npc_drop npc_id="218085">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Debarim's Dagger -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100201145"/>
+			<!-- Debarim's Warhammer -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100100987"/>
+			<!-- Debarim's Sword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100001296"/>
+			<!-- Debarim's Longbow -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101701029"/>
+			<!-- Debarim's Staff -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101501015"/>
+			<!-- Debarim's Spear -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="101300948"/>
+			<!-- Debarim's Greatsword -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100900990"/>
+			<!-- Debarim's Tome -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100601057"/>
+			<!-- Debarim's Jewel -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="100501003"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<!-- Debarim's Helm -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125002977"/>
+			<!-- Debarim's Chain Hood -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125002976"/>
+			<!-- Debarim's Hat -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125002975"/>
+			<!-- Debarim's Bandana -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="125002974"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!-- Debarim's Turquoise Earrings -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="120001281"/>
+			<!-- Debarim's Corundum Earrings -->
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="120001280"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Debarim's Sash -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="123001232"/>
+			<!-- Debarim's Leather Belt -->
+			<drop chance="60.0" min_amount="1" max_amount="1" item_id="123001231"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Teftak The Frenzied -->
+	<npc_drop npc_id="218076">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Teftak's Warhammer -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100100985"/>
+			<!-- Teftak's Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100001294"/>
+			<!-- Teftak's Longbow -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101701027"/>
+			<!-- Teftak's Spear -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101300946"/>
+			<!-- Teftak's Jewel -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100501001"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Teftak's Leather Belt -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001229"/>
+			<!-- Teftak's Sash -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123001230"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Gavijolf The Gouger -->
+	<npc_drop npc_id="217889">
+		<drop_group name="NAMED_LEGEND_WEAPON">
+			<!-- Gavijolf's Warhammer -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100100983"/>
+			<!-- Gavijolf's Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100001292"/>
+			<!-- Gavijolf's Longbow -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101701025"/>
+			<!-- Gavijolf's Spear -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101300944"/>
+			<!-- Gavijolf's Jewel -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500999"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Gavijolf's Corundum Earrings -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001249"/>
+			<!-- Gavijolf's Turquoise Earrings -->
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="120001250"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Shadowstrike Gubacha -->
+	<npc_drop npc_id="218001">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Gubacha's Shoulderplates -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112601202"/>
+			<!-- Gubacha's Spaulders -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112501192"/>
+			<!-- Gubacha's Shoulderguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112301197"/>
+			<!-- Gubacha's Pauldrons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112101214"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Gubacha's Corundum Earrings -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="120001251"/>
+			<!-- Gubacha's Turquoise Earrings -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="120001252"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Prophet Huruhuru -->
+	<npc_drop npc_id="217962">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Huruhuru's Gloves -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111101256"/>
+			<!-- Huruhuru's Vambrace -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111301251"/>
+			<!-- Huruhuru's Handguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111501247"/>
+			<!-- Huruhuru's Gauntlets -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="111601224"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Huruhuru's Leather Belt -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="123001225"/>
+			<!-- Huruhuru's Sash -->
+			<drop chance="35.0" min_amount="1" max_amount="1" item_id="123001226"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

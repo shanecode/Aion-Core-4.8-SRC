@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+
+<!-- TIAMAT -->
+<npc_drops>
+	<!-- Raksang Keymaster -->
+	<npc_drop npc_id="217423">
+		<drop_group name="NAMED_KEY_ALONE">
+			<!-- Watchman's Key -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000112"/>
+		</drop_group>	
+	</npc_drop>
+	<!-- Gatekeeper Melkennis -->
+	<npc_drop npc_id="217392">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Raksha Legionary's Shoulderplates -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112601101"/>
+			<!-- Raksha Legionary's Spaulders -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112501089"/>
+			<!-- Raksha Legionary's Shoulderguards -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112301096"/>
+			<!-- Raksha Legionary's Pauldrons -->
+			<drop chance="5.0" min_amount="1" max_amount="1" item_id="112101113"/>
+		</drop_group>	
+		<drop_group name="NAMED_LEGEND_BELT">
+			<!-- Melkennis's Leather Belt -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="123001209"/>
+			<!-- Melkennis's Sash -->
+			<drop chance="45.0" min_amount="1" max_amount="1" item_id="123001210"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Raksang Gauntlets -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111601124"/>
+			<!-- Raksang Handguards -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111501145"/>
+			<!-- Raksang Vambrace -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111301151"/>
+			<!-- Raksang Gloves -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="111101156"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Illusionmaster Sharik -->
+	<npc_drop npc_id="217425">
+		<drop_group name="NAMED_COMMON_MATERIAL">
+			<!-- Ancient Balaur Scale -->
+			<drop chance="100.0" min_amount="2" max_amount="2" item_id="182006427" each_member="true"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_ARMOR">
+			<!-- Heaume du commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="125002883"/>
+			<!-- Chapeau du commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="125002881"/>
+			<!-- Capuche de mailles de commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="125002882"/>
+			<!-- Bandeau de commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="125002880"/>
+		</drop_group>
+	</npc_drop>
+	<!-- The Flamelord -->
+	<npc_drop npc_id="217451">
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!-- Ceinture de cuir du commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="123001205"/>
+			<!-- Ceinture de tisu du commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="123001206"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Paruam -->
+	<npc_drop npc_id="217456">
+		<drop_group name="NAMED_EPIC_ACCESSORY">
+			<!-- Boucles d'oreilles en corindon de commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="120001233"/>
+			<!-- Anneau en corindon de commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="122001392"/>
+			<!-- Collier en corindon de commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="121001151"/>
+			<!-- Boucles d'oreilles en turquoise du commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="120001234"/>
+			<!-- Anneau en turquoise de commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="122001393"/>
+			<!-- Collier en turquoise du commandant Archon -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="121001152"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Hellpath Guardian Fireye -->
+	<npc_drop npc_id="217469">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<!-- Raksha Legionary's Greaves -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="113601114"/>
+			<!-- Raksha Legionary's Chausses -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="113501161"/>
+			<!-- Raksha Legionary's Breeches -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="113301176"/>
+			<!-- Raksha Legionary Leggings -->
+			<drop chance="1.0" min_amount="1" max_amount="1" item_id="113101174"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+			<!-- Paruam's Corundum Necklace -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="121001055"/>
+			<!-- Paruam's Turquoise Necklace -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="121001056"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+			<!-- Raksang Greaves -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113601115"/>
+			<!-- Raksang Leg Armor -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113501162"/>
+			<!-- Raksang Breeches -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113301177"/>
+			<!-- Raksang Leggings -->
+			<drop chance="40.0" min_amount="1" max_amount="1" item_id="113101175"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Raksha -->
+	<npc_drop npc_id="217475">
+		<drop_group name="NAMED_LEGEND_SOUVENIR_PART">
+			<!-- [Souvenir] Raksha's Head -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="188100037"/>
+			<!-- [Souvenir] Raksha's Skeleton -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="188100038"/>
+			<!-- [Souvenir] Raksha's Wing -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="188100039"/>
+		</drop_group>
+		<drop_group name="NAMED_EPIC_WEAPON">
+			<!-- Lance du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="101300911"/>
+			<!-- Espadon du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="100900948"/>
+			<!-- Dague du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="100201099"/>
+			<!-- Arc long du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="101700990"/>
+			<!-- Marteau de guerre du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="100100944"/>
+			<!-- Baton du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="101500973"/>
+			<!-- Joyau du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="100500965"/>
+			<!-- Ouvrage du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="100601019"/>
+			<!-- Epee du commandant Archon -->
+			<drop chance="1.5" min_amount="1" max_amount="1" item_id="100001237"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<!-- Raksha's Scale Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100001253"/>
+			<!-- Raksha's Azure Scale Sword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100001254"/>
+			<!-- Raksha's Dagger -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100201114"/>
+			<!-- Raksha's Warhammer -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100100959"/>
+			<!-- Raksha's Greatsword -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100900873"/>
+			<!-- Raksha's Staff -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101500899"/>
+			<!-- Raksha's Longbow -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101700915"/>
+			<!-- Raksha's Jewel -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500890"/>
+			<!-- Raksha's Tome -->
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100600948"/>
+		</drop_group>
+		<drop_group name="NAMED_COMMON_MATERIAL">
+			<!-- Ancient Balaur Scale -->
+			<drop chance="100.0" min_amount="5" max_amount="5" item_id="182006427" each_member="true"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

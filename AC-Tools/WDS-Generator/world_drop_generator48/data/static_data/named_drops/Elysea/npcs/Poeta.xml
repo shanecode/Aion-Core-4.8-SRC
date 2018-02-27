@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Paruru Slowlegs (lvl: 4) -->
+	<npc_drop npc_id="210673">
+		<drop_group name="">
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="162000001"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Tirratirra (lvl: 4) -->
+	<npc_drop npc_id="210302">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114500478"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114300462"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114100449"/>
+		</drop_group>
+		<drop_group name="NAMED_COMMON_ARMOR">
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="111300353"/>
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="111500396"/>
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="111100354"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Fauron (lvl: 6) -->
+	<npc_drop npc_id="210305">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113300448"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113500471"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="113100432"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114300463"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114500479"/>
+			<drop chance="50.0" min_amount="1" max_amount="1" item_id="114100450"/>
+		</drop_group>
+		<drop_group name="NAMED_COMMON_ACCESSORY">
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="123000617"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Gatekeeper Kirrin (lvl: 8) -->
+	<npc_drop npc_id="210307">
+		<drop_group name="NAMED_COMMON_ARMOR">
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="110500493"/>
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="110100504"/>
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="110500492"/>
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="110300464"/>
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="110100503"/>
+			<drop chance="90.0" min_amount="1" max_amount="1" item_id="110300465"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100600206"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_SHIELD">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="115000393"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

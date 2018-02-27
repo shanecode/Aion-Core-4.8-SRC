@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+	<npc_drop npc_id="217037">
+		<drop_group name="NAMED_KEY_ALONE">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000105" no_reduce="true"/>
+		</drop_group>
+    </npc_drop>
+    <npc_drop npc_id="216889">
+		<drop_group name="NAMED_LEGEND_ACESSORY">
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="120001117"/>
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="123001097"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">	
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="121001032"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="121001031"/>
+		</drop_group>
+	</npc_drop>
+	<npc_drop npc_id="216890">
+		<drop_group name="NAMED_LEGEND_ACESSORY">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="120001118"/>
+            <drop chance="25.0" min_amount="1" max_amount="1" item_id="123001096"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">	
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="122001267"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="122001266"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

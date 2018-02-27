@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_drops>
+    <npc_drop npc_id="215077">
+        <drop_group name="NAMED_LEGEND_SHIELD">
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="115000871"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="115000870"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="122001044"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="122001043"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACESSORY">
+            <drop chance="5.0" min_amount="1" max_amount="1" item_id="121000828"/>
+            <drop chance="5.0" min_amount="1" max_amount="1" item_id="121000829"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215076">
+        <drop_group name="NAMED_RARE_ACESSORY">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="123000940"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="123000939"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">	
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="120000907"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="120000906"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215411">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000081" no_reduce="true"/>
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000073" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215079">
+        <drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113600839"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113500864"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113300898"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="113100881"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="111600850"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="111500862"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="111300872"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="111100871"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="123001099"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="113500861"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="113300895"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="113100878"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215078">
+        <drop_group name="NAMED_LEGEND_ACCESSORY">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="123000937"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="122001046"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000044" no_reduce="true"/>
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000045" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215073">
+        <drop_group name="NAMED_RARE_ACCESSORY">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="122001045"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="123000938"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215072">
+        <drop_group name="NAMED_LEGEND_ARMOR">
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="114500874"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="114100906"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="111100872"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="111500863"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215075">
+        <drop_group name="NAMED_UNIQUE_MATERIAL">
+            <drop chance="5.0" min_amount="1" max_amount="1" item_id="152012802"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="125002013"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215074">
+        <drop_group name="NAMED_RARE_ACCESSORY">
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="125002012"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_MATERIAL">
+            <drop chance="5.0" min_amount="1" max_amount="1" item_id="152012801"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215081">
+        <drop_group name="NAMED_LEGEND_ARMOR">
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="110500889"/>
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="110300921"/>
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="110100976"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110600873"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="125002015"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="125002014"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="125002017"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="125002016"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="100100584"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="100600641"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="100200711"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="100900595"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="100500605"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="101700625"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="101300567"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="101500608"/>
+            <drop chance="3.0" min_amount="1" max_amount="1" item_id="100000782"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215423">
+        <drop_group name="NAMED_ALONE_KEY">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000045" no_reduce="true"/>
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000044" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="122001046"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="123000937"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215080">
+        <drop_group name="NAMED_ALONE_KEY">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000051" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<drop chance="2.0" min_amount="1" max_amount="1" item_id="110600871"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="110500887"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="110300919"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="110100974"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="113100880"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="113600838"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="113500863"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="113300897"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110600874"/>
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110500890"/>
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110300922"/>
+            <drop chance="35.0" min_amount="1" max_amount="1" item_id="110100977"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_WEAPON">
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="100200740"/>   
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215401">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000048" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215062">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000042" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215063">
+        <drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="112600825"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="114500875"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000043" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215058">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000055" no_reduce="true"/>
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000079" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215056">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000049" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="114600834"/>
+            <drop chance="20.0" min_amount="1" max_amount="1" item_id="112500814"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215057">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000054" no_reduce="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215070">
+        <drop_group name="NAMED_LEGEND_ACCESSORY">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="121000827"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="121000826"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="185000074" no_reduce="true"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="112500813"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="112600824"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="112300822"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="112100828"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="114100903"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="114600830"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="114500871"/>
+            <drop chance="2.0" min_amount="1" max_amount="1" item_id="114300928"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215071">
+        <drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="111300873"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="111600851"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ARMOR">
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="114600833"/>
+            <drop chance="15.0" min_amount="1" max_amount="1" item_id="114300931"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215068">
+        <drop_group name="NAMED_LEGEND_SHIELD">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="115000500"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215069">
+        <drop_group name="NAMED_RARE_ACCESSORY">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="120000909"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="120000908"/>
+		</drop_group>
+		<drop_group name="NAMED_LEGEND_ACCESSORY">
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="125001982"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="125001979"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="125001980"/>
+            <drop chance="10.0" min_amount="1" max_amount="1" item_id="125001981"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000080" no_reduce="true" />
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215066">
+        <drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="114100907"/>
+            <drop chance="50.0" min_amount="1" max_amount="1" item_id="112300823"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000080" no_reduce="true" />
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000050" no_reduce="true" />
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215067">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000052" no_reduce="true" />
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215064">
+        <drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000046" no_reduce="true" />
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000077" no_reduce="true" />
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="114300932"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="112100829"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="215065">
+        <drop_group name="NAMED_RARE_ARMOR">
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="112100829"/>
+            <drop chance="30.0" min_amount="1" max_amount="1" item_id="114300932"/>
+		</drop_group>
+		<drop_group name="NAMED_KEY_ALONE">
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000078" no_reduce="true" />
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000047" no_reduce="true" />
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000077" no_reduce="true" />
+            <drop chance="100.0" min_amount="1" max_amount="1" item_id="185000046" no_reduce="true" />
+        </drop_group>
+    </npc_drop>
+</npc_drops>

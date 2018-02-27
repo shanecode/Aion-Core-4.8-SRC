@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<npc_drops>
+	<!-- Vernal Umbronite -->
+	<npc_drop npc_id="218882">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<!-- Life Leaf -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012558"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_ORE">
+			<!-- Vernal Flower Aether Ore -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="182006847"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_GEM">
+			<!-- Rough Aether Gem -->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Sweltering Umbronite -->
+	<npc_drop npc_id="218884">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<!-- Life Leaf -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012558"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_ORE">
+			<!-- Pyre Spirit Aether Ore -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="182006848"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_GEM">
+			<!-- Hard Aether Gem -->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006853"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Maple Umbronite -->
+	<npc_drop npc_id="218886">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<!-- Life Leaf -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012558"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_ORE">
+			<!-- Maple Aether Ore -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="182006849"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_GEM">
+			<!-- Rough Aether Gem -->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006852"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Ice Umbronite -->
+	<npc_drop npc_id="218888">
+		<drop_group name="NAMED_MATERIAL_ALONE">
+			<!-- Life Leaf -->
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012558"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_ORE">
+			<!-- Ice Aether Ore -->
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="182006850"/>
+		</drop_group>
+		<drop_group name="NAMED_AETHER_GEM">
+			<!-- Broken Aether Gem -->
+			<drop chance="80.0" min_amount="1" max_amount="1" item_id="182006851"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>

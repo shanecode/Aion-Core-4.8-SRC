@@ -1,0 +1,540 @@
+<?xml version="1.0" ?>
+<!-- Created by Sereine and Ydril -->
+<npc_drops>
+	<!-- Fidget (lvl: 22) -->
+	<npc_drop npc_id="210765">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100200238"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100000222"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100100136"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100600161"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="122000507"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Trisqeek (lvl: 24) -->
+	<npc_drop npc_id="210782">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110600411"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110500414"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110300383"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110300796"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110100425"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000509"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012004"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Snaggletooth (lvl: 27) -->
+	<npc_drop npc_id="211649">
+		<drop_group name="NAMED_RARE_SHIELD">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="115000397"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Galatia (lvl: 27) -->
+	<npc_drop npc_id="210815">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100900144"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101700159"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101300140"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101500149"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100500147"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="121000416"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Queen Mediarch (lvl: 29) -->
+	<npc_drop npc_id="210870">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100200241"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101700161"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Beleffon (lvl: 27) -->
+	<npc_drop npc_id="210816">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100500149"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Razorjaw (lvl: 30) -->
+	<npc_drop npc_id="211675">
+		<drop_group name="NAMED_SUPERIOR_SHIELD">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115000396"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000509"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Greathealer Quvak (lvl: 30) -->
+	<npc_drop npc_id="211698">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110500416"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000508"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Greatmage Teotem (lvl: 30) -->
+	<npc_drop npc_id="211697">
+		<drop_group name="NAMED_SUPERIOR_BELT">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="123000510"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Summoner Klacha (lvl: 30) -->
+	<npc_drop npc_id="211700">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100200240"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100000224"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100100138"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100900145"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100500148"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101700160"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101300141"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101500150"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100600163"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_HEAD">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125000933"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125000932"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125000930"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="125000931"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Kamtak the Destroyer (lvl: 30) -->
+	<npc_drop npc_id="211696">
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="121000417"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Kantu (lvl: 30) -->
+	<npc_drop npc_id="211699">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110300385"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="120000469"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Mistryl (lvl: 30) -->
+	<npc_drop npc_id="211740">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110600414"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110500417"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110300386"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110100428"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111600390"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111100358"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111500400"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111300357"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112100328"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112300330"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112600372"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112500371"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113300375"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113500400"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113100361"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114300389"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114500407"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114600380"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114100380"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113600385"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012009"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Dekita (lvl: 31) -->
+	<npc_drop npc_id="211764">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114300390"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114500408"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114600381"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="114100381"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114600380"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113100361"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111500400"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110300386"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Nightstalker (lvl: 31) -->
+	<npc_drop npc_id="211745">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114500407"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113300375"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112100328"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110600414"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="111600391"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="111100359"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="111500401"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="111300358"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Gurkel the Ancient (lvl: 32) -->
+	<npc_drop npc_id="211769">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="114300389"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112500371"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111600390"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110100428"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="112100329"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="112300331"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="112600373"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="112500372"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Queen Klawtaka (lvl: 32) -->
+	<npc_drop npc_id="211653">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100000225"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100500150"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101500151"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_BELT">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="123000511"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Queen Klawterun (lvl: 32) -->
+	<npc_drop npc_id="210929">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110600415"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110500418"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110300387"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110100429"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="120000470"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Thundermane (lvl: 33) -->
+	<npc_drop npc_id="211753">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110600416"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110500419"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110300388"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110100430"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113600385"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="110500417"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="111100358"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="112300330"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113600384"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Kratia (lvl: 33) -->
+	<npc_drop npc_id="211805">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100200242"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100000226"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100100139"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100900146"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100500151"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101700162"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101300142"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="101500152"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="100600164"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_HEAD">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125000940"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125000939"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125000938"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="125000941"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="122000510"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012025"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Selcuris Dreamweaver (lvl: 33) -->
+	<npc_drop npc_id="211750">
+		<drop_group name="NAMED_RARE_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="110500419"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113300376"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113500401"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113600385"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113100362"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111300357"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112600372"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113500400"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113600384"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="114100380"/>
+		</drop_group>
+	</npc_drop>
+	<!-- The Iceheart Queen (lvl: 34) -->
+	<npc_drop npc_id="210954">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113300377"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113500402"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113600386"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="113100363"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_SHIELD">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115000398"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Lichna the Cruel (lvl: 35) -->
+	<npc_drop npc_id="210967">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100000372"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100900274"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500281"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101700296"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="101500283"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100600296"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100200243"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100100140"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101300143"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="121000492"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012011"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Moomba the Earthshaker (lvl: 37) -->
+	<npc_drop npc_id="211679">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="100900149"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="100500154"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="101700165"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="101300146"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="101500155"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000511"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Mean Tukroll (lvl: 37) -->
+	<npc_drop npc_id="211674">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100200246"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100000229"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100100143"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100600167"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="120000471"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012015"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Chief Krukel (lvl: 38) -->
+	<npc_drop npc_id="211008">
+		<drop_group name="NAMED_SUPERIOR_BELT">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="123000513"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_HEAD">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125000950"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Chieftain Mamaku (lvl: 39) -->
+	<npc_drop npc_id="211714">
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113300381"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113500406"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113600390"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="113100367"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_SHIELD">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="115000401"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_BELT">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="123000514"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Andre (lvl: 40) -->
+	<npc_drop npc_id="211041">
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100200249"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100000232"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100100146"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100900152"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100500157"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101700168"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101300149"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="101500158"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="100600170"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_ACCESSORY">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="121000421"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012028"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Commander Xenon (lvl: 40) -->
+	<npc_drop npc_id="211703">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100000230"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113600389"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113500405"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113300380"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="113100366"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_SHIELD">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115000400"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Highmage Wyron (lvl: 40) -->
+	<npc_drop npc_id="211705">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500155"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112600376"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112500375"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112300334"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="112100332"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="120000472"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Bladeclaw (lvl: 40) -->
+	<npc_drop npc_id="211711">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100000231"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100200248"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="121000419"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Highpriest Rhipel (lvl: 40) -->
+	<npc_drop npc_id="211702">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100100144"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101500156"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110600419"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110500422"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110300391"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="110100433"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Raging Kraterr (lvl: 40) -->
+	<npc_drop npc_id="211715">
+		<drop_group name="NAMED_UNIQUE_WEAPON">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="100500159"/>
+		</drop_group>
+		<drop_group name="NAMED_UNIQUE_HEAD">
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="125001552"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="125001551"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="125001550"/>
+			<drop chance="15.0" min_amount="1" max_amount="1" item_id="125001553"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100600171"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_ACCESSORY">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="120000474"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="121000420"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="122000514"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_HEAD">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="125001724"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012027"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Lekion (lvl: 40) -->
+	<npc_drop npc_id="211727">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100200247"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101700166"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111600394"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111500404"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111300361"/>
+			<drop chance="30.0" min_amount="1" max_amount="1" item_id="111100362"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Millennium Laupede (lvl: 40) -->
+	<npc_drop npc_id="211713">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100100145"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="101500157"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000513"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Sartemon the Insane (lvl: 40) -->
+	<npc_drop npc_id="211712">
+		<drop_group name="NAMED_UNIQUE_ARMOR">
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114300395"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114500413"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114600386"/>
+			<drop chance="10.0" min_amount="1" max_amount="1" item_id="114100386"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="100900151"/>
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="101300148"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_SHIELD">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="115000402"/>
+		</drop_group>
+		<drop_group name="NAMED_RARE_CRAFT">
+			<drop chance="100.0" min_amount="1" max_amount="1" item_id="152012029"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Spiritmaster Czubarto (lvl: 40) -->
+	<npc_drop npc_id="211710">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100500156"/>
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100600169"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110600420"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110500423"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110300392"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="110100434"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="120000473"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Spiritmaster Shapiel (lvl: 40) -->
+	<npc_drop npc_id="211704">
+		<drop_group name="NAMED_SUPERIOR_WEAPON">
+			<drop chance="20.0" min_amount="1" max_amount="1" item_id="100600168"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ARMOR">
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114600384"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114500411"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114300393"/>
+			<drop chance="25.0" min_amount="1" max_amount="1" item_id="114100384"/>
+		</drop_group>
+		<drop_group name="NAMED_SUPERIOR_ACCESSORY">
+			<drop chance="33.0" min_amount="1" max_amount="1" item_id="122000512"/>
+		</drop_group>
+	</npc_drop>
+</npc_drops>
+
+
